@@ -22,6 +22,14 @@
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q05.PNG)
 
+|  Escolha do usuário   | Operação      |
+|  :-:   |  :-:    |
+|  1   |  Média entre os números digitados    |
+|  2   |  Diferença do maior pelo menor    |
+|  3   |  Produtos entre os números digitados    |
+|  4   |  Divisão do primeiro pelo segundo    |
+
+
 Se a opção digitada for inválida, mostre uma mensagem de erro e termine a execução do programa. lembre-se de que, na operação 4, o segundo número deve ser diferente de zero.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao05.c)
