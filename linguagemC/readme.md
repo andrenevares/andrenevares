@@ -23,9 +23,9 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 - [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
 - [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmC.md)
 - [Função scanf()](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/scanf.md)
+- [Funções Matemáticas em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md)
 
 ## Listas de Exercícios 
 
 - [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista01.md)
 - [Lista de Exercícios 02 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista02.md)
--
