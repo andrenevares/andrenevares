@@ -14,3 +14,7 @@
 |``` sin ``` | ``` sin(X) ``` | calcula o seno de X (X deve estar representado em radianos). |
 |``` sqrt ``` | ``` sqrt(X) ``` | calcula a raiz quadrada de X. |
 |``` tan ``` | ``` tan(X) ``` | calcula a tangente de X (X deve estar representado em radianos).|
+
+
+## Raiz Cúbica
+A raiz cúbica pode ser obtida por ```pow(x, 1.0/3.0)```
