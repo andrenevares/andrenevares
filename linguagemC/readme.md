@@ -6,7 +6,8 @@ Este conteúdo é destinado a aprendizado, não simples cópia.  Você pode e de
 
 A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa manifestação em contrário.
 
-
+## Fontes externas (inglês)
+- [Tutorial Point](https://www.tutorialspoint.com/c_standard_library/index.htm)
 
 ## Compiladores
 - [Online GDB](https://www.onlinegdb.com/online_c_compiler)
