@@ -8,6 +8,7 @@ Lista de Assuntos:
 - [Operadores - Precedência de Operadores](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresPrecedencia.md)
 - [Operadores - Operadores Incrementais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresIncrementais.md)
 - [Comentários em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/comentariosEmC.md)
+- [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
 
 ## Listas de Exercícios 
 
