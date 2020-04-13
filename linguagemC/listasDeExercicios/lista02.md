@@ -7,6 +7,7 @@
 ```
 Algoritmo Escola
   n1,n2,n3,n4,media: real
+  
 início:
   escreva("Digite n1: ")
   ler(n1)
@@ -20,6 +21,12 @@ início:
   escreva("--------------------")
   escreva("A média é :" + media)
 fim:
+```
+
+#### C:
+
+```
+
 ```
 
 ### 2. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
