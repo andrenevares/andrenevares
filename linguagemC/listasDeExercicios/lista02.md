@@ -2,46 +2,13 @@
 
 ### 1. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
-[Código da Resolução da questão](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao1.c)
+[Código da Resolução da questão](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao01.c)
 
 ### 2. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q02.PNG)
 
-#### C:
-```
-#include <stdio.h>
-
-int main()
-{
-    // Definir variáveis
-    float n1,n2,n3,n4,media;
-    // Código
-    
-    printf("Qual a nota nº 1? ");
-    scanf("%f", &n1);
-    printf("Qual a nota nº 2? ");
-    scanf("%f", &n2);
-    printf("Qual a nota nº 3? ");
-    scanf("%f", &n3);
-    printf("Qual a nota nº 4? ");
-    scanf("%f", &n4);
-    media = (n1+n2+n3+n4)/4;
-    printf("--------------\n");
-    
-    if (media >= 7) {
-        printf("Sua media foi %.2f. APROVADO!", media);
-    }
-    else if  (media >= 3) {
-        printf("Sua media foi %.2f. EXAME!", media);
-    }
-    else {
-        printf("Sua media foi %.2f. REPROVADO!", media);
-    }
-    
-    return 0;
-}
-```
+[Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao02.c)
 
 ### 3. Faça um programa que receba dois números e mostre o menor.
 
