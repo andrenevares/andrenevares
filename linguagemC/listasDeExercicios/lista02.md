@@ -9,19 +9,20 @@ Algoritmo Escola
   n1,n2,n3,n4,media: real;
   
 início:
-  escreva("Digite n1: ");
-  ler(n1);
-  escreva("Digite n2: ");
-  ler(n2);
-  escreva("Digite n3: ");
-  ler(n3);
-  escreva("Digite n4: ");
-  ler(n4);
-  media = (n1 + n2 + n3 + n4) / 4;
-  escreva("--------------------");
-  Se media >= 7;
-    ENTÃO escreva ("Sua media foi " + media +", você foi aprovado!");
-    SENÃO escreva ("Sua media foi " + media +", você foi reprovado!");
+  escreva("Digite n1: ")
+  ler(n1)
+  escreva("Digite n2: ")
+  ler(n2)
+  escreva("Digite n3: ")
+  ler(n3)
+  escreva("Digite n4: ")
+  ler(n4)
+  media = (n1 + n2 + n3 + n4) / 4
+  escreva("--------------------")
+  
+  Se media >= 7
+    ENTÃO escreva ("Sua media foi " + media +", você foi aprovado!")
+    SENÃO escreva ("Sua media foi " + media +", você foi reprovado!")
 fim:
 ```
 
@@ -61,6 +62,41 @@ int main()
 ### 2. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q02.PNG)
+
+
+```
+#include <stdio.h>
+
+int main()
+{
+    // Definir variáveis
+    float n1,n2,n3,n4,media;
+    // Código
+    
+    printf("Qual a nota nº 1? ");
+    scanf("%f", &n1);
+    printf("Qual a nota nº 2? ");
+    scanf("%f", &n2);
+    printf("Qual a nota nº 3? ");
+    scanf("%f", &n3);
+    printf("Qual a nota nº 4? ");
+    scanf("%f", &n4);
+    media = (n1+n2+n3+n4)/4;
+    printf("--------------\n");
+    
+    if (media >= 7) {
+        printf("Sua media foi %.2f. APROVADO!", media);
+    }
+    else if  (media >= 3) {
+        printf("Sua media foi %.2f. EXAME!", media);
+    }
+    else {
+        printf("Sua media foi %.2f. REPROVADO!", media);
+    }
+    
+    return 0;
+}
+```
 
 ### 3. Faça um programa que receba dois números e mostre o menor.
 
