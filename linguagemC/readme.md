@@ -21,6 +21,7 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 - [Comentários em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/comentariosEmC.md)
 - [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
 - [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmC.md)
+- [Função scanf()](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/scanf.md)
 
 ## Listas de Exercícios 
 
