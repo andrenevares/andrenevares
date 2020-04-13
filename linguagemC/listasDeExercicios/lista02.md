@@ -2,30 +2,6 @@
 
 ### 1. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
-#### Algorirtmo:
-
-```
-Algoritmo Escola
-  n1,n2,n3,n4,media: real;
-  
-início:
-  escreva("Digite n1: ")
-  ler(n1)
-  escreva("Digite n2: ")
-  ler(n2)
-  escreva("Digite n3: ")
-  ler(n3)
-  escreva("Digite n4: ")
-  ler(n4)
-  media = (n1 + n2 + n3 + n4) / 4
-  escreva("--------------------")
-  
-  Se media >= 7
-    ENTÃO escreva ("Sua media foi " + media +", você foi aprovado!")
-    SENÃO escreva ("Sua media foi " + media +", você foi reprovado!")
-fim:
-```
-
 #### C:
 
 ```
@@ -164,9 +140,7 @@ int main()
         printf("O número maior é: %.2f ", n3);    
         }
     }
-    else {
-        
-    }
+
     
     return 0;
 }
