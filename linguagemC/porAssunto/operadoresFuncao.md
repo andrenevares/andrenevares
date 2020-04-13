@@ -27,3 +27,14 @@ A linguagem c/c++ possui operadores e funções predefinidas destinados a cálcu
 |``` –– –– ``` |``` x–– –– ``` | ``` X = X – 1 ``` |
 |``` – – ``` | ``` y = – –x ``` | ```  X = X – 1 ``` e depois ``` Y = X ``` |
 |``` – – ``` |``` y = x– – ``` | ```  Y = X ``` e depois ``` X = X – 1 ``` |
+
+## Operadores de Atribuição
+
+| Operador | Exemplo |  Comentário| 
+|   :-:   | :-:   | :-:   |
+| ```== x``` | ```== y``` | O conteúdo de X é igual ao conteúdo de Y.| 
+| ```!= x``` | ```!= y``` | O conteúdo de X é diferente do conteúdo de Y.| 
+| ```<= x``` | ```<= y``` | O conteúdo de X é menor ou igual ao conteúdo de Y.| 
+| ```>= x``` | ```>= y``` | O conteúdo de X é maior ou igual ao conteúdo de Y.| 
+| ```< x``` | ```< y``` | O conteúdo de X é menor que o conteúdo de Y.| 
+| ```> x``` | ```> y``` | O conteúdo de X é maior que o conteúdo de Y| 
