@@ -63,7 +63,7 @@ int main()
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q02.PNG)
 
-
+#### C:
 ```
 #include <stdio.h>
 
@@ -100,6 +100,7 @@ int main()
 
 ### 3. Faça um programa que receba dois números e mostre o menor.
 
+#### C:
 ```
 #include <stdio.h>
 
@@ -132,6 +133,8 @@ int main()
 
 ```
 ### 4. Faça um programa que receba três números e mostre o maior.
+
+#### C:
 
 ### 5. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
 
