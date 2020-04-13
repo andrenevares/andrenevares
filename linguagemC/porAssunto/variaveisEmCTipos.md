@@ -22,3 +22,16 @@ Exemplos:
 - ``` char nome[20]; ``` declaramos a variável ```nome``` como uma variável do tipo ```char```.  Só que agora ela pode armazenar 19 caracteres!  O 20 será o caracter ``` \0 ``` , o qual indica o final de uma sequência de caracteres.
 
 
+## Exemplo CHAR
+
+```
+#include <stdio.h>
+
+int main()
+{
+    char LETRA;
+    LETRA = 'A';
+    printf("%c", LETRA);
+    return 0;
+}
+```
