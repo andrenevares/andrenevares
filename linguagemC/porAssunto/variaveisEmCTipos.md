@@ -1,4 +1,4 @@
-# Variáveis em C
+# Tipos de Variáveis em C
 
 |  Tipo     |   o que é      |
 |  :-:     |  :-:       |
