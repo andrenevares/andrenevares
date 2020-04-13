@@ -20,7 +20,6 @@
 
 ### 5. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
 
-![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q05.PNG)
 
 |  Escolha do usuário   | Operação      |
 |  :-:   |  :-:    |
