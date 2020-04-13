@@ -27,5 +27,5 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 ## Listas de Exercícios 
 
 - [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista01.md)
-- [Lista de Exercícios 02 - 25 exercícios]()
+- [Lista de Exercícios 02 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista02.md)
 -
