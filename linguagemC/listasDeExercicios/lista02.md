@@ -222,6 +222,33 @@ b) Raiz quadrada de cada um dos números.
 
 c) Raiz cúbica de cada um dos números.
 
+
+```
+#include <stdio.h>
+
+int main()
+{
+  // definir variáveis
+  
+  char opcao;
+  float n1, n2, resultado;
+
+  printf("Digite dois números, depois selecione uma das operações...\n\n");
+  printf("Digite o número 01: ");
+  scanf("%f", &n1);
+  printf("Digite o número 02: ");
+  scanf("%f", &n2);
+  printf("------------------------------------------------\n\n\n");
+  printf("Selecione uma das opções abaixo:\n\n");
+  printf("a. O primeiro número elevado ao segundo número\n");
+  printf("b. Raiz quadrada de cada um dos números.\n");
+  printf("c. Raiz cúbica de cada um dos números.\n\n");
+  scanf("%c", &opcao);
+  
+  
+}
+```
+
 ### 7. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
 
 ### 8. Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir.
