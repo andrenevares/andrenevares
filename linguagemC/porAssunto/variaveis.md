@@ -1,7 +1,7 @@
 # Variáveis em C
 
 A programação em C exige que:
-1. Sejam definidos os TIPOS das variáveis;
+1. Sejam definidos os [TIPOS das variáveis](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCTipos.md);
 2. Posteriormente as variáveis podem ser declaradas
 
 Vide código:
