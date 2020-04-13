@@ -107,7 +107,7 @@ int main()
 int main()
 {
     // Definir variáveis
-    float n1,n2,numeroMaior;
+    float n1,n2,numeroMenor;
     // Código
     
     printf("Qual a nota nº 1? ");
@@ -116,16 +116,16 @@ int main()
     scanf("%f", &n2);
     
     if (n1 > n2) {
-        numeroMaior = n1;
-        printf("O número %.2f é maior que %.2f", numeroMaior, n2);
+        numeroMenor = n2;
+        printf("O número %.2f é menor que %.2f", numeroMenor, n1);
     }
     else if  (n1 < n2) {
-        numeroMaior = n2;
-        printf("O número %.2f é maior que %.2f", numeroMaior, n1);
+        numeroMenor = n1;
+        printf("O número %.2f é menor que %.2f", numeroMenor, n2);
     }
     else {
-        numeroMaior = n1;
-        printf("O número %.2f é igual a %.2f", numeroMaior, n2);
+        numeroMenor = n1;
+        printf("O número %.2f é igual a %.2f", numeroMenor, n1);
     }
     
     return 0;
