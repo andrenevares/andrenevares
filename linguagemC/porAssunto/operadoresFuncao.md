@@ -12,4 +12,18 @@ A linguagem c/c++ possui operadores e funções predefinidas destinados a cálcu
 | ``` / ``` | ``` x / y ``` | Resultado da divisão de X por Y.  Se ambas são inteiros, o resultado será a parte inteira, assim, para duas variáveis tipo INT ```  5 / 2 = 2 ```  |
 | ``` % ``` | ``` x % y ``` |  Obtém o resto da divisão de X por Y. |
 
-## 
+## Outros Operadores 
+
+| Operador | Exemplo | Equivale a  |
+|   :-:   | :-:   | :-:   |
+|``` += ``` | ``` x += y ``` | ``` X = X + Y ``` |
+|``` –= ``` | ``` x –= y ``` |``` X = X – Y ``` |
+|``` *= ``` | ``` x *= y ``` |``` X = X * Y``` |
+|``` /= ``` | ``` x /= y ``` |``` X = X / Y ``` |
+|``` %= ``` | ``` x %= y ``` | ``` X = X % Y ``` |
+|``` ++ ``` | ``` x++ ``` | ``` X = X + 1 ``` |
+|``` ++ ``` | ``` y = ++x ``` | ```  X = X + 1 ``` e depois ``` Y = X ``` |
+|``` ++ ``` | ``` y = x++ ``` | ``` Y = X ``` e depois ``` X = X +1 ``` |
+|``` –– –– ``` |``` x–– –– ``` | ``` X = X – 1 ``` |
+|``` – – ``` | ``` y = – –x ``` | ```  X = X – 1 ``` e depois ``` Y = X ``` |
+|``` – – ``` |``` y = x– – ``` | ```  Y = X ``` e depois ``` X = X – 1 ``` |
