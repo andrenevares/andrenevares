@@ -1,5 +1,13 @@
 # Linguagem C
 
+Trata-se de ambiente colaborativo para compartilhar conhecimento e aprendizado.  
+
+Este conteúdo é destinado a aprendizado, não simples cópia.  Você pode e deve utilizar o conteúdo daqui como base, mas somente se você escrever seus próprios códigos, irá aprender.  
+
+A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa manifestação em contrário.
+
+
+
 ## Compiladores
 - [Online GDB](https://www.onlinegdb.com/online_c_compiler)
 
