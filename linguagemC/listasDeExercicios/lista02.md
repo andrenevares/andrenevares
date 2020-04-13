@@ -100,6 +100,37 @@ int main()
 
 ### 3. Faça um programa que receba dois números e mostre o menor.
 
+```
+#include <stdio.h>
+
+int main()
+{
+    // Definir variáveis
+    float n1,n2,numeroMaior;
+    // Código
+    
+    printf("Qual a nota nº 1? ");
+    scanf("%f", &n1);
+    printf("Qual a nota nº 2? ");
+    scanf("%f", &n2);
+    
+    if (n1 > n2) {
+        numeroMaior = n1;
+        printf("O número %.2f é maior que %.2f", numeroMaior, n2);
+    }
+    else if  (n1 < n2) {
+        numeroMaior = n2;
+        printf("O número %.2f é maior que %.2f", numeroMaior, n1);
+    }
+    else {
+        numeroMaior = n1;
+        printf("O número %.2f é igual a %.2f", numeroMaior, n2);
+    }
+    
+    return 0;
+}
+
+```
 ### 4. Faça um programa que receba três números e mostre o maior.
 
 ### 5. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
