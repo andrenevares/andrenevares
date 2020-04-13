@@ -2,6 +2,26 @@
 
 ### 1. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
+#### Algorirtmo:
+
+```
+Algoritmo Escola
+  n1,n2,n3,n4,media: real
+início:
+  escreva("Digite n1: ")
+  ler(n1)
+  escreva("Digite n2: ")
+  ler(n2)
+  escreva("Digite n3: ")
+  ler(n3)
+  escreva("Digite n4: ")
+  ler(n4)
+  media = (n1 + n2 + n3 + n4) / 4
+  escreva("--------------------")
+  escreva("A média é :" + media)
+fim:
+```
+
 ### 2. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q02.PNG)
