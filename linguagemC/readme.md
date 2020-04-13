@@ -28,7 +28,7 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 - [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCTipos.md)
 - [Função de Entrada - scanf()](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/scanf.md)
 - [Funções Matemáticas em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md)
-
+- [Raiz Cúbica](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md#raiz-c%C3%BAbica)
 ## Listas de Exercícios 
 
 - [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista01.md)
