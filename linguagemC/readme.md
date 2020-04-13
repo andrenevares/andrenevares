@@ -20,6 +20,7 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 - [Operadores - Operadores Incrementais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresIncrementais.md)
 - [Comentários em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/comentariosEmC.md)
 - [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
+- [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmC.md)
 
 ## Listas de Exercícios 
 
