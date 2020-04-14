@@ -1,24 +1,24 @@
 # Lista de Exercícios 02
 
-### 1. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
+#### 1. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
 [Código da Resolução da questão](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao01.c)
 
-### 2. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
+#### 2. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q02.PNG)
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao02.c)
 
-### 3. Faça um programa que receba dois números e mostre o menor.
+#### 3. Faça um programa que receba dois números e mostre o menor.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao03.c)
 
-### 4. Faça um programa que receba três números e mostre o maior.
+#### 4. Faça um programa que receba três números e mostre o maior.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao04.c)
 
-### 5. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
+#### 5. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
 
 
 |  Escolha do usuário   | Operação      |
@@ -33,7 +33,7 @@ Se a opção digitada for inválida, mostre uma mensagem de erro e termine a exe
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao05.c)
 
-### 6. Faça um programa que receba dois números e execute uma das operações listadas a seguir, de acordo com a escolha do usuário. Se for digitada uma opção inválida, mostre mensagem de erro e termine a execução do programa. As opções são:
+#### 6. Faça um programa que receba dois números e execute uma das operações listadas a seguir, de acordo com a escolha do usuário. Se for digitada uma opção inválida, mostre mensagem de erro e termine a execução do programa. As opções são:
 
 a) O primeiro número elevado ao segundo número.
 
@@ -45,39 +45,39 @@ c) Raiz cúbica de cada um dos números.
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao06.c)
 
 
-### 7. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
+#### 7. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao07.c)
 
 
-### 8. Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir.
+#### 8. Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q08.PNG)
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao08.c)
 
-### 9. Um banco concederá um crédito especial aos seus clientes, de acordo com o saldo médio no último ano. Faça  um programa que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o saldo médio e o valor do crédito.
+#### 9. Um banco concederá um crédito especial aos seus clientes, de acordo com o saldo médio no último ano. Faça  um programa que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o saldo médio e o valor do crédito.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q09.PNG)
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao09.c)
 
 
-### 10. O preço ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos, ambos aplicados ao custo de fábrica. As porcentagens encontram-se na tabela a seguir. Faça um programa que receba o custo de fábrica de um carro e mostre o preço ao consumidor.
+#### 10. O preço ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos, ambos aplicados ao custo de fábrica. As porcentagens encontram-se na tabela a seguir. Faça um programa que receba o custo de fábrica de um carro e mostre o preço ao consumidor.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q10.PNG)
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao10.c)
 
 
-### 11. Faça um programa que receba o salário atual de um funcionário e, usando a tabela a seguir, calcule e mostre o valor do aumento e o novo salário.
+#### 11. Faça um programa que receba o salário atual de um funcionário e, usando a tabela a seguir, calcule e mostre o valor do aumento e o novo salário.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q11.PNG)
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao11.c)
 
 
-### 12. Faça um programa que receba o salário bruto de um funcionário e, usando a tabela a seguir, calcule e mostre o valor a receber. Sabe-se que este é composto pelo salário bruto acrescido de gratificação e descontado o imposto de 7% sobre o salário.
+#### 12. Faça um programa que receba o salário bruto de um funcionário e, usando a tabela a seguir, calcule e mostre o valor a receber. Sabe-se que este é composto pelo salário bruto acrescido de gratificação e descontado o imposto de 7% sobre o salário.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q12.PNG)
 
@@ -112,15 +112,15 @@ c) Raiz cúbica de cada um dos números.
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao16.c)
 
 
-### 17. Faça um programa que verifique a validade de uma senha fornecida pelo usuário. A senha é 4531. O programa deve mostrar uma mensagem de permissão de acesso ou não.
+#### 17. Faça um programa que verifique a validade de uma senha fornecida pelo usuário. A senha é 4531. O programa deve mostrar uma mensagem de permissão de acesso ou não.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao17.c)
 
-### 18. Faça um programa que receba a idade de uma pessoa e mostre a mensagem de maioridade ou não.
+#### 18. Faça um programa que receba a idade de uma pessoa e mostre a mensagem de maioridade ou não.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao18.c)
 
-### 19. Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, utilizando as seguintes fórmulas (onde h é a altura):
+#### 19. Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, utilizando as seguintes fórmulas (onde h é a altura):
 
 - para homens: (72.7 * h) – 58.
 
