@@ -22,6 +22,7 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 - [Operadores - Operadores Incrementais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresIncrementais.md)
 - [Operadores de Atribuição](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresDeAtribuicao.md)
 - [Operadores a Organizar](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresFuncao.md)
+- [Operadores Lógicos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresLogicos.md)
 - [Comentários em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/comentariosEmC.md)
 - [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
 - [Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveis.md)
