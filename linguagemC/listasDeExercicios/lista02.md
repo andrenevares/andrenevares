@@ -129,7 +129,7 @@ c) Raiz cúbica de cada um dos números.
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao19.c)
 
 
-### 20. Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. Para idade inferior a 5, deverá mostrar mensagem.
+#### 20. Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. Para idade inferior a 5, deverá mostrar mensagem.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q20.PNG)
 
