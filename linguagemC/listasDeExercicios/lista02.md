@@ -1,5 +1,5 @@
 # Lista de Exercícios 02
-
+> Faltando 14, 15, 16, 22, 23, 24 e 25
 #### 1. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
 [Código da Resolução da questão](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao01.c)
