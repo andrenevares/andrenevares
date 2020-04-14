@@ -83,7 +83,7 @@ c) Raiz cúbica de cada um dos números.
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao12.c)
 
-### 13. Faça um programa que receba o preço de um produto, calcule e mostre, de acordo com as tabelas a seguir, o novo preço e a classificação.
+#### 13. Faça um programa que receba o preço de um produto, calcule e mostre, de acordo com as tabelas a seguir, o novo preço e a classificação.
 
 ![IMAGEM](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/imagens/Q13A.PNG)
 
