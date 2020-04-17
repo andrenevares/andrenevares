@@ -1,5 +1,6 @@
 # Dúvida em questão de algoritmo
 
+```
 Decide-Rec (A, n, x)
 
 se n = 0
@@ -7,7 +8,7 @@ se n = 0
   senão se A[n] = x
     então devolva sim
     senão devolva Decide-Rec (A, n-1, x)
-    
+``` 
 
 Com base no algoritmo apresentado acima, julgue o item seguinte.
 
