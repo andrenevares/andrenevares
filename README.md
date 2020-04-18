@@ -1,7 +1,8 @@
-# Conteúdo
+# A person who never made a mistake never tried anything new
 
-Esse repositório contém diversos assuntos públicos.
+Professor em Estratégia 
+Auditor Fiscal de Receitas Estaduais
+Full Stack Over Flow
 
-Você tem o direito de acessar mas não tem direito, copiar, usar menionar qualquer conteúdo aqui exposto sem consentimento expresso.
 
-Obrigado!
+Meu nome é André Nevares.  
