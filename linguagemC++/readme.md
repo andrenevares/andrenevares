@@ -14,7 +14,7 @@ Anotações de estudo da linguagem.
 - [Sintaxe Básica C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturaBasica.md)
 - [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/quebrarLinha.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
-- [O que é e por que usar C++]()
+- [O que é e por que usar C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/oqueEhC++.md)
 
 ## A organizar
 - [Estrutura Senquencial em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaSequencialEmC.md)
