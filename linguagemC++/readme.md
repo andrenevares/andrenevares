@@ -16,7 +16,8 @@ Anotações de estudo da linguagem.
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
 - [O que é e por que usar C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/oqueEhC++.md)
 - [Comando de Saída - cout](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/saidaEmCPP.md)
-
+- [Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisCpp.md)
+- [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCppTipos.md)
 ## A organizar
 - [Estrutura Senquencial em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaSequencialEmC.md)
 - [Operadores - Opetadores Aritméticos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresArimeticos.md)
@@ -27,8 +28,7 @@ Anotações de estudo da linguagem.
 - [Operadores Lógicos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresLogicos.md)
 
 - [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
-- [Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveis.md)
-- [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCTipos.md)
+
 - [Função de Entrada - scanf()](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/scanf.md)
 - [Funções Matemáticas em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md)
 - [Raiz Cúbica](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md#raiz-c%C3%BAbica)
