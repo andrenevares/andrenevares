@@ -1,7 +1,7 @@
 # Links Recentes
 
 ## Python
-- [Selenium - Resolvendo problema do GeekODriver]()https://andrenevares.github.io/andrenevares/python/GeekODriver
+- [Selenium - Resolvendo problema do GeekODriver](https://andrenevares.github.io/andrenevares/python/GeekODriver)
 
 ## C
 
