@@ -1,4 +1,4 @@
-# Comentários em C
+# Comentários em C#
 
 Comentários são extremamente úteis quando nos referimos à programação.  
 Por meio de comentários poderemos deixar notas para nos lembrar de alguma coisa, para separar visualmente nosso código, ou para deixar 
@@ -8,7 +8,7 @@ Como na maioria das linguagens, C# possui sintaxe que permite comentários linha
 
 Vamos ver a sintaxe!
 
-## Comentários de uma linha
+## Comentários de uma linha em C#
 > Aqui usamos ```//``` para colocar comentários de uma linha ou parte de linha
 
 ```
@@ -23,8 +23,8 @@ Vamos ver a sintaxe!
 //  ==========  Desenvolvido por mim   ==========
 //  ==========                         ==========
 ```
-
-## Comentários de várias linhas
+ 
+## Comentários de várias linhas em C#
 > Iniciamos com ```/* ``` e fechamos  ```*/```. o que estiver dentro será comentado!
 
 ```
