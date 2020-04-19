@@ -1,3 +1,17 @@
+# Links Recentes
+
+## Python
+- [Selenium - Resolvendo problema do GeekODriver]()https://andrenevares.github.io/andrenevares/python/GeekODriver
+
+## C
+
+## C#
+
+## Algoritmos
+
+
+
+# Sobre este Espaço
 Acreditamos no aprendizado contínuo e eterno...
 
 Nossa memória costuma guardar somente aquilo que é importante, aquilo que é acessado de forma recorrente.
