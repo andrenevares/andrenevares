@@ -1,4 +1,4 @@
-# Sintaxe básica de C#
+# Sintaxe básica de C++
 
 ## Olá Mundo!
 
