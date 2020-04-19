@@ -1,6 +1,6 @@
 # Introdução a C++
 
-Segundo w3school
+> Fonte: [w3schools.com](https://www.w3schools.com/cpp/cpp_intro.asp)
 
 O que é C++?
 
