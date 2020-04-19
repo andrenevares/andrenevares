@@ -6,7 +6,7 @@ Anotações de estudo da linguagem.
 - [W3Scholl](https://www.w3schools.com/cpp/cpp_intro.asp)
 
 ## Compiladores
-- [Online GDB](https://www.onlinegdb.com/online_c_compiler)
+- [OnlineGDB - para C++](https://www.onlinegdb.com/online_c++_compiler)
 
 ## Lista de Assuntos: 
 > Estamos frequentemente atualizando cada conteúdo.
