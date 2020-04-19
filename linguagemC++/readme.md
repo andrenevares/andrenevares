@@ -15,6 +15,7 @@ Anotações de estudo da linguagem.
 - [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/quebrarLinha.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
 - [O que é e por que usar C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/oqueEhC++.md)
+- [Comando de Saída - cout](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/saidaEmCPP.md)
 
 ## A organizar
 - [Estrutura Senquencial em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaSequencialEmC.md)
