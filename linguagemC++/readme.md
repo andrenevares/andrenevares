@@ -15,7 +15,7 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 ## Lista de Assuntos: 
 > Estamos frequentemente atualizando cada conteúdo.
 
-- [Sintaxe Básica](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaBasica.md)
+- [Sintaxe Básica C#](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturaBasica.md)
 - [Estrutura Senquencial em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaSequencialEmC.md)
 - [Operadores - Opetadores Aritméticos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresArimeticos.md)
 - [Operadores - Precedência de Operadores](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresPrecedencia.md)
