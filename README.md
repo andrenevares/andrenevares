@@ -2,10 +2,8 @@
 
 ## 
 - [Selenium - Resolvendo problema do GeekODriver](https://andrenevares.github.io/andrenevares/python/GeekODriver)
+- [Linguagem C](https://andrenevares.github.io/andrenevares/linguagemC/)
 
-- [Linguagem C](https://andrenevares.github.io/andrenevares/python/linguagemC)
-
-## C#
 
 ## Algoritmos
 
