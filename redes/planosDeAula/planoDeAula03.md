@@ -48,7 +48,29 @@ Para conectarmos o cabo UTP devemos seguir os padrões estabelecidos pela norma 
 | 7 branco do marrom  | 7 branco do marrom  |
 | 8 marrom  | 8 marrom  |
 
+#### Conexões a fio:
 
+A seguir estão os principais tipos de cabo obtidos pelo uso de padrões específicos de conexão de fios:
+
+- **Cabo Direto (Ethernet)** - quando utilizamos o mesmo padrão nas duas pontas (T568A ou T568B)
+- **Cabo Cruzado ou Crossover (Ethernet)** - quando utilizamos o padrão T568A em uma ponta e o T568B na outra. O cabo direto é o tipo "normal" de cabo, usado para ligar os micros ao switch. Já o cabo cruzado permite ligar diretamente dois micros, sem precisar do hub
+ou switch. Ele é uma opção mais barata quando você tem apenas dois micros. 
+
+#### Sem fio (Wireless)
+O meio físico sem fio transmite sinais eletromagnéticos nas frequências de rádio que representam os dígitos binários de comunicação de dados. Como um meio de rede, o sem fio não é restrito aos condutores ou caminhos, como é o meio físico de cobre.
+As tecnologias de comunicação de dados sem fio funcionam bem em ambientes abertos, entretanto em ambientes fechados, tem sua cobertura prejudicada por determinados materiais de construção utilizados em prédios e estruturas sendo, ainda. suscetível à interferência de telefones sem fio, lâmpadas fluorescentes e. fornos micro-ondas entre outros equipamentos.
+Além disso, pelo fato da cobertura da comunicação sem fio não exigir acesso físico ao meio, os dispositivos e usuários que não são autorizados a acessar a rede terão acesso à transmissão. Portanto, a segurança de rede é o principal componente da administração de uma rede sem fio.
+O IEEE e os padrões da indústria de telecomunicações para a comunicação de dados sem fio abrangem as camadas Física e Enlace de Dados. Os padrões de comunicação de dados comuns que se aplicam ao meio físico sem fio são:
+- **Padrão IEEE 802.11** - Geralmente conhecido como Wi-Fi, é uma tecnologia Wireless LAN (WLAN) que utiliza a contenção ou sistema não-determinístico com o processo de acesso ao meio físico Carrier Sense Multiple Access/Collision Avoidance (CSMA/CA).
+- **Padrão IEEE 802.15** - padrão Wireless Personal Area Network (WPAN), conhecido como "Bluetooth", utiliza um dispositivo de processo em pares para se comunicar a distâncias entre 1 e 100 metros.
+
+
+### Aplicação Prática Teórica
+Site da editora Pearson/Addison Wesley onde se pode encontrar alguns aplicativos (Java apples) que ajudam a entender alguns dos conceitos abordados nesta aula. 
+
+Segue a url: http://wps.aw.com/br_kurose_redes_3/40/10271/2629597.cw/index.html
+- Também neste site da editora Pearson (www.aw.com/kurose.br) pode-se encontrar outros recursos didáticos. 
+Escolher um recurso e testar.
 
 
 
