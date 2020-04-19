@@ -1,9 +1,9 @@
 # Links Recentes
 
-## Python
+## 
 - [Selenium - Resolvendo problema do GeekODriver](https://andrenevares.github.io/andrenevares/python/GeekODriver)
 
-## C
+- [Linguagem C](https://andrenevares.github.io/andrenevares/python/linguagemC)
 
 ## C#
 
