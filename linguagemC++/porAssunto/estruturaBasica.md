@@ -1,26 +1,13 @@
-# Estrutura Básica de um programa em C
+# Sintaxe básica de C#
 
-## Estrutura Básica de um programa em C
+## Olá Mundo!
 
 ```
-#include <stdio.h>
-int main()
-{
-bloco_de_comandos;
-return 0;
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Olá Mundo!";
+  return 0;
 }
-```
-
-## Programa 01 - Olá Mundo!
-
-```
-#include <stdio.h>
-
-int main()
-{
-    printf("Hello World");
-
-    return 0;
-}
-
 ```
