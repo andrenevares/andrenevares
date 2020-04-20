@@ -7,9 +7,10 @@
 - [SLIDE 04](https://drive.google.com/open?id=1f4Mk44yNNz--FJX7F4CQEEPzMJajHYwh)
 
 ## Livros
-- [FUNDAMENTOS DE
-REDES DE COMPUTADORES - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/open?id=1wPq3FgyIExF6m21of-K6hSbuOf-v_MNQ)
+- [Fundamentos de
+Redes de Computadores - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/open?id=1wPq3FgyIExF6m21of-K6hSbuOf-v_MNQ)
 - [Redes de Computadores e a Internet: Uma Abordagem Top-Down](https://drive.google.com/open?id=1PbVxExgo78AHiudJ0FW0Z5I46snPEDjL)
+- [Redes de Computadores - FABIANO GONÇALVES DOS SANTOS](https://drive.google.com/open?id=1xpLvwbBclHRDJY99h68LRGz4QyAntRxZ)
 
 
 ## Link Aulas Gravadas
@@ -18,9 +19,6 @@ REDES DE COMPUTADORES - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/o
 - [Aula 06/04/2020 - Camada Fisica, Meios de Comunicacao, Cabeamento](https://web.microsoftstream.com/video/6df7f689-9141-4f42-a1e0-e3f7110d6e6b)
 - [Aula 13/04/2020 - Finalização e revisão da última aula. Camada Fisica, Cabeamento, Transmissao sem fio](https://web.microsoftstream.com/video/28107db8-3506-4fe3-a556-6201f76c86b1) 
 - [Aula 13/04/2020 - Meio Fisico, conectores e, Classificação e Topologias Fisicas de Rede](https://web.microsoftstream.com/video/c1ad20b3-f479-4cc8-8ec0-bc9e0f89f397)
-
-
-
 
 ## Estácio - Planos de Aulas
 - [Plano de Aula 01](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula01.md)
