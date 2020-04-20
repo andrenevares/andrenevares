@@ -1,5 +1,7 @@
 # Redes
 
+[Resumos](https://github.com/andrenevares/andrenevares/tree/master/redes/resumos)
+
 ## Material
 - [SLIDE 01](https://drive.google.com/open?id=1xgoOYULURN1WnrljPGnLk-ZT1UlNtNaf)
 - [SLIDE 02](https://drive.google.com/open?id=1VbKCHOxO3r_WCuYtuTxGYOeyC7QpslIm)
