@@ -17,5 +17,5 @@
 - [Aulas Gravadas](https://github.com/andrenevares/andrenevares/blob/master/redes/aulasGravadas.md)
 - [Slides]()
 - [Livros](https://github.com/andrenevares/andrenevares/blob/master/redes/livros.md)
-- [Planos de Aulas]()
+- [Planos de Aulas](https://github.com/andrenevares/andrenevares/blob/master/redes/Planos%20de%20Aulas)
 
