@@ -7,8 +7,8 @@ O **switch** reduz o número de dispositivos que recebe cada quadro, o que, por 
 ## Endereços MAC e IP
 
 Há dois endereços principais atribuídos a um dispositivo de host:
--**Endereço físico** (o endereço **MAC**)
--**Endereço lógico** (o endereço **IP**)
+- **Endereço físico** (o endereço **MAC**)
+- **Endereço lógico** (o endereço **IP**)
 
 Tanto o endereço **MAC** como o **IP** trabalham juntos para identificar um dispositivo na rede. O processo de usar os endereços MAC e IP para localizar um computador é semelhante ao processo de usar o nome e o endereço de uma pessoa para enviar uma carta.
 
