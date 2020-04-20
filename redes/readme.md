@@ -8,11 +8,7 @@
 - [SLIDE 03](https://drive.google.com/open?id=1t5LIE1XxB1Cf-GNClF79dfIs9CBiMd63)
 - [SLIDE 04](https://drive.google.com/open?id=1f4Mk44yNNz--FJX7F4CQEEPzMJajHYwh)
 
-## Livros
-- [Fundamentos de
-Redes de Computadores - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/open?id=1wPq3FgyIExF6m21of-K6hSbuOf-v_MNQ)
-- [Redes de Computadores e a Internet: Uma Abordagem Top-Down - KUROSE, ROSS](https://drive.google.com/open?id=1PbVxExgo78AHiudJ0FW0Z5I46snPEDjL)
-- [Redes de Computadores - FABIANO GONÇALVES DOS SANTOS](https://drive.google.com/open?id=1xpLvwbBclHRDJY99h68LRGz4QyAntRxZ)
+
 
 ## Estácio - Planos de Aulas
 - [Plano de Aula 01](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula01.md)
