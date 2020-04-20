@@ -23,7 +23,7 @@ Redes de Computadores - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/o
 ## Estácio - Planos de Aulas
 - [Plano de Aula 01](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula01.md)
 - [Plano de Aula 02](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula02.md)
-- [Plano de Aula 03](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula03.md)
+- [Plano de Aula 03](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula03.md) além de [MATERIAL AULA 03](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/materialDeAula03.md)
 - [Plano de Aula 04](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula04.md)
 - [Plano de Aula 05](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula05.md)
 - [Plano de Aula 06](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula06.md)
