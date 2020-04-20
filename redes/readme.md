@@ -15,7 +15,7 @@ Redes de Computadores - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/o
 
 ## Link Aulas Gravadas
 
-- [Aula 30/03/2020](https://web.microsoftstream.com/video/4f3305d4-f66f-4a8f-ae93-929e7b0177e3)
+- [Aula 30/03/2020](https://web.microsoftstream.com/video/4f3305d4-f66f-4a8f-ae93-929e7b0177e3) - Instalação Package Tracer - Assistido em 20/04/2020 
 - [Aula 06/04/2020 - Camada Fisica, Meios de Comunicacao, Cabeamento](https://web.microsoftstream.com/video/6df7f689-9141-4f42-a1e0-e3f7110d6e6b)
 - [Aula 13/04/2020 - Finalização e revisão da última aula. Camada Fisica, Cabeamento, Transmissao sem fio](https://web.microsoftstream.com/video/28107db8-3506-4fe3-a556-6201f76c86b1) 
 - [Aula 13/04/2020 - Meio Fisico, conectores e, Classificação e Topologias Fisicas de Rede](https://web.microsoftstream.com/video/c1ad20b3-f479-4cc8-8ec0-bc9e0f89f397)
