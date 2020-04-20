@@ -37,16 +37,16 @@ Nos dias atuais o tipo mais utilizado é o UTP (Unshielded twisted-pair), em por
 Para conectarmos o cabo UTP devemos seguir os padrões estabelecidos pela norma TIA/EIA 568 que define duas ordens diferentes para os fios
 
 
-| Padrão T568B | Padrão T568A   |
-| :-: |  :-: | 
-| 1 branco do laranja (Recepção) | 1 branco do verde (transmissão) |
-| 2 laranja (Recepção)  | 2 verde (transmissão)  |
-| 3 branco do verde (Transmissão) |  3 branco do laranja (Recepção) |
-| 4 azul    | 4 azul  |
-| 5 branco do azul    | 5 branco do azul  |
-| 6 verde (Transmissão)  |  6 laranja (Recepção) |
-| 7 branco do marrom  | 7 branco do marrom  |
-| 8 marrom  | 8 marrom  |
+| # | Padrão T568B | Padrão T568A   |
+| :-: | - |  - | 
+| 1 | branco do laranja (Recepção) | branco do verde (transmissão) |
+| 2 | laranja (Recepção)  | verde (transmissão)  |
+| 3 | branco do verde (Transmissão) |  branco do laranja (Recepção) |
+| 4 | azul    | azul  |
+| 5 | branco do azul    | branco do azul  |
+| 6 | verde (Transmissão)  |  laranja (Recepção) |
+| 7 | branco do marrom  | branco do marrom  |
+| 8 | marrom  | marrom  |
 
 #### Conexões a fio:
 
