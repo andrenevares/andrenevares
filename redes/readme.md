@@ -32,3 +32,10 @@ Redes de Computadores - SIDNEY NICOLAU VENTURI FILHO](https://drive.google.com/o
 - [Plano de Aula 15](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula15.md)
 - [Plano de Aula 16](https://github.com/andrenevares/andrenevares/blob/master/redes/planosDeAula/planoDeAula16.md)
 
+
+- [Resumos](https://github.com/andrenevares/andrenevares/tree/master/redes/resumos)
+- [Aulas Gravadas](https://github.com/andrenevares/andrenevares/blob/master/redes/aulasGravadas.md)
+- [Slides]()
+- [Livros]()
+- [Planos de Aulas]()
+
