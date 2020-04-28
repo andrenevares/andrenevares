@@ -1,21 +1,24 @@
-# Linguagem C
+# Linguagem C##
 
-Trata-se de ambiente colaborativo para compartilhar conhecimento e aprendizado.  
-
-Este conteúdo é destinado a aprendizado, não simples cópia.  Você pode e deve utilizar o conteúdo daqui como base, mas somente se você escrever seus próprios códigos, irá aprender.  
-
-A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa manifestação em contrário.
+Anotações de estudo da linguagem.
 
 ## Fontes externas (inglês)
-- [Tutorial Point](https://www.tutorialspoint.com/c_standard_library/index.htm)
+- [W3Scholl](https://www.w3schools.com/cpp/cpp_intro.asp)
 
 ## Compiladores
-- [Online GDB](https://www.onlinegdb.com/online_c_compiler)
+- [OnlineGDB - para C++](https://www.onlinegdb.com/online_c++_compiler)
 
 ## Lista de Assuntos: 
 > Estamos frequentemente atualizando cada conteúdo.
 
-- [Sintaxe Básica](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaBasica.md)
+- [Sintaxe Básica C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturaBasica.md)
+- [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/quebrarLinha.md)
+- [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
+- [O que é e por que usar C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/oqueEhC++.md)
+- [Comando de Saída - cout](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/saidaEmCPP.md)
+- [Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisCpp.md)
+- [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCppTipos.md)
+## A organizar
 - [Estrutura Senquencial em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaSequencialEmC.md)
 - [Operadores - Opetadores Aritméticos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresArimeticos.md)
 - [Operadores - Precedência de Operadores](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresPrecedencia.md)
@@ -23,10 +26,9 @@ A cópia de qualquer conteúdo deste repositório é proibida, salvo expressa ma
 - [Operadores de Atribuição](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresDeAtribuicao.md)
 - [Operadores a Organizar](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresFuncao.md)
 - [Operadores Lógicos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresLogicos.md)
-- [Comentários em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/comentariosEmC.md)
+
 - [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
-- [Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveis.md)
-- [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCTipos.md)
+
 - [Função de Entrada - scanf()](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/scanf.md)
 - [Funções Matemáticas em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md)
 - [Raiz Cúbica](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md#raiz-c%C3%BAbica)
