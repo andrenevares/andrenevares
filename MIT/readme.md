@@ -1,4 +1,6 @@
 # MIT - Curso de Segurança da Informação
+> Organizado por André Nevares.  Todo o conteúdo está registrado como Creative Commons.  Fica terminantemente proibida a venda deste material, sendo de acesso comum a todos.
+
 ## Lecture 1: Introduction, Threat Models
 - [Video Lecture 1: Introduction, Threat Models](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-1-introduction-threat-models) e [Meu caderno](https://docs.google.com/document/d/1wEAqXLNMJlESEKcD2F6Odkq2OvO3XD8HNW2abtO1qE8/edit?usp=sharing)
 - [Meu caderno](https://docs.google.com/document/d/1wEAqXLNMJlESEKcD2F6Odkq2OvO3XD8HNW2abtO1qE8/edit?usp=sharing)
