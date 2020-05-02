@@ -7,7 +7,7 @@
 
 - [MIT - Curso de Segurança da Informação](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/)
 ## MIT - Curso de Segurança da Informação
-- [Lecture 1: Introduction, Threat Models](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-1-introduction-threat-models)
+- [Lecture 1: Introduction, Threat Models](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-1-introduction-threat-models) e [Meu caderno](https://docs.google.com/document/d/1wEAqXLNMJlESEKcD2F6Odkq2OvO3XD8HNW2abtO1qE8/edit?usp=sharing)
 - [Lecture 2: Control Hijacking Attacks](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-2-control-hijacking-attacks/)
 - [Lecture 3: Buffer Overflow Exploits and Defenses](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-3-buffer-overflow-exploits-and-defenses)
 - [Lecture 4: Privilege Separation](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-3-buffer-overflow-exploits-and-defenses)
