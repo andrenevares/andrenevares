@@ -18,3 +18,28 @@
 - Use ```else``` para especificar um bloco de código a ser executado, se a mesma condição for falsa
 - Use ```else if``` para especificar uma nova condição para testar, se a primeira condição for falsa
 - Use ```switch``` para especificar muitos blocos alternativos de código a serem executados
+
+## if
+> Exemplo 01 - Sem variáveis
+```
+if (10 > 2) {
+  cout << "10 é maior que 2";
+}
+```
+
+> Exemplo 02 - Com variáveis
+```
+int x = 50;
+int y = 10;
+if (x > y) {
+  cout << "x é maior que y";
+}
+```
+
+## else 
+
+
+
+
+## else if
+
