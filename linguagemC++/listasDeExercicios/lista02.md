@@ -67,6 +67,26 @@ int main(){
 ```
 ##### Código em C++:
 ``` 
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nota1, nota2, media;
+    cout << "Qual a nota 01? ";
+    cin >> nota1;
+    cout << "Qual a nota 02? ";
+    cin >> nota2;
+    media = (nota1 + nota2) / 2;
+    if (media >= 7){
+      cout << "A média foi de " << media << ", logo APROVADO!";    
+    } else if (media >= 3 ){
+        cout << "A média foi de " << media << ", logo EXAME!";    
+    } else if  (media >= 0 ) {
+      cout << "A média foi de " << media << ", logo REPROVADO!";    
+    } else {
+      cout << "Valores digitados incorreto";  
+    } 
+}
 ``` 
 
 [Código da Resolução](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista002/questao02.c)
