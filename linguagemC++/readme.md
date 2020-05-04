@@ -19,28 +19,22 @@
 
 ## Lista de Assuntos: 
 > Estamos frequentemente atualizando cada conteúdo.
-
 - [Sintaxe Básica C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturaBasica.md)
-- [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/quebrarLinha.md)
+
+- [Estruturas Condicionais em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
+- [Introdução a C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/oqueEhC%2B%2B.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
+- [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/quebrarLinhac++.md)
 - [O que é e por que usar C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/oqueEhC++.md)
-- [Comando de Saída - cout](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/saidaEmCPP.md)
-- [Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisCpp.md)
-- [Tipos de Variáveis em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/variaveisEmCppTipos.md)
+- [Saída - cout C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/saidaEmC%2B%2B.md)
+- [Variáveis em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/variaveisC%2B%2B.md)
+- [Variáveis em C++ - Tipos](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/variaveisEmC++Tipos.md)
 ## A organizar
-- [Estrutura Senquencial em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturaSequencialEmC.md)
-- [Operadores - Opetadores Aritméticos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresArimeticos.md)
-- [Operadores - Precedência de Operadores](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresPrecedencia.md)
-- [Operadores - Operadores Incrementais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresIncrementais.md)
-- [Operadores de Atribuição](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresDeAtribuicao.md)
-- [Operadores a Organizar](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresFuncao.md)
-- [Operadores Lógicos](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/operadoresLogicos.md)
 
-- [Estruturas Condicionais](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/estruturasCondicionais.md)
 
-- [Função de Entrada - scanf()](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/scanf.md)
-- [Funções Matemáticas em C](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md)
-- [Raiz Cúbica](https://github.com/andrenevares/publico/blob/master/linguagemC/porAssunto/funcoes.md#raiz-c%C3%BAbica)
+
+
+
 ## Listas de Exercícios 
 
 - [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista01.md)
