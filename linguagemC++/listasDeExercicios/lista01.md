@@ -217,6 +217,29 @@ Inicio
 Fim
 ```
 
+
+#### Em C++:
+
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float salarioTotal, salarioFixo, vendas, comissao;
+    cout << "Qual o salário fixo do funcionário? ";
+    cin >> salarioFixo;
+    cout << "\nQual o valor das vendas? ";
+    cin >> vendas;
+    comissao = vendas * 0.04;
+    salarioTotal = salarioFixo + comissao;
+    cout << "----------------------------\n\n";
+    cout << "1. Salário Fixo: " << salarioFixo << "\n";
+    cout << "2. Comissão: " << comissao  << "\n";
+    cout << "3. Comissão (1 + 2): " << salarioTotal;
+}
+```
+
 ### 7. Faça um programa que receba o peso de uma pessoa, calcule e mostre:
 
 #### a) o novo peso, se a pessoa engordar 15% sobre o peso digitado;
@@ -237,6 +260,27 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float pesoInicial, pesoFinal, indiceDeVariacao;
+    cout << "Qual o peso da pessoa?  ";
+    cin >> pesoInicial; 
+    // Configuração do código:
+    // Variações positivas - Aumento de peso
+    // Variações negativas - Perda de peso
+    indiceDeVariacao = 0.15;
+    pesoFinal = (1 + indiceDeVariacao) * pesoInicial;
+    cout << "\n\n\n";
+    cout << "O peso final calculado é de: " << pesoFinal;
+}
+
+```
+
 #### b) o novo peso, se a pessoa emagrecer 20% sobre o peso digitado. 
 
 ```
@@ -253,9 +297,27 @@ Inicio
   escreva("Seu peso engordando " + indicePorCento + "% será de " + pesoFinal)
 Fim
 ```
+#### Em C++:
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float pesoInicial, pesoFinal, indiceDeVariacao;
+    cout << "Qual o peso da pessoa?  ";
+    cin >> pesoInicial; 
+    // Configuração do código:
+    // Variações positivas - Aumento de peso
+    // Variações negativas - Perda de peso
+    indiceDeVariacao = -0.2;
+    pesoFinal = (1 + indiceDeVariacao) * pesoInicial;
+    cout << "\n\n\n";
+    cout << "O peso final calculado é de: " << pesoFinal;
+}
+```
 
 ### 8. Faça um programa que receba o peso de uma pessoa em quilos, calcule e mostre esse peso em gramas.
-
 ```
 Algoritmo 08
   pesoFinal, pesoInicial: real
@@ -267,6 +329,25 @@ Inicio
   escreva("------------")
   escreva("Seu em gramas é " + pesoFinal)
 Fim
+```
+
+#### Em C++:
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float pesoEmKg, pesoEmGramas;
+    cout << "Qual o peso da pessoa em kilos?  ";
+    cin >> pesoEmKg; 
+    // Configuração do código:
+    // Variações positivas - Aumento de peso
+    // Variações negativas - Perda de peso
+    pesoEmGramas = pesoEmKg * 1000;
+    cout << "\n\n\n";
+    cout << "O peso de " << pesoEmKg << " Kilos equivale a " << pesoEmGramas << " gramas.";
+}
 ```
 
 ### 9. Faça um programa que calcule e mostre a área de um trapézio.
