@@ -12,7 +12,7 @@
 - Diferente: ```a != b```
 
 
-#### C++ has the following conditional statements:
+#### C++ possui as seguintes instruções condicionais:
 
 - Use a condição ```if```  para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
 - Use ```else``` para especificar um bloco de código a ser executado, se a mesma condição for falsa
