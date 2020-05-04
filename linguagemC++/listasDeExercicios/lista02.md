@@ -31,6 +31,9 @@ FIM
 ##### Código em C++:
 
 ``` 
+#include <iostream>
+using namespace std;
+
 int main(){
     float nota1, nota2, nota3, nota4, media;
     cout << "Qual a nota 01? ";
@@ -50,7 +53,6 @@ int main(){
       cout << "Valores digitados incorreto";  
     } 
 }
-
 ```
 
 
