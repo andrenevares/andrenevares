@@ -431,7 +431,6 @@ int main()
 ### 11. Faça um programa que calcule e mostre a área de um losango. Sabe-se que: A = (diagonal maior * diagonal menor)/2.
 
 #### Algoritmo:
-
 ```
 Algoritmo 11
   areaTotal , diagonalMaior, diagonalMenor: real
@@ -448,6 +447,22 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float areaTotal , diagonalMaior, diagonalMenor;
+    cout << "Digite a diagonal 1: ";
+    cin >> diagonalMaior;
+    cout << "Digite a diagonal 2: ";
+    cin >> diagonalMenor;
+    areaTotal = (diagonalMenor * diagonalMaior) / 2;
+    cout << "\n\n\n";
+    cout << "A área do lozango é " << areaTotal;
+}
+
 ```
 
 ### 12. Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
@@ -470,6 +485,20 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float salarioMinimo , salarioRecebido, indice;
+    cout << "Qual o valor do salário recebido? ";
+    cin >> salarioRecebido;
+    cout << "Qual o valor do salário mínimo vigente? ";
+    cin >> salarioMinimo;
+    indice = salarioRecebido / salarioMinimo;
+    cout << "\n\n\n";
+    cout << "Você recebe " << indice << " salario(s) mínimo(s)";
+}
 ```
 ### 13. Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
 
@@ -525,6 +554,26 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int numero;
+    cout << "Qual o numero? ";
+    cin >> numero;
+    cout << numero << " x 0 = " << numero * 0 << "\n";
+    cout << numero << " x 1 = " << numero * 1 << "\n";
+    cout << numero << " x 2 = " << numero * 2 << "\n";
+    cout << numero << " x 3 = " << numero * 3 << "\n";
+    cout << numero << " x 4 = " << numero * 4 << "\n";
+    cout << numero << " x 5 = " << numero * 5 << "\n";
+    cout << numero << " x 6 = " << numero * 6 << "\n";
+    cout << numero << " x 7 = " << numero * 7 << "\n";
+    cout << numero << " x 8 = " << numero * 8 << "\n";
+    cout << numero << " x 9 = " << numero * 9 << "\n";
+    cout << numero << " x 10 = " << numero * 10 << "\n";
+}
 ```
 
 ### 14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
@@ -562,6 +611,27 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float c1ValorNominal , c1ValorFinal, c2ValorNominal , c2ValorFinal, salarioRecebido, percentualMulta, saldo;
+    // Configuração do percentual de multa
+    percentualMulta = 0.02;
+    cout << "Qual o valor do salário recebido?";
+    cin >> salarioRecebido;
+    cout << "Digite da conta a pagar 01: ";
+    cin >> c1ValorNominal;
+    cout << "Digite da conta a pagar 02: ";
+    cin >> c2ValorNominal;
+    cout << "------------\n";
+    c1ValorFinal = c1ValorNominal * ( 1 + percentualMulta);
+    c2ValorFinal = c2ValorNominal * ( 1 + percentualMulta);
+    saldo = salarioRecebido - c1ValorFinal - c2ValorFinal;
+    cout << "O valor que sobrará do seu salário será " << saldo;
+    
+}
 ```
 ### 16. Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
 
