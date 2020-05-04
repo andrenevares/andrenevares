@@ -1,7 +1,7 @@
-# Concatenar em C
+# Concatenar em C++
 
 ## Concatenar Texto + vaklor de Vari[aveis.
-Para concatenar um texto como ```"A nota do aluno é"`` com a variável ```notaAluno``` que representa a nota do aluno usaremos a seguinte sintaxe:
+Para concatenar um texto como ```"A nota do aluno é"``` com a variável ```notaAluno``` que representa a nota do aluno usaremos a seguinte sintaxe:
 
 ```
   cout << "A nota do aluno é" << notaAluno;
