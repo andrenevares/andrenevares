@@ -654,6 +654,21 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float a , b, c;
+    cout << "Digite cateto b: ";
+    cin >> b;
+    cout << "Digite cateto c: ";
+    cin >> c;
+    cout << "------------\n";
+    a = hypot(b, c);
+    cout << "A hipotenusa será: " << a;
+}
 ```
 ### 17. Faça um programa que receba o raio, calcule e mostre:
 ### a) o comprimento de uma esfera; sabe-se que C = 2 * p R;
@@ -675,6 +690,20 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float r, pi, circunferencia;
+    pi = 3.14159265358979323846;
+    cout << "Digite o raio: ";
+    cin >> r;
+    circunferencia = 2 * pi * r;
+    cout << "------------\n";
+    cout << "A circunferência será: " << circunferencia;
+}
+
 ```
 
 ### b) a área de uma esfera; sabe-se que A = p R2;
@@ -697,6 +726,20 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float r, pi, area;
+    pi = 3.14159265358979323846;
+    cout << "Digite o raio: ";
+    cin >> r;
+    area = pi * pow(r,2);
+    cout << "------------\n";
+    cout << "A area da circunferência será: " << area;
+}
 ```
 
 ### c) o volume de uma esfera; sabe-se que V = 3⁄4 * p R3.
@@ -718,6 +761,20 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float r, pi, volume;
+    pi = 3.14159265358979323846;
+    cout << "Digite o raio: ";
+    cin >> r;
+    volume = pi * pow(r,3) * 3/4;
+    cout << "------------\n";
+    cout << "O volume da circunferência será: " << volume;
+}
 ```
 
 ### 18. Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
@@ -738,6 +795,18 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float grauC, grauF;
+    cout << "Qual o temperatura em graus celcius? ";
+    cin >> grauC;
+    grauF = ( 180 * (grauC + 32) )/100;
+    cout << "------------\n\n";
+    cout << "Cálculo:\n" << grauC << " Celsius representa " << grauF << " Fahrenheit.";
+}
 ```
 
 ### 19. Sabe-se que, para iluminar de maneira correta os cômodos de uma casa, para cada m2, deve-se usar 18 W de potência. Faça um programa que receba as duas dimensões de um cômodo (em metros), calcule e mostre a sua área (em m2 ) e a potência de iluminação que deverá ser utilizada.
