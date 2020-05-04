@@ -242,7 +242,8 @@ int main()
 
 ### 7. Faça um programa que receba o peso de uma pessoa, calcule e mostre:
 
-#### a) o novo peso, se a pessoa engordar 15% sobre o peso digitado;
+### a) o novo peso, se a pessoa engordar 15% sobre o peso digitado;
+#### Algoritmo:
 
 
 ```
@@ -281,7 +282,9 @@ int main()
 
 ```
 
-#### b) o novo peso, se a pessoa emagrecer 20% sobre o peso digitado. 
+### b) o novo peso, se a pessoa emagrecer 20% sobre o peso digitado. 
+
+#### Algoritmo:
 
 ```
 Algoritmo 07B
@@ -318,6 +321,8 @@ int main()
 ```
 
 ### 8. Faça um programa que receba o peso de uma pessoa em quilos, calcule e mostre esse peso em gramas.
+
+#### Algoritmo:
 ```
 Algoritmo 08
   pesoFinal, pesoInicial: real
@@ -353,6 +358,7 @@ int main()
 ### 9. Faça um programa que calcule e mostre a área de um trapézio.
 Sabe-se que: A = ((base maior + base menor) * altura)/2
 
+#### Algoritmo:
 ```
 Algoritmo 09
   areaTotal , baseMaior, baseMenor, altura: real
@@ -392,12 +398,13 @@ int main()
 
 ### 10. Faça um programa que calcule e mostre a área de um quadrado. Sabe-se que: A = lado * lado.
 
+#### Algoritmo:
 ```
 Algoritmo 10
   areaTotal , lado: real
 
 Inicio
-  escreva("Digite o lado do quadrado : ")
+  escreva("Digite o tamanho do lado do quadrado: ")
   leia(lado)
   areaTotal = lado ^ 2
   escreva("------------")
@@ -405,6 +412,22 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+```
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    float areaTotal, lado;
+    cout << "Digite o tamanho do lado do quadrado: ";
+    cin >> lado;
+    cout << "\n\n\n";
+    cout << "A área do quadrado é " << pow(lado,2);
+}
+```
 ### 11. Faça um programa que calcule e mostre a área de um losango. Sabe-se que: A = (diagonal maior * diagonal menor)/2.
 
 ```
