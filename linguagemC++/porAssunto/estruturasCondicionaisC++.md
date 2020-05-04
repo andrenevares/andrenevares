@@ -60,5 +60,5 @@ if (time < 12) {
 } else {
   cout << "Boa noite!";
 }
-// Saída "Boa noite!"
+// Resultado "Boa noite!"
 ```
