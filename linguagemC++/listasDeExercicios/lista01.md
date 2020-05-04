@@ -430,12 +430,14 @@ int main()
 ```
 ### 11. Faça um programa que calcule e mostre a área de um losango. Sabe-se que: A = (diagonal maior * diagonal menor)/2.
 
+#### Algoritmo:
+
 ```
 Algoritmo 11
   areaTotal , diagonalMaior, diagonalMenor: real
 
 Inicio
-  escreva("Digite a badiagonal 1 : ")
+  escreva("Digite a diagonal 1 : ")
   leia(diagonalMenor)
   escreva("Digite a diagonal 2 : ")
   leia(diagonalMaior)
@@ -444,8 +446,11 @@ Inicio
   escreva("A área do lozango é " + areaTotal)
 Fim
 ```
+#### Em C++:
 
 ### 12. Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
+
+#### Algoritmo:
 
 ```
 Algoritmo 12
@@ -461,7 +466,7 @@ Inicio
   escreva("Você recebe " + indice + "salario(s) mínimo(s))
 Fim
 ```
-
+#### Em C++:
 
 ### 13. Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
 
@@ -480,6 +485,8 @@ Digite um número: 5
 5 × 10 = 50
 
 > Sem FOR
+#### Algoritmo:
+
 ```
 Algoritmo 13
   numero, resultado: real
@@ -513,6 +520,8 @@ Inicio
   
 Fim
 ```
+#### Em C++:
+
 
 ### 14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
 a) a idade dessa pessoa em anos;
@@ -520,8 +529,13 @@ b) a idade dessa pessoa em meses;
 c) a idade dessa pessoa em dias;
 d) a idade dessa pessoa em semanas.
 
+#### Algoritmo:
+
+#### Em C++:
 
 ### 15. João recebeu seu salário e precisa pagar duas contas atrasadas. Em razão do atraso, ele deverá pagar multa de 2% sobre cada conta. Faça um programa que calcule e mostre quanto restará do salário de João.
+
+#### Algoritmo:
 
 ```
 Algoritmo 15
@@ -542,7 +556,11 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+
 ### 16. Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
+
+#### Algoritmo:
 
 ```
 Algoritmo 16
@@ -559,8 +577,12 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+
 ### 17. Faça um programa que receba o raio, calcule e mostre:
-#### a) o comprimento de uma esfera; sabe-se que C = 2 * p R;
+### a) o comprimento de uma esfera; sabe-se que C = 2 * p R;
+
+#### Algoritmo:
 ```
 Algoritmo 17A
  r, pi, circunferencia : real
@@ -575,7 +597,11 @@ Inicio
 Fim
 ```
 
-#### b) a área de uma esfera; sabe-se que A = p R2;
+#### Em C++:
+
+### b) a área de uma esfera; sabe-se que A = p R2;
+
+#### Algoritmo:
 
 ```
 Algoritmo 17B
@@ -590,7 +616,10 @@ Inicio
   escreva("A Área da circunferência será: " + area )
 Fim
 ```
-#### c) o volume de uma esfera; sabe-se que V = 3⁄4 * p R3.
+
+#### Em C++:
+### c) o volume de uma esfera; sabe-se que V = 3⁄4 * p R3.
+#### Algoritmo:
 
 ```
 Algoritmo 17C
@@ -606,7 +635,11 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+
 ### 18. Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
+
+#### Algoritmo:
 
 ```
 Algoritmo 18
@@ -620,8 +653,11 @@ Inicio
   escreva("Cálculo " + grauC + " Celsius representa " + grauF + " Fahrenheit."  )
 Fim
 ```
+#### Em C++:
 
 ### 19. Sabe-se que, para iluminar de maneira correta os cômodos de uma casa, para cada m2, deve-se usar 18 W de potência. Faça um programa que receba as duas dimensões de um cômodo (em metros), calcule e mostre a sua área (em m2 ) e a potência de iluminação que deverá ser utilizada.
+
+#### Algoritmo:
 
 ```
 Algoritmo 19
@@ -638,11 +674,15 @@ Inicio
   escreva("Metragem calculada: " + area + "m2, a qual demanda uma potência de " + potencia + "W."  )
 Fim
 ```
+#### Em C++:
 
 ### 20. Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a distância em que a escada está da parede, calcule e mostre a medida da escada para que se possa alcançar sua ponta.
 
 ![Triangulo Exercicio 20](https://github.com/andrenevares/estacio/blob/master/PERIODO001/CCT0893-INTRO-C/TRINGULO-LISTA-EXERCICIOS-01.JPG?raw=true)
 
+#### Algoritmo:
+
+#### Em C++:
 
 ### 21. Faça um programa que receba o número de horas trabalhadas, o valor do salário mínimo e o número de horas extras trabalhadas, calcule e mostre o salário a receber, de acordo com as regras a seguir:
 a) a hora trabalhada vale 1/8 do salário mínimo;
@@ -652,6 +692,7 @@ d) a quantia a receber pelas horas extras equivale ao número de horas extras tr
 da hora extra;
 e) o salário a receber equivale ao salário bruto mais a quantia a receber pelas horas extras.
 
+#### Algoritmo:
 
 ```
 Algoritmo 21
@@ -675,7 +716,11 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+
 ### 22. Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais desse polígono. Sabe-se que ND = N * (N − 3)/2, em que N é o número de lados do polígono.
+
+#### Algoritmo:
 
 ```
 Algoritmo 22
@@ -693,6 +738,8 @@ Fim
 
 ### 23. Faça um programa que receba a medida de dois ângulos de um triângulo, calcule e mostre a medida do terceiro ângulo. Sabe-se que a soma dos ângulos de um triângulo é 180 graus.
 
+#### Algoritmo:
+
 ```
 Algoritmo 23
  angulo1, angulo2, angulo3: real
@@ -709,8 +756,11 @@ Inicio
 Fim
 ```
 
+#### Em C++:
+
 ### 24. Faça um programa que receba a quantidade de dinheiro em reais que uma pessoa que vai viajar possui. Ela vai passar por vários países e precisa converter seu dinheiro em dólares, marco alemão e libra esterlina. Sabe-se que a cotação do dólar é de R$ 1,80; do marco alemão, de R$ 2,00; e da libra esterlina, de R$ 3,57. O programa deve fazer as conversões e mostrá-las.
 
+#### Algoritmo:
 
 ```
 Algoritmo 24
@@ -735,7 +785,8 @@ Fim
 
 ### 25. Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e mostre:
 
-#### a) a hora digitada convertida em minutos;
+### a) a hora digitada convertida em minutos;
+#### Algoritmo:
 ```
 Algoritmo 25a
  hora, minutos, qFinalHora: real
@@ -752,10 +803,11 @@ Inicio
   escreva("A hora calculada será + qFinalHora + " horas")
 Fim
 ```
+#### Em C++:
 
+### b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
 
-#### b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
-
+#### Algoritmo:
 ```
 Algoritmo 25b
  hora, minutos, qFinalMinutos: real
@@ -772,8 +824,11 @@ Inicio
   escreva("A hora calculada será + qFinalMinutos + " minutos")
 Fim
 ```
-#### c) o total dos minutos convertidos em segundos.
+#### Em C++:
 
+### c) o total dos minutos convertidos em segundos.
+
+#### Algoritmo:
 ```
 Algoritmo 25c
  hora, minutos, qFinalSegundos: real
@@ -790,3 +845,4 @@ Inicio
   escreva("A hora calculada será + qFinalSegundos + " segundos")
 Fim
 ```
+#### Em C++:
