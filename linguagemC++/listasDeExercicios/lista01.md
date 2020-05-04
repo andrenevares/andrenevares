@@ -447,6 +447,8 @@ Inicio
 Fim
 ```
 #### Em C++:
+```
+```
 
 ### 12. Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
 
@@ -467,7 +469,8 @@ Inicio
 Fim
 ```
 #### Em C++:
-
+```
+```
 ### 13. Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
 
 Digite um número: 5
@@ -521,7 +524,8 @@ Inicio
 Fim
 ```
 #### Em C++:
-
+```
+```
 
 ### 14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
 a) a idade dessa pessoa em anos;
@@ -557,7 +561,8 @@ Fim
 ```
 
 #### Em C++:
-
+```
+```
 ### 16. Faça um programa que receba o valor dos catetos de um triângulo, calcule e mostre o valor da hipotenusa.
 
 #### Algoritmo:
@@ -578,7 +583,8 @@ Fim
 ```
 
 #### Em C++:
-
+```
+```
 ### 17. Faça um programa que receba o raio, calcule e mostre:
 ### a) o comprimento de uma esfera; sabe-se que C = 2 * p R;
 
@@ -598,6 +604,8 @@ Fim
 ```
 
 #### Em C++:
+```
+```
 
 ### b) a área de uma esfera; sabe-se que A = p R2;
 
@@ -618,6 +626,9 @@ Fim
 ```
 
 #### Em C++:
+```
+```
+
 ### c) o volume de uma esfera; sabe-se que V = 3⁄4 * p R3.
 #### Algoritmo:
 
@@ -636,6 +647,8 @@ Fim
 ```
 
 #### Em C++:
+```
+```
 
 ### 18. Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
 
@@ -654,6 +667,8 @@ Inicio
 Fim
 ```
 #### Em C++:
+```
+```
 
 ### 19. Sabe-se que, para iluminar de maneira correta os cômodos de uma casa, para cada m2, deve-se usar 18 W de potência. Faça um programa que receba as duas dimensões de um cômodo (em metros), calcule e mostre a sua área (em m2 ) e a potência de iluminação que deverá ser utilizada.
 
@@ -675,6 +690,8 @@ Inicio
 Fim
 ```
 #### Em C++:
+```
+```
 
 ### 20. Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a distância em que a escada está da parede, calcule e mostre a medida da escada para que se possa alcançar sua ponta.
 
@@ -717,6 +734,8 @@ Fim
 ```
 
 #### Em C++:
+```
+```
 
 ### 22. Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais desse polígono. Sabe-se que ND = N * (N − 3)/2, em que N é o número de lados do polígono.
 
@@ -757,6 +776,8 @@ Fim
 ```
 
 #### Em C++:
+```
+```
 
 ### 24. Faça um programa que receba a quantidade de dinheiro em reais que uma pessoa que vai viajar possui. Ela vai passar por vários países e precisa converter seu dinheiro em dólares, marco alemão e libra esterlina. Sabe-se que a cotação do dólar é de R$ 1,80; do marco alemão, de R$ 2,00; e da libra esterlina, de R$ 3,57. O programa deve fazer as conversões e mostrá-las.
 
@@ -782,7 +803,9 @@ Inicio
   escreva("------------")
 Fim
 ```
-
+#### Em C++:
+```
+```
 ### 25. Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e mostre:
 
 ### a) a hora digitada convertida em minutos;
@@ -804,7 +827,8 @@ Inicio
 Fim
 ```
 #### Em C++:
-
+```
+```
 ### b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
 
 #### Algoritmo:
@@ -825,7 +849,8 @@ Inicio
 Fim
 ```
 #### Em C++:
-
+```
+```
 ### c) o total dos minutos convertidos em segundos.
 
 #### Algoritmo:
@@ -846,3 +871,5 @@ Inicio
 Fim
 ```
 #### Em C++:
+```
+```
