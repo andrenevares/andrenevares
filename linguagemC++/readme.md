@@ -31,5 +31,5 @@
 - [Variáveis em C++ - Tipos](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/variaveisEmC++Tipos.md)
 
 ## Listas de Exercícios 
-- [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista01.md)
-- [Lista de Exercícios 02 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista02.md)
+- [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/listasDeExercicios/lista01.md)
+- [Lista de Exercícios 02 - 25 exercícios](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/listasDeExercicios/lista02.md)
