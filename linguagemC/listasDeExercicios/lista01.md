@@ -105,7 +105,7 @@ Inicio
 
 ```
 
-#### Em C:
+#### Em C++
 ```
 #include <iostream>
 using namespace std;
@@ -142,28 +142,22 @@ Inicio
  Fim
 
 ```
-#### Em C:
+#### Em C++
 ```
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main(){
-    //definir variáveis
-    float media, n1, n2;
-    
-    //código
-    printf("Insira número 01: ");
-    scanf("%f", &n1);
-    
-    printf("Insira número 02: ");
-    scanf("%f", &n2);
-    
-    media = ( ( n1 * 2 )  + ( n2 * 3) ) / 5;
-    
-    printf("------------------\n");
-    
-    printf("A media de %.2f com peso 2, %.2f com peso 3 é igual a %.2f", n1, n2, media);
-    
-    
+int main()
+{
+    float n1, n2, media; // uso a variável média pois facilita reuso de código
+    cout << "Por favor digite o número 01: ";
+    cin >> n1;
+    cout << "Por favor digite o número 02: ";
+    cin >> n2;
+    cout << "----------------------------\n";
+    media = ((n1*2)+(n2*3))/5;
+    cout << "A média obtida por " << n1 << " com peso 2 e " << n2 << " com peso 3 é " << media;
+   
 }
 ```
 
