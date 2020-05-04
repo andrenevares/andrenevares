@@ -830,6 +830,22 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float  metragem1, metragem2, area, potencia;
+    cout << "Qual a metragem 01? ";
+    cin >> metragem1;
+    cout << "Qual a metragem 02? ";
+    cin >> metragem2;
+    area = metragem1 * metragem1;
+    potencia = area * 18;
+    cout << "------------\n";
+    cout << "Metragem calculada: " << area << "m2, a qual demanda uma potência de " << potencia << "W.";
+
+}
 ```
 
 ### 20. Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a distância em que a escada está da parede, calcule e mostre a medida da escada para que se possa alcançar sua ponta.
@@ -874,6 +890,26 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float  horasTrabalhadas, salarioMinimo, horasExtras, salarioBruto, valorReceber, salarioExtra;
+    cout << "Quantas horas foram trabalhadas? (Não contar horas extras) ";
+    cin >> horasTrabalhadas;
+    cout << "Quantas horas extras foram trabalhadas? ";
+    cin >> horasExtras;
+    cout << "Qual o valor do salario Minimo? ";
+    cin >> salarioMinimo;
+    salarioBruto = (horasTrabalhadas * salarioMinimo) / 8;
+    salarioExtra = (horasTrabalhadas * salarioMinimo) / 4;
+    valorReceber = salarioBruto + salarioExtra;
+    cout << "------------\n";
+    cout << "Salário Bruto: " << salarioBruto << endl;
+    cout << "Salário por horas extras: " << salarioExtra << endl;
+    cout << "Valor Total a receber: " << valorReceber << endl; 
+}
 ```
 
 ### 22. Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais desse polígono. Sabe-se que ND = N * (N − 3)/2, em que N é o número de lados do polígono.
@@ -916,6 +952,19 @@ Fim
 
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nLados, nDiagonais;
+    cout << "Qual o número de lados do polígono? ";
+    cin >> nLados;
+    
+    nDiagonais = (nLados * (nLados - 3))/2;
+    cout << "------------" << endl;
+    cout << "O número de diagonais é: " << nDiagonais;
+}
 ```
 
 ### 24. Faça um programa que receba a quantidade de dinheiro em reais que uma pessoa que vai viajar possui. Ela vai passar por vários países e precisa converter seu dinheiro em dólares, marco alemão e libra esterlina. Sabe-se que a cotação do dólar é de R$ 1,80; do marco alemão, de R$ 2,00; e da libra esterlina, de R$ 3,57. O programa deve fazer as conversões e mostrá-las.
@@ -944,6 +993,26 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main(){
+    float reais, conversao, reaisEmDolares, indiceEmDolares, reaisEmMarcoAlemao, indiceEmMarcoAlemao, reaisEmLibraEsterlina, indiceEmLibraEsterlina;
+    indiceEmDolares = 1.8;
+    indiceEmMarcoAlemao = 2.00;
+    indiceEmLibraEsterlina = 3.57;
+    cout << "Digite um  valor em reais: ";
+    cin >> reais;
+    cout << "--------------------------\n\n";
+    cout << "Valor de " << reais << " convertido para..." << endl;
+    conversao = reais * indiceEmDolares;
+    cout << "\nDólar..." << conversao << endl; 
+    conversao = reais * indiceEmMarcoAlemao;
+    cout << "Marco Alemão..." << conversao << endl;
+    conversao = reais * indiceEmLibraEsterlina;
+    cout << "Libra Esterlina..." << conversao << endl;
+}
+
 ```
 ### 25. Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e mostre:
 
@@ -967,6 +1036,21 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main(){
+    float hora, minutos, qFinalHora;
+    cout << "Por favor informe as horas e minutos de forma separada! " << endl;
+    cout << "------------------------------------------------------ "<< endl;
+    cout <<  "Digite uma quantidade de horas qualquer ";
+    cin >> hora;
+    cout << "Digite uma quantidade de horas minutos ";
+    cin >> minutos;
+    qFinalHora = hora + (minutos/60);
+    cout << "------------" << endl;
+    cout << "A hora calculada será " << qFinalHora << " horas";
+}
 ```
 ### b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
 
@@ -989,6 +1073,21 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main(){
+    float hora, minutos, qFinalMinutos;
+    cout << "Por favor informe as horas e minutos de forma separada! " << endl;
+    cout << "------------ " << endl;
+    cout << "Digite uma quantidade de horas qualquer ";
+    cin >> hora;
+    cout << "Digite uma quantidade de horas minutos ";
+    cin >>  minutos;
+    qFinalMinutos = (hora * 60) + minutos;
+    cout << "------------ " << endl;
+    cout << "A hora calculada será " << qFinalMinutos << " minutos";
+}
 ```
 ### c) o total dos minutos convertidos em segundos.
 
@@ -1011,4 +1110,20 @@ Fim
 ```
 #### Em C++:
 ```
+#include <iostream>
+using namespace std;
+
+int main(){
+    float hora, minutos, qFinalSegundos;
+    cout << "Por favor informe as horas e minutos de forma separada! " << endl;
+    cout << "------------ " << endl;
+    cout << "Digite uma quantidade de horas qualquer ";
+    cin >> hora;
+    cout << "Digite uma quantidade de horas minutos ";
+    cin >> minutos;
+    qFinalSegundos = ((hora*60) + minutos) * 60;
+    cout << "------------" << endl;
+    cout << "A hora calculada será "  << qFinalSegundos << " segundos";
+}
+
 ```
