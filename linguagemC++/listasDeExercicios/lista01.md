@@ -2,7 +2,7 @@
 
 > Resolvido por André Nevares em 06/04/2020
 
-## Lista de Algoritmos em C referente aos Exercícios
+## Lista de Algoritmos em C++ referente aos Exercícios
 
 ### 1. Faça um programa que receba dois números, calcule e mostre a subtração do primeiro número pelo segundo.
 
@@ -368,6 +368,26 @@ Inicio
   escreva("------------")
   escreva("A área do trapézio é " + areaTotal)
 Fim
+```
+
+#### Em C++:
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float areaTotal, baseMaior, baseMenor, altura;
+    cout << "Digite a Base 01?  ";
+    cin >> baseMaior;
+    cout << "\nDigite a Base 02?  ";
+    cin >> baseMenor;
+    cout << "\nDigite a Altura?  ";
+    cin >> altura;
+    areaTotal = ((baseMenor * baseMaior) * altura) / 2;
+    cout << "\n\n\n";
+    cout << "A área do trapézio é " << areaTotal;
+}
 ```
 
 ### 10. Faça um programa que calcule e mostre a área de um quadrado. Sabe-se que: A = lado * lado.
