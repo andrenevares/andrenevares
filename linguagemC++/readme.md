@@ -20,8 +20,8 @@
 ## Lista de Assuntos: 
 > Estamos frequentemente atualizando cada conteúdo.
 - [Sintaxe Básica C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturaBasica.md)
-
-- [Estruturas Condicionais em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
+- [Estruturas Condicionais em C++ - If, Else, Else if](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
+- [Estruturas Condicionais em C++ - Switch](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
 - [Introdução a C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/oqueEhC%2B%2B.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
 - [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/quebrarLinhac++.md)
@@ -29,13 +29,7 @@
 - [Saída - cout C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/saidaEmC%2B%2B.md)
 - [Variáveis em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/variaveisC%2B%2B.md)
 - [Variáveis em C++ - Tipos](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/variaveisEmC++Tipos.md)
-## A organizar
-
-
-
-
 
 ## Listas de Exercícios 
-
 - [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista01.md)
 - [Lista de Exercícios 02 - 25 exercícios](https://github.com/andrenevares/publico/blob/master/linguagemC/listasDeExercicios/lista02.md)
