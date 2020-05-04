@@ -22,7 +22,7 @@ Inicio
  Fim
 
 ```
-#### Em C:
+#### Em C++
 ```
 #include <stdio.h>
 
