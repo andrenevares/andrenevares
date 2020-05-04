@@ -20,7 +20,6 @@ Inicio
   escreva("------------")
   escreva("A subtraçâo de " + n1 " por " + n2 + " resultará em " + subtracao)
  Fim
-
 ```
 
 #### Em C++
@@ -166,6 +165,7 @@ int main()
 
 ### 5. Faça um programa que receba o preço de um produto, calcule e mostre o novo preço, sabendo-se que este sofreu um desconto de 10%.
 
+#### Algoritmo
 ```
 Algoritmo 05
   valorFinal, p1: real
@@ -177,6 +177,24 @@ Inicio
   escreva("------------")
   escreva("O valor do preco final com desconto será de " + valorFinal)
  Fim
+```
+
+#### Em C++
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float precoInicial, novoPreco; 
+    cout << "Digite o preço do produto: ";
+    cin >> precoInicial;
+    novoPreco = precoInicial * 0.9;
+    cout << "----------------------------\n\n";
+    cout << "Considerando 10% de desconto sobre o preço inicial de " << precoInicial << ",\nteremos um novo preço de R$ " << novoPreco;
+   
+}
+
 ```
 
 ### 6. Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas. Faça um programa que receba o salário fixo do funcionário e o valor de suas vendas, calcule e mostre a comissão e seu salário final.
