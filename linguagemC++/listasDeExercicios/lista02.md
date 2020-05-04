@@ -100,6 +100,26 @@ int main(){
 ```
 ##### Código em C++:
 ``` 
+#include <iostream>
+using namespace std;
+
+int main(){
+    float n1, n2;
+    cout << "Digite um número... ";
+    cin >> n1;
+    cout << "Digite outro número..." ;
+    cin >> n2;
+    if (n1 > n2){
+      cout << "O número " << n1 << " é maior que " << n2;    
+    } else if (n1 < n2){
+      cout << "O número " << n2 << " é maior que " << n1;
+    } else if  (n1 = n2) {
+      cout << "O número " << n1 << " igual " << n2;    
+    } else {
+      cout << "Valores digitados incorretos";  
+    } 
+}
+
 ``` 
 
 
@@ -110,6 +130,28 @@ int main(){
 ```
 ##### Código em C++:
 ``` 
+int main(){
+    float n1, n2, n3;
+    cout << "Digite um número... ";
+    cin >> n1;
+    cout << "Digite outro número..." ;
+    cin >> n2;
+    cout << "Digite outro número..." ;
+    cin >> n3;
+    if (n1 >= n2) {
+        if (n1 >= n3) {
+        cout << "O maior valor é " << n1;
+        }   else {
+            cout << "O maior valor é " << n3;  
+        }
+    } else if(n2 >= n1) {
+        if (n2 >= n3) {
+        cout << "O maior valor é " << n2;
+        }   else {
+            cout << "O maior valor é " << n3;  
+        }
+    } 
+}
 ``` 
 
 
