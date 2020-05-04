@@ -1,55 +1,20 @@
 # Estuturas Condicionais
 
-## Estrutura condicional simples
-
-### Ideia da sintaxe:
-```
-if (condição)
-      comando;
-```
-
-### Algoritmo:
-```
-SE condição
-     ENTÃO... ;
-```
+- C++ Condições e declarações If
 
 
-### Sintaxe - Estrutura Condicional Simples em C
-
-```
-if (condição)
-  {
-      comando1;
-      comando2;
-      comando3;
-  }
-```
-> torna-se obrigatória a utilização de chaves quando existe mais de um comando a executar
+####  C++ suporta as condições lógicas usuais da matemática:
+- menor que: ```a < b```
+- menor ou igual a: ```a <= b```
+- maior que: ```a > b```
+- maior ou igual a : ```a >= b```
+- igual ```a == b```
+- Diferente: ```a != b```
 
 
-### Estrutura condicional composta
+#### C++ has the following conditional statements:
 
-### Ideia da sintaxe:
-```
-if (condição)
-      comando1;
-else
-      comando2;
-```
-
-### Sintaxe - Estrutura Condicional Composta em C
-
-```
-if (condição)
-  {
-      comando1;
-      comando2;
-  }
-else
-  {
-      comando3;
-      comando4;
-  }
-```
-> torna-se obrigatória a utilização de chaves quando existe mais de um comando a executar
+- Use a condição ```if```  para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
+- Use ```else``` para especificar um bloco de código a ser executado, se a mesma condição for falsa
+- Use ```else if``` para especificar uma nova condição para testar, se a primeira condição for falsa
+- Use ```switch``` para especificar muitos blocos alternativos de código a serem executados
