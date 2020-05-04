@@ -22,28 +22,26 @@ Inicio
  Fim
 
 ```
+
 #### Em C++
 ```
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main () {
-
-   // definir variáveis
-   float n1, n2, subtracao;
-   
-   printf("Digite o valor de n1: ");
-   scanf("%f",&n1);
-   printf("Digite o valor de n2: ");
-   scanf("%f",&n2);
-   subtracao = n1 - n2;
-   printf("------------------\n");
-   printf("A subtração de %.2f por %.2f resultará em %.2f\n",n1,n2,subtracao);
-
-
-   return 0;
+int main()
+{
+    int x, y;
+    cout << "Por favor digite o número 01: ";
+    cin >> x;
+    cout << "Por favor digite o número 02: ";
+    cin >> y;
+    cout << "----------------------------\n";
+    cout << x - y;
 }
 
+
 ```
+
 
 
 ### 2. Faça um programa que receba três números, calcule e mostre a multiplicação desses números.
@@ -67,35 +65,28 @@ Inicio
 
 ```
 
-#### Em C:
+#### Em C++
 ```
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main () {
-
-   // definir variáveis
-   float n1, n2, n3, multiplicacao;
-   
-   printf("Digite o valor de n1: ");
-   scanf("%f",&n1);
-   
-   printf("Digite o valor de n2: ");
-   scanf("%f",&n2);
-   
-   printf("Digite o valor de n3: ");
-   scanf("%f",&n3);
-   
-   multiplicacao = n1 * n2 * n3;
-   
-   printf("------------------\n");
-   printf("A multiplicação de %.2f, %.2f e %.2f resultará em %.2f\n",n1,n2,n3,multiplicacao);
-
-
-   return 0;
+int main()
+{
+    int x, y, z;
+    cout << "Por favor digite o número 01: ";
+    cin >> x;
+    cout << "Por favor digite o número 02: ";
+    cin >> y;
+    cout << "Por favor digite o número 03: ";
+    cin >> z;
+    cout << "----------------------------\n";
+    cout << "O Resultado de " << x << " x " << y << " x " << z << " = " << x * y * z;
 }
 
+
 ```
+
 
 ### 3. Faça um programa que receba dois números, calcule e mostre a divisão do primeiro número pelo segundo. Sabe-se que o segundo número não pode ser zero, portanto, não é necessário se preocupar com validações.
 
@@ -116,29 +107,23 @@ Inicio
 
 ```
 
-#### Em C:
+#### Em C++
 ```
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main(){
-    //definir variáveis
-    float n1, n2, divisao;
-    
-    //código
-    printf("Digite o a ser dividido: ");
-    scanf("%f", &n1);
-    
-    printf("Digite o divisor: ");
-    scanf("%f", &n2);
-    
-    divisao = n1 / n2;
-    
-    printf("------------------\n");
-    
-    printf("O resultado da divisão de %.2f por %.2f é igual a %.2f", n1, n2, divisao);
-    
-    
+int main()
+{
+    int n1, n2;
+    cout << "Por favor digite o número 01: ";
+    cin >> n1;
+    cout << "Por favor digite o número 02: ";
+    cin >> n2;
+    cout << "----------------------------\n";
+    cout << "A divisão de " << n1 << " por " << n2 << " = " << n1/n2;
+   
 }
+
 ```
 
 ### 4. Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas, considerando peso 2 para a primeira e peso 3 para a segunda.
@@ -159,28 +144,23 @@ Inicio
  Fim
 
 ```
-#### Em C:
-```
-#include <stdio.h>
 
-int main(){
-    //definir variáveis
-    float media, n1, n2;
-    
-    //código
-    printf("Insira número 01: ");
-    scanf("%f", &n1);
-    
-    printf("Insira número 02: ");
-    scanf("%f", &n2);
-    
-    media = ( ( n1 * 2 )  + ( n2 * 3) ) / 5;
-    
-    printf("------------------\n");
-    
-    printf("A media de %.2f com peso 2, %.2f com peso 3 é igual a %.2f", n1, n2, media);
-    
-    
+#### Em C++
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float n1, n2, media; // uso a variável média pois facilita reuso de código
+    cout << "Por favor digite o número 01: ";
+    cin >> n1;
+    cout << "Por favor digite o número 02: ";
+    cin >> n2;
+    cout << "----------------------------\n";
+    media = ((n1*2)+(n2*3))/5;
+    cout << "A média obtida por " << n1 << " com peso 2 e " << n2 << " com peso 3 é " << media;
+   
 }
 ```
 
