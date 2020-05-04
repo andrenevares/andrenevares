@@ -38,8 +38,27 @@ if (x > y) {
 
 ## else 
 
-
+```
+int horaDoDia = 20;
+if (horaDoDia < 18) {
+  cout << "Está de dia!.";
+} else {
+  cout << "Está de noite!";
+}
+// Saída "Está de noite!"
+```
 
 
 ## else if
 
+```
+int time = 22;
+if (time < 12) {
+  cout << "Bom dia!!!";
+} else if (time < 18) {
+  cout << "Boa tarde!";
+} else {
+  cout << "Boa noite!";
+}
+// Saída "Boa noite!"
+```
