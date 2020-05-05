@@ -173,6 +173,40 @@ Se a opção digitada for inválida, mostre uma mensagem de erro e termine a exe
 ```
 ##### Código em C++:
 ``` 
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    float n1, n2;
+    int opcao;
+    cout << "Digite um número... ";
+    cin >> n1;
+    cout << "Digite outro número..." ;
+    cin >> n2;
+    cout << "[ 1 ] Média entre os números digitados" << endl;
+    cout << "[ 2 ] Diferença do maior pelo menor" << endl;
+    cout << "[ 3 ] Produto entre os números digitados" << endl;
+    cout << "[ 4 ] Divisão do primeiro pelo segundo" << endl;
+    cout << "----------------------------------------" << endl;
+    cout << "Digite o  uma das opções..." ;
+    cin >> opcao;
+    switch (opcao) {
+        case 1:
+            cout << "\n\nA média dos valores é: " << (n1 + n2) / 2;
+            break;
+        case 2:
+            cout << "\n\nDiferença entre os valores é: " << fdim(max(n1, n2), min(n1,n2)) ;
+            break;
+        case 3:
+            cout << "\n\nProduto entre os números digitados é: " << (n1 * n2);
+            break;
+        case 4:
+            cout << "\n\nA média dos valores é: " << n1 / n2;
+            break;
+        
+    }
+}
 ``` 
 
 
