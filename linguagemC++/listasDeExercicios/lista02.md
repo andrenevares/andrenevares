@@ -300,6 +300,28 @@ int main(){
 ```
 ##### Código em C++:
 ``` 
+#include <iostream>
+using namespace std;
+
+int main(){
+    float salarioInicial, salarioFinal;
+    cout << "Por favor, digite o salário... ";
+    cin >> salarioInicial;
+    salarioFinal = salarioInicial * 1.3;
+    if (salarioInicial >= 500) {
+        cout << "\n\n\n";
+        cout << "Somente funcionário com salários inferiores a R$ 500,00 receberão aumento.";
+        
+    } else if (salarioInicial > 0) {
+        cout << "\n\n\n";
+        cout << "O seu salário encontra-se abaixo de R$ 500,00." << endl;
+        cout << "Reajustade de 30%, o que representa " << salarioInicial * 0.3 << endl;
+        cout << "Salário reajustado para R$ " << salarioFinal;
+    } else {
+        cout << "\n\n\n";
+        cout << "Valores Digitados incorretos.  Tente novamente";
+    }
+}
 ``` 
 
 
