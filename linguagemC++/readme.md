@@ -20,8 +20,8 @@
 ## Lista de Assuntos: 
 > Estamos frequentemente atualizando cada conteúdo.
 - [Sintaxe Básica C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/sintaxeBasicaC%2B%2B.md)
-- [Estruturas Condicionais em C++ - If, Else, Else if](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
-- [Estruturas Condicionais em C++ - Switch](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
+- [Condicionais em C++ - If, Else, Else if](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
+- [Condicionais em C++ - Switch](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturasCondicionaisC%2B%2BSwitch.md)
 - [Introdução a C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/oqueEhC%2B%2B.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
 - [Quebra de linha em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/quebrarLinhac++.md)
