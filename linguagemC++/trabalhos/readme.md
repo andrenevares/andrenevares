@@ -10,6 +10,8 @@ int main() {
     float deducaoIrFaixa1, deducaoIrFaixa2, deducaoIrFaixa3, deducaoIrFaixa4, deducaoIrFaixa5;
     float bcIr1, bcIr2, bcIr3, bcIr4, bcIr5;
     float irpf1, irpf2, irpf3, irpf4, irpf5, irpfTotal;
+    float inssEmpregado;
+    irpf1 = irpf2 = irpf3 = irpf4 = irpf5 = 0; // Atribuindo valor zero ao IR no início do Código
     
     deducaoIrFaixa1 = 0;
     deducaoIrFaixa2 = 142.8;
@@ -17,10 +19,6 @@ int main() {
     deducaoIrFaixa4 = 636.13;
     deducaoIrFaixa5 = 869.36;
 
-    // -----------------------------------------
-    // -------- Início Configurações de IR  ----
-    // -----------------------------------------
-    
     cout << "Digite o valor do salário bruto?... ";
     cin >> salario;
 
@@ -64,7 +62,10 @@ int main() {
     }
     
     irpfTotal = irpf1 + irpf2 + irpf3 + irpf4 + irpf5;
-    cout << "Importo de Renda: " << irpfTotal;
+    inssEmpregado = 0.11 * salario;
+    cout << "Importo de Renda: R$ " << irpfTotal << endl;
+    cout << "INSS Empregado: R$ " << inssEmpregado << endl;
 
 }
+    
 ```
