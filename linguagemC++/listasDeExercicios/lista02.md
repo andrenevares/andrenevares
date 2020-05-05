@@ -213,35 +213,85 @@ int main() {
 #### 6. Faça um programa que receba dois números e execute uma das operações listadas a seguir, de acordo com a escolha do usuário. Se for digitada uma opção inválida, mostre mensagem de erro e termine a execução do programa. As opções são:
 
 a) O primeiro número elevado ao segundo número.
-##### Algoritmo
-``` 
-```
-##### Código em C++:
-``` 
-``` 
-
-
 b) Raiz quadrada de cada um dos números.
-
-##### Algoritmo
-``` 
-```
-##### Código em C++:
-``` 
-``` 
-
-
 c) Raiz cúbica de cada um dos números.
 
 ##### Algoritmo
 ``` 
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    int n1, n2, opcao;
+    cout << "Por favor, digite o primeiro número... ";
+    cin >> n1;
+    cout << "Por favor, digite o segundo número... ";
+    cin >> n2;
+    cout << "\n\n\n";
+    cout << "[ 1 ] O primeiro número elevado ao segundo número" << endl;
+    cout << "[ 2 ] Raiz quadrada de cada um dos números." << endl;
+    cout << "[ 3 ] Raiz cúbica de cada um dos números." << endl;
+    cout << "-------------------------------------------------" << endl;
+    cout << "Por favor digite a opção... ";
+    cin >> opcao;
+    switch (opcao){
+        case 1:
+            cout << "\n\n\n";
+            cout << n1 << " elevado a " << n2 << " é igual a " << pow(n1,n2);
+            break;
+        case 2:
+            cout << "\n\n\n";
+            cout << "A raiz quadrada de " << n1 << " é " << sqrt(n1) << endl;
+            cout << "A raiz quadrada de " << n2 << " é " << sqrt(n2) << endl;
+            break;
+        case 3:
+            cout << "\n\n\n";
+            cout << "A raiz cúbica de " << n1 << " é " << cbrt(n1) << endl;
+            cout << "A raiz cúbica de " << n2 << " é " << cbrt(n2) << endl;
+            break;
+        
+    }
+}
 ```
 ##### Código em C++:
 ``` 
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    int n1, n2, opcao;
+    cout << "Por favor, digite o primeiro número... ";
+    cin >> n1;
+    cout << "Por favor, digite o segundo número... ";
+    cin >> n2;
+    cout << "\n\n\n";
+    cout << "[ 1 ] O primeiro número elevado ao segundo número" << endl;
+    cout << "[ 2 ] Raiz quadrada de cada um dos números." << endl;
+    cout << "[ 3 ] Raiz cúbica de cada um dos números." << endl;
+    cout << "-------------------------------------------------" << endl;
+    cout << "Por favor digite a opção... ";
+    cin >> opcao;
+    switch (opcao){
+        case 1:
+            cout << "\n\n\n";
+            cout << n1 << " elevado a " << n2 << " é igual a " << pow(n1,n2);
+            break;
+        case 2:
+            cout << "\n\n\n";
+            cout << "A raiz quadrada de " << n1 << " é " << sqrt(n1) << endl;
+            cout << "A raiz quadrada de " << n2 << " é " << sqrt(n2) << endl;
+            break;
+        case 3:
+            cout << "\n\n\n";
+            cout << "A raiz cúbica de " << n1 << " é " << cbrt(n1) << endl;
+            cout << "A raiz cúbica de " << n2 << " é " << cbrt(n2) << endl;
+            break;
+        
+    }
+}
 ``` 
-
-
-
 
 #### 7. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
 
