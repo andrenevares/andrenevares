@@ -4,12 +4,13 @@ using namespace std;
 
 int main() {
     float salario, salarioLiquido;
-
+    int opcaoMes, anoReferencia;
+    char nome[15], sobrenome[15];
+    int mes = 0;
     
     // Variáveis INSS
     float inssEmpregado;
     int aliquotaInss;
-    
     
     // Variáveis IR
     float baseCalculoIr, bcIr1, bcIr2, bcIr3, bcIr4, bcIr5;
@@ -23,11 +24,20 @@ int main() {
     faixaIr = aliquotaInss = inssEmpregado = irpf1 = irpf2 = irpf3 = irpf4 = irpf5 = 0; 
     
     // Atribuindo variáveis teste.
-    char nome[] = "Zé das Couves";
+    
+    cout << "Digite o primeiro nome do funcionário sem espaço... ";
+    cin >> nome;
+    cout << "Digite o primeiro sobrenome do funcionário sem espaço... ";
+    cin >> sobrenome;
+    cout << "\n\n";
+    
+    cout << "Digite o mês de referência 1 a 12... ";
+    cin >> mes;
+    cout << "Digite o ano de referência Ex. 2011... ";
+    cin >> anoReferencia;
     
     cout << "Digite o valor do salário bruto?... ";
     cin >> salario;
-
 
 
     // Primeiro Calculamos o INSS 
@@ -101,14 +111,15 @@ int main() {
     
     // Cálculo total dos descontos
     salarioLiquido = salario - irpfTotalEmpregado - inssEmpregado;
-    
     cout << "\n\n";
     cout << "*******************************************************" << endl;
     cout << "***    ZE DAS COUVES LTDA - 72.503.000/0001-15     ****" << endl;
     cout << "*******************************************************" << endl;
+    system("pause");
     cout << "\n";
-    cout << "Funcionário: " << nome << endl;
+    cout << "Funcionário: " << nome << sobrenome << endl;
     cout << "Cargo: Desenvolvedor Júnior" << endl;
+    cout << "Mês de redereência: " << mes << "/" << anoReferencia << endl;
     cout << "\n";
     cout << "Base de Cálculo IR......................... R$ " << baseCalculoIr << endl;
     cout << "\n";
@@ -118,9 +129,20 @@ int main() {
     cout << "-------------------------------------------------------" << endl;
     cout << "4. = Salário Líquido....................... R$ " << salarioLiquido << endl;
     cout << "\n";
-    cout << "5. Total dos descontos: R$ " << inssEmpregado + irpfTotalEmpregado << endl;
-    
-    cout << "FGTS: R$ " << fgts << endl;
-
+    cout << "\n";
+    cout << "-------------------------------------------------------" << endl;
+    cout << "\n";
+    cout << "Total dos Vencimentos...................... R$ " << salario << endl;
+    cout << "Total dos Descontos........................ R$ " << irpfTotalEmpregado + inssEmpregado << endl;
+    cout << "Valor Líquido.............................. R$ " << salarioLiquido << endl;
+    cout << "\n";
+    cout << "-------------------------------------------------------" << endl;
+    cout << "\n";
+    cout << "Salário Base............................... R$ " << endl;
+    cout << "Sal. Contribuição INSS..................... R$ " << endl;
+    cout << "Base de Cálculo FGTS....................... R$ " << endl;
+    cout << "FGTS do mês................................ R$ " << fgts << endl;
+    cout << "Base de Cálculo IRPF....................... R$ " << endl;
+    cout << "Faixa IRPF................................. R$ " << endl;
 }
-    ```
+```
