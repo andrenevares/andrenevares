@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main() {
@@ -9,10 +8,7 @@ int main() {
     cin >> a;
     cout << "qual o valor de b? ";
     cin >> b;
-    
-    x = (a + b * b) / 3 ;
-    
-    cout << x;
-    
+    x = ((a + b * b) / 3) + ((a - b) / 4 * b) ;
+
+    cout << "\nO valor de X é .... " << x;
 }
-    
