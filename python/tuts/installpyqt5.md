@@ -5,13 +5,13 @@ Nós pesquisamos e indicamos que seja instalado via prompt de comando, mais espe
 
 ## Como executar um CMD como administrador no windows
 
-1. Dentro do campo de pesquisa na barra de ferramentas do windows, digite cmd
-2. Irá aparecer a aplicação Prompt de Comando
-3. Clique com o botão direito do mouse em cima do Prompt de comando;
+1. Dentro do campo de pesquisa na barra de ferramentas do windows, digite ```cmd```
+2. Irá aparecer a aplicação ```Prompt de Comando```;
+3. Clique com o botão direito do mouse em cima do ```Prompt de Comando```;
 4. Irá se abrir uma janela... Selecione Executar como administrador
 5. Provavelmente o Windows irá perguntar: Deseja permitir que o aplicativo faça alterações no seu dispositivo;
 6. Clique em sim!
-7. Pronto irá aparecer o Prompt de Comando;
+7. Pronto irá aparecer o ```Prompt de Comando```;
 
 ## Instalar via PIP
 
