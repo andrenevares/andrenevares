@@ -1,5 +1,7 @@
 # Como instalar pyqt5
 
+Se quiser fazer o download pelo site do desenvolvedor visite [riverbankcomputing.com](https://riverbankcomputing.com/software/pyqt/download5)
+
 # Abra um prompt de comando como administrador
 Nós pesquisamos e indicamos que seja instalado via prompt de comando, mais especificamente como administrador 
 
