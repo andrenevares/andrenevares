@@ -17,6 +17,11 @@ Nós pesquisamos e indicamos que seja instalado via prompt de comando, mais espe
 
 ## Instalar via PIP
 
-Na janela aberta digite: ```pip install pyqt5```
+Na janela aberta digite: ```pip install pyqt5```.
+
+Será instalada a __última versão estável__ da biblioteca.
+
+
+
 
 
