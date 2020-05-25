@@ -12,7 +12,8 @@ cd nomeDoProjeto
 ```
 
 ### Criar um ambiente virtual dentro dessa pasta.  Chame de venv ou env... ou algo óbvio
-```pyvenv venv```
+digite:
+```virtualenv venv```
 
 ### Adicione venv no seu .gitignore:
 ```
