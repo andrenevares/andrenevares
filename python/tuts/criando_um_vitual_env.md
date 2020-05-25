@@ -6,8 +6,10 @@ para todos os usuários e projetos na máquina. Felizmente, é fácil criar um a
 
 ## A melhor prática é:
 ### Criar um diretório 
-- Make a project folder:
-```mkdir myproject && cd myproject```
+```
+mkdir nomeDoProjeto
+cd nomeDoProjeto
+```
 
 ### Criar um ambiente virtual dentro dessa pasta.  Chame de venv ou env... ou algo óbvio
 ```pyvenv venv```
@@ -22,7 +24,6 @@ Isso mantém o seu ambiente virtual fora do controle de versão do git.
 ### Ative o ambiente virtual:
 ```activate venv/bin/activate```
 
-
 ### instale alguma coisa:
 ```pip install django```
 
@@ -32,6 +33,7 @@ Isso mantém o seu ambiente virtual fora do controle de versão do git.
 ### coloque o requirements.txt dentro do controle de versionamento:
 ```git add requirements.txt```
 
+## Resumo
 A idéia aqui é simples. Seu ambiente virtual permanecerá em sua própria pasta, e não vai ser clonado para o GIT. 
 
 Dessa forma, seu ambiente não polui a raiz do seu projeto. 
