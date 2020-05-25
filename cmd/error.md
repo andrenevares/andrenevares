@@ -1,3 +1,4 @@
+```
 Warning: QT_DEVICE_PIXEL_RATIO is deprecated. Instead use:
    QT_AUTO_SCREEN_SCALE_FACTOR to enable platform plugin controlled per-screen factors.
    QT_SCREEN_SCALE_FACTORS to set per-screen DPI.
@@ -13,3 +14,5 @@ Traceback (most recent call last):
   File "youtubechannel.py", line 68, in on_load_finished
     @QtCore.pyqtSlot(bool)
 KeyboardInterrupt
+
+```
