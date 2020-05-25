@@ -86,7 +86,7 @@ class YTScrapper(QtCore.QObject):
 
 def main():
     yt_scrapper = YTScrapper(
-        "https://www.youtube.com/channel/UCY50YjnaeI7ezvRagFWeWmw/videos"
+        "https://www.youtube.com/user/schafer5/videos"
     )
     for i, title in enumerate(yt_scrapper.titles, start=1):
         print(f"{i}. {title.encode('utf-8')}")
