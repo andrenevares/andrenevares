@@ -8,6 +8,10 @@
 
 ## Videos Class 
 - [Introduction to Python By Jessica McKellar](https://learning.oreilly.com/videos/introduction-to-python/9781491904794)
-- [Intermediate Python Programming By Jessica McKellar](https://learning.oreilly.com/videos/introduction-to-python/9781491904794)
+- [Intermediate Python Programming By Jessica McKellar](https://learning.oreilly.com/videos/introduction-to-python/9781491904794).
 
-
+## Summary of Chapter One
+- First Scrape
+- Diferent Parsers 
+- Hello Beautiful Soup
+- Handling with errors (try except)
