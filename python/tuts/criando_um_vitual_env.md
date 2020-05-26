@@ -18,7 +18,7 @@ digite:
 ### Adicione venv no seu .gitignore:
 ```
 git init
-echo 'venv' > .gitignore
+venv\scripts\activate
 ```
 Isso mantém o seu ambiente virtual fora do controle de versão do git.
 
