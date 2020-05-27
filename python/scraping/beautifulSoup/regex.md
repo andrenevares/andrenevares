@@ -37,6 +37,7 @@
 ## Símbolos mais usados em regular expressions
 
 | Símbolo  | Significado   | Sintax Exemplo  | Exemplos de match  |
+| -  | -   | -  | -  |
 | *  | Matches the preceding character, subexpression, or bracketed character, 0 or more times.   | ```a*b*```  | aaaaaaaa, aaabbbbb, bbbbbb|
 | +  | Matches the preceding character, subexpression, or bracketed character, 1 or more times.   | ```a+b+```  | 
 aaaaaaaab, aaabbbbb, abbbbbb  |
