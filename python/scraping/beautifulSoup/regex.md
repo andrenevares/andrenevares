@@ -22,7 +22,7 @@
 ### Dissencando:
 
 #### aa*  
-- Aqui temos pelo menos uma letra 'a' caracterizada por esta __a__a
+- Aqui temos pelo menos uma letra 'a' caracterizada por esta **a**a
 #### bbbbb  
 - Aqui não há muito o que se falar... são tão somente *__bbbbb'__* ou seja uma sequência de __5 letras *'b'__*
 #### aa*  
