@@ -11,3 +11,22 @@
 3. Adicione a letra *__'c'__* um número par de vezes; 
 4. Adicione pelo menos uma das letras *__'d'__* ou *__'e'__*; 
 
+### Exemplos que seguem essa Regra
+- aaaabbbbbccccd
+- aabbbbbcce
+- (...)
+
+### Como escrever essa regular expression?
+```aa*bbbbb(cc)*(d|e)```
+
+### Dissencando:
+
+#### aa*  
+- Aqui temos pelo menos uma letra 'a' caracterizada por esta __a__a
+#### bbbbb  
+- Aqui não há muito o que se falar... são tão somente *__bbbbb'__* ou seja uma sequência de __5 letras *'b'__*
+#### aa*  
+
+#### aa*  
+
+#### aa*  
