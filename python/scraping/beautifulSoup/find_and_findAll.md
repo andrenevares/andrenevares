@@ -38,6 +38,11 @@ print(len(names))
 - procuramos algo como ```<span>the prince</span>``` ou ```<h1>the prince</h1>```
 
 ## limit
+Você poderá definir quantos elementos você quer retornar.
+
+- Por exemplo ao colocar ```.find_all()``` com limit 5 estaremos colocando para retornar o limite de 5 e não todos os elementos da página!
+- ```.find()``` pe igual ```.find_all()``` com limit 1;
+
 
 ## keywords
 
