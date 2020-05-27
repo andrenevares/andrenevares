@@ -23,7 +23,7 @@
 
 #### aa*  
 - Aqui temos pelo menos uma letra 'a' caracterizada por esta **a**a\*
-- a segunda parte em negrito a**a**_\*_  sdasdds
+- a segunda parte em negrito a**a**__\*__  sdasdds
 #### bbbbb  
 - Aqui não há muito o que se falar... são tão somente *__bbbbb'__* ou seja uma sequência de __5 letras *'b'__*
 
