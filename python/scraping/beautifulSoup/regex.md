@@ -23,12 +23,13 @@
 
 #### aa*  
 - Aqui temos pelo menos uma letra 'a' caracterizada por esta **a**a\*
-- a segunda parte em negrito a**a**__\*__  sdasdds
+- a segunda parte em negrito a**a**__\*__  representa a letra 'a' um número x de vezes.  Pode ser 0, quando teríamos tão somente ___a___ ou qualquer outro número como 4, quando teríamos ___aaaaa___
+
 #### bbbbb  
 - Aqui não há muito o que se falar... são tão somente *__bbbbb'__* ou seja uma sequência de __5 letras *'b'__*
 
-#### aa*  
+#### (cc)*
+- Aqui teremos úm número par N vezes
 
-#### aa*  
-
-#### aa*  
+#### (d|e)
+- Aqui poderá ser d ou e ... ou ambos !
