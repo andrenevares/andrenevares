@@ -41,8 +41,8 @@
 | ```*```  | Matches the preceding character, subexpression, or bracketed character, 0 or more times.   | ```a*b*```  | aaaaaaaa, aaabbbbb, bbbbbb|
 | ```+```  | Matches the preceding character, subexpression, or bracketed character, 1 or more times.   | ```a+b+```  | aaaaaaaab, aaabbbbb, abbbbbb|
 | ```[]```  | Matches any character within the brackets (i.e., “Pick any one of these things”)   | ```[A-Z]*``` | APPLE, CAPITALS, QWERTY  |
-| ```()```  | A grouped subexpression (these are evaluated first, in the “order of operations” of regular expressions) | ```(a*b)*```  | -  |
-| ```{m, n}```  | -  |```a{2,3}b{2,3}``` |  -  |
+| ```()```  | A grouped subexpression (these are evaluated first, in the “order of operations” of regular expressions) | ```(a*b)*```  | aaabaab, abaaab, ababaaaaab |
+| ```{m, n}``` | Matches the preceding character, subexpression, or bracketed character between m and n times (inclusive).| ```a{2,3}b{2,3}``` | aabbb, aaabbb, aabb  |
 | ```[^]```| - | ```[^A-Z]*```| - |
 | ``` | ```| - | ``` b(a|i|e)d ```| - |
 | ```.```  | - | ```b.d```| - |
