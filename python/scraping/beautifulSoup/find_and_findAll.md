@@ -45,4 +45,13 @@ Você poderá definir quantos elementos você quer retornar.
 
 
 ## keywords
+Você poderá escolher um ou mais elementos para buscar
 
+Exemplo:
+```title = bs.find_all(id='title', class_='text')```
+
+```title = bs.find(id='title')```
+
+#### ATENÇÃO
+- ```class_```: Devemos usar class com o underscore por ser uma palavra reservada em __python__
+- ```id```: Note que é usada como palavra de identificação no HTML mas não é uma palavra reservada no __python__ ... por isso não usamos o underscore!
