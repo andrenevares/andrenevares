@@ -24,6 +24,18 @@ Nesse caso vamos buscar __header1__, __header2__, __header3__
 
 
 #### string
+> O livro _Web Scraping with Python, 2nd Edition_ utiliza a nomenclatura __Text__.  No entanto ao analisar a documentação do BeautifulSoup (27/05/2020) encontramos o termo __String__
+
+- Trata-se de algo extremamente específico.
+- O livro _Web Scraping with Python, 2nd Edition_ traz o exemplo de uma página HTML onde há determinados termos destacados por meio de ```<span></span>``` 
+- Dessa forma se colocarmos:
+
+```
+names = soup.find_all(text='the prince')
+print(len(names))
+```
+- iremos buscar o a expressão *__the prince__* que  esteja dentro de tags.
+- procuramos algo como ```<span>the prince</span>``` ou ```<h1>the prince</h1>```
 
 #### limit
 
