@@ -33,3 +33,10 @@
 
 #### (d|e)
 - Aqui poderá ser d ou e ... ou ambos !
+
+## Símbolos mais usados em regular expressions
+
+| Símbolo  | Significado   | Sintax Exemplo  | Exemplos de match  |
+| -  | -   | -  | -  |
+| -  | -   | -  | -  |
+
