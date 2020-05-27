@@ -2,12 +2,12 @@
 
 ```find_all(tag, attributes, recursive, string, limit, keywords)```
 
-#### tag
+## tag
 exemplo: 
 ```.find_all(['h1','h2','h3'])```
 Nesse caso vamos buscar __header1__, __header2__, __header3__
 
-#### attributes
+## attributes
 ```.find_all('span', {'class':{'green', 'red'}})```
 é a mesma coisa que
 
@@ -15,7 +15,7 @@ Nesse caso vamos buscar __header1__, __header2__, __header3__
 > class é uma palavra reservada.  Então o Beuatiful soup encontrou duas maneiras de permitir o uso da palavra. A primeira usando dentro de colchetes 
 ```{ }``` a outra é utilizando um *__undersore__*
 
-#### recursive
+## recursive
 É um elemento do tipo Boolean ou seja terá valor ```True``` ou ```False```.
 - Por padrão o BeatutifulSoup adota o padrão ```True```
 
@@ -23,7 +23,7 @@ Nesse caso vamos buscar __header1__, __header2__, __header3__
 - ```False```: Ao usar ```find.all()``` com valor de recursividade = ```False``` será feita uma busca __apenas nos filhos__. Ous seja nos elementos imediatamente abaixo. 
 
 
-#### string
+## string
 > O livro _Web Scraping with Python, 2nd Edition_ utiliza a nomenclatura __Text__.  No entanto ao analisar a documentação do BeautifulSoup (27/05/2020) encontramos o termo __String__
 
 - Trata-se de algo extremamente específico.
@@ -37,7 +37,7 @@ print(len(names))
 - iremos buscar o a expressão *__the prince__* que  esteja dentro de tags.
 - procuramos algo como ```<span>the prince</span>``` ou ```<h1>the prince</h1>```
 
-#### limit
+## limit
 
-#### keywords
+## keywords
 
