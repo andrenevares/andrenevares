@@ -145,3 +145,192 @@ Hello
 >>> print("Hello "+name)
 Hello Andre
 ```
+
+
+# if / else / elif
+
+## Lógica comparativa
+
+### Boolean Data
+```
+>>> True
+True
+>>> type(True)
+<class 'bool'>
+```
+
+```
+>>> False
+False
+>>> type(False)
+<class 'bool'>
+```
+
+### Comparando em python...
+
+#### Sinal de igualdade
+```
+>>> 0 == 0
+True
+>>> 0 == 1
+False
+
+```
+
+#### Diferença entre ```=``` e ```==```
+```
+>>> x = 4
+>>> x
+4
+>>> x == 4
+True
+```
+> Observação: ```=``` representa atribuição.  Exemplo quando atribuímos a uma variável um valor, uma string... ```idade = 21```
+> Observação: ```==``` representa igualdade.  Exemplo ```21 == 21```  o resultado será ```True```
+
+
+#### Sinal de diferença
+```
+>>> 0 != 1
+True
+```
+
+#### Python é case sensitive
+```
+>>> "a" == "A"
+False
+
+>>> print("Python is case sensitive!")
+Python is case sensitive!
+```
+#### Maior ou igual ```>=``` e Menor ou Igual ```<=```
+```
+>>> 1 > 0
+True
+>>> 2 >=3
+False
+>>> -1 <= 1
+True
+>>> .5 <= -2
+False
+```
+
+#### in
+```
+>>> "H" in "Hello"
+True
+```
+#### not in
+```
+>>> "X" not in "Hello"
+True
+```
+
+#### True vs. true
+```
+>>> true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> Type("true")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Type' is not defined
+>>> type("true")
+<class 'str'>
+>>> type(true)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> type(True)
+<class 'bool'>
+```
+
+## If
+```
+>>> if 6 > 5:
+...     print("Seis é maior que cinco")
+...
+Seis é maior que cinco
+```
+
+```
+>>> if 0>2:
+...     print("0 é maior que 2")
+... else:
+...     print("0 é menor que 2")
+...
+0 é menor que 2
+```
+
+```
+>>> if "banana" in "chiclete com banana":
+...     print("ok")
+... else:
+...     print("não")
+...
+ok
+```
+
+```
+>>> sister = 15
+>>> brother = 12
+>>> if sister > brother:
+...     print("A irmã é mais velha")
+... else:
+...     print("O irmão é mais velho")
+...
+A irmã é mais velha
+```
+
+#### and
+
+``` 
+>>> x=1
+>>> x > 0 and x < 2
+True
+```
+
+```
+>>> 1 < 2 and 5 > 3
+True
+```
+
+```
+>>> 1 > 2 and 5 > 3
+False
+```
+
+#### or
+```
+>>> x > 0 or x < 2
+True
+```
+```
+>>> 1 > 2 or  5>3
+True
+```
+
+## If / else
+```
+>>> temp = 41
+>>> if temp > 20 and temp < 34:
+...     print("A temperatura está agradável")
+... else:
+...     print("A temperatura está muito quente")
+...
+A temperatura está muito quente
+```
+## If / elif / else
+```
+>>> sister = 15
+>>> brother = 15
+>>> if sister > brother:
+...       print("A irmã é mais velha")
+... elif brother < sister:
+...      print("O irmão é mais velho")
+... else:
+...     print("Ambos tem a mesma idade!")
+...
+Ambos tem a mesma idade!
+```
