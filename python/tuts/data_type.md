@@ -334,3 +334,205 @@ A temperatura está muito quente
 ...
 Ambos tem a mesma idade!
 ```
+
+# List
+
+
+```
+>>> your_list = ["a", "b", "c"]
+>>> your_list
+['a', 'b', 'c']
+```
+
+```
+>>> type(your_list)
+<class 'list'>
+```
+
+```
+>>> len(your_list)
+3
+```
+
+```
+>>> "a" in your_list
+True
+
+>>> "z" in your_list
+False
+```
+
+```
+>>> "z" not in your_list
+True
+```
+
+```
+>>> your_list[0]
+'a'
+>>> your_list[1]
+'b'
+>>> your_list[2]
+'c'
+```
+
+```
+>>> your_list[3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+```
+
+```
+>>> your_list[-1]
+'c'
+>>> your_list[-2]
+'b'
+```
+
+```
+>>> your_list.append("d")
+>>> your_list
+['a', 'b', 'c', 'd']
+```
+
+```
+>>> her_list = []
+>>> len(her_list)
+0
+```
+
+```
+>>> names =['slash', 'Axl']
+>>> names.append('izzy', 'duff', 'steve')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: append() takes exactly one argument (3 given)
+>>> names.appends('izzy', 'duff', 'steve')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'appends'
+```
+
+```
+>>> names.append( 'steve')
+>>> names
+['slash', 'Axl', 'steve']
+```
+
+```
+>>> names[2]
+'steve'
+```
+
+```
+>>> names[2] = 'jimmy'
+>>> names
+['slash', 'Axl', 'jimmy']
+```
+```
+>>> names.append( 'bob')
+>>> names.append('andrew')
+>>> names.append('leo')
+>>> names
+['slash', 'Axl', 'jimmy', 'bob', 'andrew', 'leo']
+```
+
+```
+>>> len(names) - 1
+5
+```
+
+```
+>>> names[len(names) - 1 ]
+'leo'
+```
+
+```
+>>> names[-1]
+'leo'
+>>> names[-2]
+'andrew'
+```
+
+```
+>>> my_name = "André"
+```
+
+
+```
+>>> my_name
+'André'
+```
+
+```
+>>> my_name[0]
+'A'
+>>> my_name[1]
+'n'
+>>> my_name[2]
+'d'
+>>> my_name[3]
+'r'
+>>> my_name[4]
+'é'
+```
+
+```
+>>> names
+['slash', 'Axl', 'jimmy', 'bob', 'andrew', 'leo']
+```
+
+```
+>>> names.reverse()
+```
+
+```
+['leo', 'andrew', 'bob', 'jimmy', 'Axl', 'slash']
+```
+>>> names.sort()
+>>> names
+['Axl', 'andrew', 'bob', 'jimmy', 'leo', 'slash']
+
+
+```
+>>> names.insert(0, 'izzy')
+>>> names
+['izzy', 'slash', 'axl', ' jimmy', 'bob', 'leo']
+```
+
+```
+>>> names.insert(2,'dizzy')
+>>> names
+['izzy', 'slash', 'dizzy', 'axl', ' jimmy', 'bob', 'leo']
+```
+
+```
+>>> names.remove('leo')
+```
+
+```
+>>> names
+['izzy', 'slash', 'dizzy', 'axl', ' jimmy', 'bob']
+```
+
+```
+>>> names.remove('izzy')
+```
+```
+>>> names
+['slash', 'dizzy', 'axl', ' jimmy', 'bob']
+```
+
+```
+>>> names.append('bob')
+>>> names.append('bob')
+>>> names.append('bob')
+```
+```
+>>> names
+```
+```
+['slash', 'dizzy', 'axl', ' jimmy', 'bob', 'bob', 'bob', 'bob']
+```
+
