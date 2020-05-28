@@ -536,3 +536,120 @@ AttributeError: 'list' object has no attribute 'appends'
 ['slash', 'dizzy', 'axl', ' jimmy', 'bob', 'bob', 'bob', 'bob']
 ```
 
+# Loops
+
+Criemos uma lista de nomes
+```
+>>> names = ['andre', 'camila', 'rafael', 'sookie', 'nina']
+```
+
+Se eu quiser imprimir cada nome
+```
+>>> for name in names:
+...     print(name)
+```
+```
+andre
+camila
+rafael
+sookie
+nina
+```
+
+Veja que a variável antes chamada de nome poderia ser, por exemplo, x
+```
+>>> for x in names:
+...     print(x)
+...
+andre
+camila
+rafael
+sookie
+nina
+```
+
+Ou poderia ser a palavre ```word``` concatenada com ```Olá```
+```
+>>> for word in names:
+...     print("Olá " + word)
+...
+Olá andre
+Olá camila
+Olá rafael
+Olá sookie
+Olá nina
+```
+
+E se quisessemos imprimir somente os nomes que começam com uma vogal?
+
+Como poderíamos fazer?
+
+
+Vamos definir primeiro uma variável ```name```
+```
+>>> name = "andré"
+>>> name
+'andré'
+```
+
+Para pegar a primeira letra da variável ```name``` basta usarmos ```name[0]``` certo?
+
+Existem duas maneiras de fazer isso!
+
+Maneira 01 - Verificando se está dentro de uma lista de caracateres tipo string
+```
+>>> name[0] in ['a', 'b', 'c', 'd', 'e']
+True
+```
+Maneira 02 - MELHOR - colocar uma string com todos os dados que você queira 
+- Afinal uma ```string``` é uma sequência de caracteres!
+```
+>>> name[0] in "aeiou"
+True
+```
+
+Agora basta colocar dentro do for...
+```
+>>> for name in names: 
+...     if name[0] in "aeiou":
+...             print(name + " começa com uma vogal")
+...
+andre começa com uma vogal
+```
+
+E se eu quisesse fazer uma lista com os nomes que começam com uma vogal?
+```
+>>> vowel_names = []
+>>> for name in names:
+...     if name[0] in "aeiou":
+...             vowel_names.append(name)
+```
+
+Ao chamar a lista, no nosso caso, deveremos ter um nome apenas...  Na nossa lista apenas ```andré``` começa com uma vogal
+```
+>>> vowel_names
+['andre']
+```
+
+E se quisessemos calcular a soma de todos os valores de uma lista de preços
+
+```
+>>> prices = [1.5, 2.35, 8.0, 7.58, 356.57]
+```
+
+```
+>>> total = 0
+>>> for price in prices:
+...     total = total + price
+```
+
+```
+>>> total
+376.0
+```
+
+Graças a deus alguém já criou uma função dessas... Com uma linha de código resolvemos o nosso problema!
+```
+>>> sum(prices)
+376.0
+```
