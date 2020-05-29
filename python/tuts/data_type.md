@@ -656,3 +656,78 @@ Graças a deus alguém já criou uma função dessas... Com uma linha de código
 
 # Dictionaries
 
+```
+>>> ice_cream = {"Alice": "Chocolate", "Bob" : "Morango","Clara" : "Baunilha"}
+```
+```
+>>> ice_cream
+{'Alice': 'Chocolate', 'Bob': 'Morango', 'Clara': 'Baunilha'}
+```
+
+```
+>>> ice_cream["Alice"]
+'Chocolate'
+```
+
+```
+>>> ice_cream["Bob"]
+'Morango'
+```
+Se colocarmos uma chave que não existe __retornará erro__
+```
+>>> ice_cream["Slash"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'Slash'
+```
+Para adcionar um item basta...
+```
+>>> ice_cream["Eve"] = "Coco"
+```
+Chamando o dicionário vemos:
+```
+>>> ice_cream
+{'Alice': 'Chocolate', 'Bob': 'Morango', 'Clara': 'Baunilha', 'Eve': 'Coco'}
+```
+Apenas checando o valor atribuído à Eve
+```
+>>> ice_cream["Eve"]
+'Coco'
+```
+
+Podemos verificar se uma chave se encontra dentro de um dicionário...
+```
+>>> "Eve" in ice_cream
+True
+```
+Imaginemos que nós tenhamos um amigo chamado Bob que goste de milho verde...
+```
+>>> ice_cream["Bob"] = "Milho Verde"
+```
+Quando nós colocamos ele aparece no nosso dicionário, certo?
+```
+>>> ice_cream
+{'Alice': 'Chocolate', 'Bob': 'Milho Verde', 'Clara': 'Baunilha', 'Eve': 'Coco'}
+```
+Agora, digamos que tenhamos um outro amigo chamado BOB que goste de Baunilha... O que será que acontece?
+
+```
+>>> ice_cream["Bob"] = "Baunilha"
+>>> ice_cream
+{'Alice': 'Chocolate', 'Bob': 'Baunilha', 'Clara': 'Baunilha', 'Eve': 'Coco'}
+```
+##### ATENÇÃO!
+- As chaves em um dicionário devem ser valores únicos
+- mas os valores não...  
+- sendo assim eu teria que chamar de BOB e BOB2 por exemplo
+- no entanto não há problema se tivermos duas chaves com o mesmo valor atribuido!
+
+#### Criando uma lista vazia
+```
+>>> phone_numbers = {}
+```
+#### Vendo um tipo de dicionário
+```
+>>> type(phone_numbers)
+<class 'dict'>
+```
