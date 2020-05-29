@@ -653,3 +653,6 @@ Graças a deus alguém já criou uma função dessas... Com uma linha de código
 >>> sum(prices)
 376.0
 ```
+
+# Dictionaries
+
