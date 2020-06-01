@@ -1,15 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 
-pagina = "https://pythonprogramming.net/parsememcparseface/"
+page = "https://en.wikipedia.org/wiki/Main_Page"
 
-fonte = requests.get(pagina).text
+page_text = requests.get(page).text
 
-soup = BeautifulSoup(fonte, 'lxml')
+soup = BeautifulSoup(page_text, 'lxml')
 
 # print(soup)
+links = []
+links = soup.find_all("a")
+print(links)
 
-# for paragrafo in soup.find_all('p'):
-#     print(paragrafo.text)
-
-print(soup.get_text())
+# print(soup.get_text())
