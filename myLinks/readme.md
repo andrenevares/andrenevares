@@ -1,5 +1,5 @@
-# Links 
-
+## O´Reileys
+- [Intermediate Python](https://learning.oreilly.com/videos/intermediate-python-programming/9781491954935/)
 ## Estácio
 - [Estácio - Google Drive](https://drive.google.com/drive/u/0/folders/1cXJDSOf5wJgxgeQShHgjk0AwnyqVpznK)
 - [SIA - Estácio](https://sia.estacio.br/sianet/logon)
