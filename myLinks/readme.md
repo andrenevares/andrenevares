@@ -3,6 +3,7 @@
 ## Estácio
 - [Estácio - Google Drive](https://drive.google.com/drive/u/0/folders/1cXJDSOf5wJgxgeQShHgjk0AwnyqVpznK)
 - [SIA - Estácio](https://sia.estacio.br/sianet/logon)
+- [Biblioteca Virtual Estácio](https://plataforma.bvirtual.com.br/Account/Login?redirectUrl=%2FLeitor%2FPublicacao%2F3272%2Fpdf%2F0)
 
 ## Estratégia
 - [Resumos - Estratégia](https://drive.google.com/drive/u/0/folders/1xfVlSlSns84V1FVaE6i0Wu_89HnOrEGi)
