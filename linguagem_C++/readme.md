@@ -32,6 +32,7 @@
 - [Concatenar](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/concatenar.md)
 - [Principais Bibliotecas em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/principaisBibliotecasC++.md)
 - [Funções Matemáticas em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/funcoesMatematicasC%2B%2B.md)
+- [While](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/while.md)
 ## Listas de Exercícios 
 - [Lista de Exercícios 01 - 25 exercícios](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/listasDeExercicios/lista01.md)
 - [Lista de Exercícios 02 - 25 exercícios](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/listasDeExercicios/lista02.md)
