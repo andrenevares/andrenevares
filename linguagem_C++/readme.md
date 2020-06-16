@@ -21,6 +21,7 @@
 > Estamos frequentemente atualizando cada conteúdo.
 - [Loops - FOR](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/for_em_cpp.md)
 - [Loops - Exercício Fatorial](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/loop_exercicio_fatorial.md)
+- [Loops - While](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/loops_while_cpp.md)
 - [Sintaxe Básica C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/sintaxeBasicaC%2B%2B.md)
 - [Condicionais em C++ - If, Else, Else if](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
 - [Condicionais em C++ - Switch](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturasCondicionaisC%2B%2BSwitch.md)
