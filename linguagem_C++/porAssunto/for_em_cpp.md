@@ -33,7 +33,7 @@ int main() {
 ````
 
 
-## Decrescento 1
+## Decrease 1
 > ```i--```  é a mesma coisa que ```i = i - 1```
 ``` 
 #include <iostream>
@@ -48,3 +48,24 @@ int main() {
 }
 
 ````
+
+## Com input do user
+
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int nVezes;
+    
+    cout << "Quantas vezes você quer que haja o loop? ";
+    cin >> nVezes;
+    
+    for (int i = nVezes; i >=0; i--) {
+        cout << i << endl;
+}
+    return 0;
+}
+```
