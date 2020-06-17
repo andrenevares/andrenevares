@@ -193,3 +193,22 @@ int main () {
   return 0;
 }
 ```
+
+## Array 2D
+- Esse tipo de array temos linhas e colunas;
+- 3 x 3 - 3 linhas e 3 colunas;
+- 4 x 2 - 4 linhas e 2 colunas;
+- 2 x 3 - 2 linhas e 3 colunas;
+
+```int meuArray2D[numero_de_linhas][numero_de_colunas]```
+
+#### passo 1 defino o tipo de dado do meu array
+```int meuArray2D[3][3] = {{} {} {}}```
+#### passo 2 determino a estrutura da matriz
+```int meuArray2D[3][3] = {{} {} {}}```
+#### passo 3 coloco a estrutura
+```int meuArray2D[3][3] = {{} {} {}}```
+#### passo 4 coloco os dados
+```int meuArray2D[3][3] = {{} {} {}}```
+
+
