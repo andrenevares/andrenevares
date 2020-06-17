@@ -203,12 +203,41 @@ int main () {
 ```int meuArray2D[numero_de_linhas][numero_de_colunas]```
 
 #### passo 1 defino o tipo de dado do meu array
-```int meuArray2D[3][3] = {{} {} {}}```
+```int meuArray2D```
 #### passo 2 determino a estrutura da matriz
-```int meuArray2D[3][3] = {{} {} {}}```
+```int meuArray2D[3][3]```
 #### passo 3 coloco a estrutura
-```int meuArray2D[3][3] = {{} {} {}}```
+```int meuArray2D[3][3] = {{}, {}, {}}```
 #### passo 4 coloco os dados
-```int meuArray2D[3][3] = {{} {} {}}```
+```int meuArray2D[3][3] = {{12,13,14} {21,22,23} {31,32,33}}```
+
+#### melhor visualização
+
+```
+    int meuArray2D[3][3] = { {12,13,14}, 
+                             {21,22,23}, 
+                             {31,32,33}  };
+```
 
 
+#### Exibindo o meu array
+
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main () {
+    
+    int meuArray2D[3][3] = { {12,13,14}, 
+                             {21,22,23}, 
+                             {31,32,33}  };
+                             
+    cout << meuArray2D[1][2]; 
+    // vai imprimir a segunda linha, terceira coluna
+    // lembrar que há indexação de 0
+
+  return 0;
+}
+```
