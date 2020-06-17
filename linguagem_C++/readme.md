@@ -25,6 +25,7 @@
 - [Condicionais em C++ - Switch](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturasCondicionaisC%2B%2BSwitch.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
 - [Concatenar](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/concatenar.md)
+- Funções em C++
 - [Funções Matemáticas em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/funcoesMatematicasC%2B%2B.md)
 - [Introdução a C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/oqueEhC%2B%2B.md)
 - [Loops - FOR](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/for_em_cpp.md)
