@@ -1,4 +1,5 @@
 # Array
+- É um tipo de dado estático
 
 ## Estrutura do Array
 ```int nomeArray[3] = { 1, 2, 3 }```
@@ -123,4 +124,72 @@ int main () {
   return 0;
 }
 
+```
+
+## Array com elementos a mais
+
+Digamos, por exemplo, que venhamos a definir um array de tamananho três. Só que no meio do código, esquecemos o nosso tamanho e adicionamos um quarto elemento.  O que será que acontece?  
+
+O resultado será que o código restará corrompido.  Dessa forma o array não terá nenhuma saida.
+
+### Vide exemplo: com erro
+
+
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main () {
+    
+    string minions[3];
+    
+    minions[0] = "Minion Bob";
+    minions[1] = "Minion Stewart";
+    minions[2] = "Minion Kevin";
+    minions[3] = "Minion Dave";
+
+    cout << minions[0] << endl;
+    cout << minions[1] << endl;
+    cout << minions[2] << endl;
+    cout << minions[3] << endl;
+    
+  return 0;
+}
+```
+
+Saída será:
+
+```
+Segment fault 
+
+... Program finhed with exit code 139
+```
+
+
+### Corrigindo o erro
+
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main () {
+    
+    string minions[4];
+    
+    minions[0] = "Minion Bob";
+    minions[1] = "Minion Stewart";
+    minions[2] = "Minion Kevin";
+    minions[3] = "Minion Dave";
+
+    cout << minions[0] << endl;
+    cout << minions[1] << endl;
+    cout << minions[2] << endl;
+    cout << minions[3] << endl;
+    
+  return 0;
+}
 ```
