@@ -161,3 +161,41 @@ O reultado foi
 - no primeiro objeto ```book``` nós chamamos a segunda função, logo o valor de ```price``` foi sobreposto para __100__;
 - no segunfo objeto ```book2``` nós __não__ chamamos a segunda função, logo somente o  __constructor___ foi chamado.
 - Dessa forma, o valor ```book2.price``` é atribuído pela função __constructor___, logo o valor é __500__.
+
+
+## Adicionando mais funções e propriedades;
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+// class name always start with Capital Letter (good practice)
+class Book {
+
+public:    
+    // variables and properties
+    int price;
+    string name, author, title;
+    //functions 
+    Book() {
+        // Setting default values ir user do not set any value.
+        name = "";
+        author = "";
+        title = "";
+        price = 100;  
+    }
+    void setPrice(int priceValue) {
+        price = priceValue;
+    }
+};
+
+int main(){
+        Book book; // criado o objeto book
+        book.setPrice();
+        Book book2;
+    
+    cout << book.price << endl;
+    cout << book2.price << endl;
+    return 0;
+}
+```
