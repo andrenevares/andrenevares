@@ -25,58 +25,23 @@ public:
     // variables and properties
     int price;
     //functions 
-    Book() {
+    Book() { 
         price = 100;  
-    }
+    } // Book é o constructor.  Tem o mesmo nome
 };
 
 int main() {
-        Book meuObjeto;
-    cout << meuObjeto.price;
+        Book book; // primeiro objeto com nome de book.  Poderia ser outro
+    cout << book.price;
     return 0;
 }
 ```
 
 O resultado será 100.
 
-## Criando um segundo objeto
+## Criando uma segunda função
 ```
-#include <iostream>
-#include <string.h>
 
-using namespace std;
-// class name always start with Capital Letter (good practice)
-class Book {
-
-public:    
-    // variables and properties
-    int price;
-    //functions 
-    Book() {
-        price = 100;  
-    }
-    void setPrice(){
-        price = 500;
-    }
-};
-
-
-int main()
-{
-        Book meuObjeto;
-    
-    cout << meuObjeto.price;
-
-    return 0;
-}
-```
-- O resultado continuará a ser 100;
-- a segunda função nunca foi chamada.
-- a única função que foi chamada foi a __constructor__, ou seja, aquela que recebe o nome da função
-- para chamar uma função que não seja __constructor__, nós temos que chamar explicitamente!
-
-```
-#include <iostream>
 #include <string.h>
 
 using namespace std;
@@ -99,10 +64,47 @@ public:
 
 
 int main(){
-        Book meuObjeto;
-        meuObjeto.setPrice();
+        Book book; // criado o objeto book
+        book.setPrice();
     
-    cout << meuObjeto.price;
+    cout << book.price;
+
+    return 0;
+}
+```
+- O resultado continuará a ser 100;
+- a segunda função nunca foi chamada.
+- a única função que foi chamada foi a __constructor__, ou seja, aquela que recebe o nome da função
+- para chamar uma função que não seja __constructor__, nós temos que chamar explicitamente!
+
+```
+
+#include <string.h>
+
+using namespace std;
+// class name always start with Capital Letter (good practice)
+class Book {
+
+public:    
+    // variables and properties
+    int price;
+    //functions 
+    Book() {
+        price = 100;  
+    }
+    
+    void setPrice(){
+        price = 500;
+    }
+    
+};
+
+
+int main(){
+        Book book; // criado o objeto book
+        book.setPrice();
+    
+    cout << book.price;
 
     return 0;
 }
@@ -115,3 +117,47 @@ int main(){
 - essa segunda função atribuiu a variável price o valor de 500;
 - desta forma o valor que será exibido será o de 500;
 
+## Criando um segundo objeto;
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+// class name always start with Capital Letter (good practice)
+class Book {
+
+public:    
+    // variables and properties
+    int price;
+    //functions 
+    Book() {
+        price = 100;  
+    }
+    
+    void setPrice(){
+        price = 500;
+    }
+    
+};
+
+int main(){
+        Book book; // criado o objeto book
+        book.setPrice();
+        Book book2;
+    
+    cout << book.price << endl;
+    cout << book2.price << endl;
+    return 0;
+}
+
+```
+O reultado foi
+```
+500
+100
+```
+
+- nós criamos um segundo objeto;
+- no primeiro objeto ```book``` nós chamamos a segunda função, logo o valor de ```price``` foi sobreposto para __100__;
+- no segunfo objeto ```book2``` nós __não__ chamamos a segunda função, logo somente o  __constructor___ foi chamado.
+- Dessa forma, o valor ```book2.price``` é atribuído pela função __constructor___, logo o valor é __500__.
