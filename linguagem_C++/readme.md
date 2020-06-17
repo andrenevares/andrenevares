@@ -21,7 +21,7 @@
 > Estamos frequentemente atualizando cada conteúdo.
 
 - [Array](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/array.md)
-- Class
+- [Class](https://github.com/andrenevares/andrenevares/blob/master/linguagem_C%2B%2B/porAssunto/class.md)
 - [Condicionais em C++ - If, Else, Else if](https://github.com/andrenevares/andrenevares/blob/master/linguagemC++/porAssunto/estruturasCondicionaisC++.md)
 - [Condicionais em C++ - Switch](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/estruturasCondicionaisC%2B%2BSwitch.md)
 - [Comentários em C++](https://github.com/andrenevares/andrenevares/blob/master/linguagemC%2B%2B/porAssunto/comentariosEmC%2B%2B.md)
