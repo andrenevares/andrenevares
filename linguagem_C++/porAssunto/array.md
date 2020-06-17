@@ -74,3 +74,53 @@ int main () {
   return 0;
 }
 ```
+
+## Array float
+
+```
+//Array
+
+#include <iostream>
+
+using namespace std;
+
+int main () {
+    
+    float nomeArray[3];
+    
+    nomeArray[0] = 10.1;
+    nomeArray[1] = 20.3;
+    nomeArray[2] = 30.4;
+
+    cout << nomeArray[0] << endl;
+    cout << nomeArray[1] << endl;
+    cout << nomeArray[2] << endl;
+
+  return 0;
+}
+```
+
+## Array string
+
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main () {
+    
+    string minions[3];
+    
+    minions[0] = "Bob";
+    minions[1] = "Stewart";
+    minions[2] = "Kevin";
+
+    cout << minions[0] << endl;
+    cout << minions[1] << endl;
+    cout << minions[2] << endl;
+
+  return 0;
+}
+
+```
