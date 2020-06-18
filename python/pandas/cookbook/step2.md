@@ -22,7 +22,7 @@
 - Crie um objeto chamado de ````dataframe```
 - Atribua a esse objeto o que está na variável ```url```
 
-### Passo 4 - Exibir as primeiras n linhas
+### Ver apenas algumas linhas superiores
 ```
 >>> dataframe.head(4)
 ```
@@ -35,17 +35,27 @@
 | 2 | Allison, Mr Hudson Joshua Creighton  |  1st | 30.0 | male | 0 | 0 |
 | 3 | Allison, Mrs Hudson JC (Bessie Waldo Daniels) |  1st | 25.0 | female | 0 | 1 |
 
-### Passo 5 - Mostrar dimensões
+
+### Se quiser ver as finais
+```
+>>> dataframe.tail(3)
+```
+
+
+### Ver número de linhas e colunas
 ```
 >>> dataframe.shape
 ```
 
 #### Resultado:
 ```(1313, 6)```
-- Nº de linhas: 1313
-- Nº de colunas: 6
+- Nº de linhas*: 1313
+- Nº de colunas**: 6
 
-### Passo 6 - ```Describe```
+> * A linha de título não enta no cálculo dessas linhas. No nosso exemplo, temos 1313 passageiros de fato
+> * A coluna de id (número da linha) gerado pelo pandas, não entra.  São 6 colunas de dados.
+
+### Estatísticas descritivas básicas
 ```
 >>> dataframe.describe()
 ```
