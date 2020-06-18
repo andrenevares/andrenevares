@@ -8,7 +8,9 @@
 ```
 
 ## Substituindo um valor
+```
 >>> dataframe['Sex'].replace("female", "Woman").head(10)
+```
 ##### Output
 ```
 0    Woman
