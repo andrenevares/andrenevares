@@ -5,6 +5,7 @@
 
 ### instalando pandas
 ```
+pip install pandas
 ```
 
 ### Importando pandas
