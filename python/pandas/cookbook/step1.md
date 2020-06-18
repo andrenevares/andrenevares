@@ -2,6 +2,10 @@
 > Exercícios adptados da plataforma oreilly.com deixamos o [link do material original](https://learning.oreilly.com/scenarios/python-ml-cookbook/9781492062783/)
 
 ## Começando
+- Abra um terminal ou prompt de comando
+- Se você estiver em uma máquina com sistema windows faça o seguinte:
+- Utilize o atalho ```win + r```
+- Na janela executar digite ```cmd``` e depos pressione a tecla ```Enter```
 
 ### instalando pandas
 ```
