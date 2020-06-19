@@ -7,7 +7,7 @@
 - [Step 4](https://github.com/andrenevares/andrenevares/blob/master/python/pandas/cookbook/step4.md): Condicionais
 - [Step 5](https://github.com/andrenevares/andrenevares/blob/master/python/pandas/cookbook/step5.md): Replace
 - [Step 6](https://github.com/andrenevares/andrenevares/blob/master/python/pandas/cookbook/step6.md): Rename
-- Step 7:
+- [Step 6](https://github.com/andrenevares/andrenevares/blob/master/python/pandas/cookbook/step6.md): Maximun, Minnimum, Sum, Count...
 - Step 8:
 - Step 9:
 - Step 10:
