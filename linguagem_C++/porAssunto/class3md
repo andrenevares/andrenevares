@@ -1,0 +1,62 @@
+# Class
+
+## Multiple constructor on a class
+- Podemos ter mais de um constructor
+- Nesse caso ele vai ter o mesmo nome da class
+- Mas tem que ter argumentos diferente
+- Se eu chasse apenas ```book``` seria chamado o primeiro constructor
+- Agora eu passando os parâmetros, vamos para o segundo constructor. 
+```
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+class Book {
+public:
+    // variables and properties
+    int price;
+    string name, author, title;
+    
+    // functions
+    Book(){
+        name = "";
+        author = "";
+        title = "";
+        price = 100;
+    }
+    Book(string nameOfBook, string nameOfAuthor, string titleOfBook, int price){
+        name = nameOfBook;
+        author = nameOfAuthor;
+        title = titleOfBook;
+        price = price;
+    }
+    void setPrice (int priceValue) {
+        if(priceValue > 0) {
+            price = priceValue;    
+        }
+        else
+            cout << "This is not a correct function" << endl;
+    }
+    
+    void setNameOfBook (string nameOfBook){
+        name = nameOfBook;
+    }
+    
+    void setAuthor (string authorName){
+        author = authorName;
+    }
+    
+    void setTitle(string titleOfBook){
+        title = titleOfBook;
+    }
+};
+
+int main() {
+    Book book("Learn C++", "Andre", "Learning C++", 300); //create a book objeto from class Book
+    
+    cout << book.author;
+    return 0;
+}
+
+```

@@ -1,6 +1,16 @@
 # Python
 
-- Data Types
+- Python
+- Beautiful Soup - _Get Data_
+- Scrapy - _Get Data_
+- Python and APIs - _Get Data_
+- Pandas - _Work with Data_
+- Numpy - _Work with Data_
+- SQL - 
+
+## Fontes
+- [w3schools](https://www.w3schools.com/python/)
+- [w3resourse](https://www.w3resource.com/index.php)
 
 ## Tutoriais
 - [Atualizar PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
