@@ -1,10 +1,11 @@
 # Python
 
 - Python
-- Beautiful Soup
-- Scrapy
-- Pandas
-- Numpy
+- Beautiful Soup - _Get Data_
+- Scrapy - _Get Data_
+- Python and APIs - _Get Data_
+- Pandas - _Work with Data_
+- Numpy - _Work with Data_
 
 ## Tutoriais
 - [Atualizar PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
