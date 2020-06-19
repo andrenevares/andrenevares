@@ -6,6 +6,7 @@
 - Python and APIs - _Get Data_
 - Pandas - _Work with Data_
 - Numpy - _Work with Data_
+- SQL - 
 
 ## Fontes
 - [w3schools](https://www.w3schools.com/python/)
