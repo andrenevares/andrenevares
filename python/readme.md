@@ -1,6 +1,10 @@
 # Python
 
-- Data Types
+- Python
+- Beautiful Soup
+- Scrapy
+- Pandas
+- Numpy
 
 ## Tutoriais
 - [Atualizar PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
