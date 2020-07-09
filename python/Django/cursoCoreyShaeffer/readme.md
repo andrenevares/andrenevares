@@ -2,13 +2,16 @@
 
 ## Video 01
 
+
+### Abrir seu editor de texto
 Comecei abrindo o meu VSCODE
 
+### Criar um diretório para seus projetos do django
 Fui até a raiz do meu HD ```D:``` e criei uma pasta chamada ```django```
 ```
 D:\django
 ```
-
+### Sincronizar com GITHUB
 Depois fui até meu github e criei um repositório chamado ```gitone```
 
 Agora vou fazer o meu ```git clone``` de modo a trazer para minha máquina o repositório do github.  Com isso eu posso deixar a cópia do meu código na WEB... Se eu quiser acessar esse projeto de outro lugar, basta eu fazer um ```git clone``` e boa!
@@ -24,6 +27,7 @@ D:\django
       | - DjangoOne
 ```
 
+### Criar um Ambiente virtual (Virtual Enviroment)
 Vou criar um virtual enviroment dentro do Django!
 
 Se você não tem instalado [virtual enviroment](https://github.com/andrenevares/andrenevares/blob/master/venv/virtual_enviroment.md) e quiser saber um pouco mais eu coloco aqui link de uma anotação de como criar [virtual enviroment](https://github.com/andrenevares/andrenevares/blob/master/venv/virtual_enviroment.md).
@@ -37,10 +41,6 @@ D:\django
       | - DjangoOne
       | - venv
 ```
-
-
-
-
 
 ### Instalando Django
 ```pip install django```
