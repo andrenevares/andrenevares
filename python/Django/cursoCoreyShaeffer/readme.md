@@ -69,6 +69,15 @@ Comando para saber a versão do django: ```python -m django --version```
 
 No momento em que estamos fazendo essa anotação a versão do Django está em __3.0.8__
 
+### 07. Indo para o diretório onde criarei o meu projeto
+
+```
+D:\django
+      | - DjangoOne  # quero criar aqui meu projeto!
+      | - venv
+```
+
+```cd DjangoOne```
 
 
 ### 07. Subcomandos do Django
@@ -77,7 +86,19 @@ No terminal digite ```django-admin```
 ### 08. Iniciando um projeto Django
 No terminal digite ```django-admin startproject [nome_do_projeto]```.
 
-Se o seu projeto for blog irá digitar ```django-admin startproject blog```
+Se o seu projeto for blog irá digitar ```django-admin startproject blogproject```
+D:\django
+      | - DjangoOne  
+      | - blogproject
+      |     | blogproject
+      |     |     | - \__init\__.py 
+      |     |     | - manage.py  
+      |     |     | - manage.py  
+      |     |     | - manage.py  
+      |     |     | - manage.py  
+      |     | - manage.py  
+      | - venv
+```
 
 ```
 DjangoBlog
