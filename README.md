@@ -9,7 +9,7 @@
 - []()
 
 ## Shortcuts
-- []()
+- [CMD](https://github.com/andrenevares/andrenevares/blob/master/cmd/readme.md)
 - []()
 - []()
 - []()
