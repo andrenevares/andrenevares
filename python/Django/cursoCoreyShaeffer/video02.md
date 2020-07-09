@@ -125,6 +125,57 @@ Será nesse arquivo que vamos colocar qual URL corresponderá a que função.
 - manage.py  
 ```
 
+### Comparando ```urls.py``` 
 
+Agora temos:
+- ```urls.py``` do app
+- ```urls.py``` do projeto
 
+O ```urls.py``` do app está em branco.  Enquanto que o ```urls.py``` do projeto contém esse código:
+
+```
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+```
+
+### Código do ```urls.py``` do app
+
+Copiamos o trecho do código do ```urls.py``` do projeto e colamos no nosso ```urls.py``` do app.
+```
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+```
+
+Nós também estaremos usando a funçao home dentro do nosso ```urls.py``` do app.  Dessa forma precisamos importar o módulo ```views.py``` para dentro do ```urls.py``` do app.
+
+Para iso vamos usar:
+```from . import views``` 
+> ponto significa o diretório atual
+
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+```
+
+Temos que ajustar o ```path```.  Como nós queremos que seja home, podemos trocar:
+
+```path('admin/', admin.site.urls),```
+
+por 
+
+```path('', views.home, name='blog-home')```
+- Temos um path vazio
+- Apontando para a função home dentro de views
+- Com nome = 'blog-home'
 
