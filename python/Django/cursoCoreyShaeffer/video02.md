@@ -67,3 +67,30 @@ Se você quer criar um app chamdo __blog__ deverá digitar
     |     | - wsgi.py  
 - manage.py  
 ```
+
+### Blog > Views.py
+
+Quando abrimos o ```views.py``` nós encontramos:
+
+```
+from django.shortcuts import render
+```
+
+#### Importar ```Http.Response```
+Vamos adcionar o ```Http.Response```
+
+Dessa forma nosso arquivo ```views.py``` fica assim:
+
+```
+from django.shortcuts import render
+from django.http import HttpResponse
+```
+#### Criar a primeira função home 
+Agora vamos criar uma nova função, vamos chamar essa função de HOME. 
+- Essa função HOME vai cuidar das requisições feitas para a HOMEPAGE do nosso blog.
+- Essa função precisa do ```request``` argument para que a função funcione
+- 
+
+
+
+
