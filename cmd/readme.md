@@ -5,3 +5,9 @@
 2. Digite __cmd__
 
 ## Alguns comandos de CMD
+- [Criar Arquivo]()
+- [Apagar Arquivo]()
+- []()
+- []()
+- []()
+
