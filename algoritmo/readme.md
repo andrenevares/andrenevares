@@ -1,1 +1,0 @@
-# Estutura de Algoritmos
