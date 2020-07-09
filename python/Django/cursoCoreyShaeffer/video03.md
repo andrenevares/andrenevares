@@ -18,6 +18,7 @@
 ├───blog
 │   ├───migrations
 │   ├───templates
+│   │   └───blog
 │   └───__pycache__
 └───blogproject
     └───__pycache__
