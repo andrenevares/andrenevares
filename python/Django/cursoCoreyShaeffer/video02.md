@@ -45,3 +45,24 @@ Um jeito fácil de saber é fazendo um ```dir``` no caso de você estar em um pr
 Se você quer criar um app chamdo __blog__ deverá digitar
 
 ```python manage.py startapp blog```
+
+### Estrutura do projeto com APP criado
+
+```
+> blogproject
+    | > blog
+    |     | > migrations
+    |     | - init.py
+    |     | - admin.py
+    |     | - apps.py
+    |     | - models.py
+    |     | - tests.py
+    |     | - view.py
+    | > blogproject
+    |     | - __init__.py 
+    |     | - asgi.py  
+    |     | - settings.py  
+    |     | - urls.py  
+    |     | - wsgi.py  
+- manage.py  
+```
