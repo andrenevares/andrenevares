@@ -221,5 +221,56 @@ Agora que fizemos todo esse trabalho vamos testar para ver se funciona!
 - Não esqueça de estar no diretório certo!
 - no nosso caso estamos em:```(venv) PS D:\django\DjangoOne\blogproject>```
 
-- Se tudo der certo a ```http://127.0.0.1:8000/``` vai estar com erro
+Se tudo der certo ...
+
+- ```http://127.0.0.1:8000/``` vai estar com erro
 - Nosso blog estará dentro de ```http://127.0.0.1:8000/blog/```
+
+Se analisarmos o processo de como funciona...
+- primeiro olhamos dentro do ```ulrs.py``` do projeto.
+- no nosso caso temos a seguinte sintaxe para o blog: ```path('blog/', include('blog.urls')),```
+- Dessa forma todas as nossas urls vão estar primeiro com ```/blog````
+- Para colocar na raiz basta mudar a sintaxe dessa parte dentro do arquivo ```ulrs.py``` do projeto.
+- De: ```path('blog/', include('blog.urls')),```
+- Para: ```path('', include('blog.urls')),```
+
+O nosso arquivo ```blogproject > ulrs.py``` está assim:
+
+```
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
+]
+```
+- Agora ao realizarmos um teste em ```http://127.0.0.1:8000/``` dará certo!
+
+Vamos adicionar uma página ```sobre``` no nosso projeto ```blog > ulrs.py ```.  Como ```sobre``` é feio para caramba vamos chamar de ```about```
+
+Temos que ajustar:
+1. o arquivo ```blog > urls.py``` e incluir um novo path;
+2. o arquivo ```blog > views.py``` e incluir um nova função;
+
+##### blog > urls.py
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='blog-home')
+    path('', views.about, name='blog-about')
+]
+```
+##### views.py
+```
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('<h1>Blog Homepage</h1>')
+
+def about(request):
+    return HttpResponse('<h1>Blog About Page</h1>')
+```
