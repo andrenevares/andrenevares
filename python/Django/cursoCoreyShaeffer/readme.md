@@ -91,7 +91,7 @@ D:\django
       | - DjangoOne  
       | - blogproject
       |     | blogproject
-      |     |     | - \__init\__.py 
+      |     |     | - __init__.py 
       |     |     | - manage.py  
       |     |     | - manage.py  
       |     |     | - manage.py  
