@@ -90,14 +90,14 @@ Se o seu projeto for blog irá digitar ```django-admin startproject blogproject`
 ```
 D:\django
       | - DjangoOne  
-      | - blogproject
-      |     | blogproject
-      |     |     | - __init__.py 
-      |     |     | - asgi.py  
-      |     |     | - settings.py  
-      |     |     | - urls.py  
-      |     |     | - wsgi.py  
-      |     | - manage.py  
+      |     | - blogproject
+      |     |     | blogproject
+      |     |     |     | - __init__.py 
+      |     |     |     | - asgi.py  
+      |     |     |     | - settings.py  
+      |     |     |     | - urls.py  
+      |     |     |     | - wsgi.py  
+      |     |     | - manage.py  
       | - venv
 ```
 
