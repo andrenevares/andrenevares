@@ -2,7 +2,6 @@
 
 ## Video 01
 
-
 ### 01. Abrir seu editor de texto
 Comecei abrindo o meu VSCODE
 
@@ -120,7 +119,35 @@ Para ficar mais claro vamos trabalhar somente com a parte do projeto ok?
 - manage.py  
 ```
 
+### 09. Vamos até o diretório onde está o ```manage.py```
+
+Vamos até o diretório onde está o manage.py
+
+```cd blogproject```
+
+Chagamos ao diretório ```(venv) PS D:\django\DjangoOne\blogproject>```
+
+Agora vamos rodar o comando: ```python manage.py runserver```
 
 
+Starting development server at http://127.0.0.1:8000/
+
+- ```http://127.0.0.1``` é a mesma coisa que ```http://localhost```
+- vamos usar então ```http://localhost:8000/```
 
 
+### 10. urls.py
+
+Se analisarmos o código dentro do arquivo url.py veremos que é ele que permite que designa a aplicação.
+```
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+```
+
+### 11. Parar o servidor
+
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
