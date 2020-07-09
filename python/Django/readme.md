@@ -1,5 +1,10 @@
 # Django
 
+Este repositório contém anotações, playlists, materiais e códigos referentes ao estudo do Framework Django. 
+
+O site oficial do [Django pode ser acessado por meio deste link](https://www.djangoproject.com/) ou diretamente por meio do https://www.djangoproject.com/
+
+
 ## Django Youtube Playlist
 > Thanks for Corey Schafer
 
