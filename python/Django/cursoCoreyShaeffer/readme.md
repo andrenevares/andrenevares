@@ -101,6 +101,25 @@ D:\django
       | - venv
 ```
 
+Para ficar mais claro vamos trabalhar somente com a parte do projeto ok?
+
+- O diretório ```D:\django``` foi criado para deixar o que for de Djando dentro dele
+- O diretório ```D:\DjangoOne``` foi criado para poder trabalhar com o GIT 
+- O diretório ```D:\venv``` está fora do ```D:\DjangoOne``` logo não será clonado para o GIT
+
+
+
+```
+- blogproject
+    | - blogproject
+    |     | - __init__.py 
+    |     | - asgi.py  
+    |     | - settings.py  
+    |     | - urls.py  
+    |     | - wsgi.py  
+- manage.py  
+```
+
 
 
 
