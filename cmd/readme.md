@@ -5,9 +5,8 @@
 2. Digite __cmd__
 
 ## Alguns comandos de CMD
-- [Criar Arquivo]()
-- [Apagar Arquivo]()
-- []()
-- []()
-- []()
-
+- [Apagar Arquivo](https://github.com/andrenevares/andrenevares/blob/master/cmd/delFile.md)
+- [Apagar Pasta/Diretório](https://github.com/andrenevares/andrenevares/blob/master/cmd/removeFolder.md)
+- [Criar Arquivo](https://github.com/andrenevares/andrenevares/blob/master/cmd/createFile.md)
+- [Copiar Pasta/Diretório](https://github.com/andrenevares/andrenevares/blob/master/cmd/copyFolder.md)
+- [Criar Pasta/Diretório](https://github.com/andrenevares/andrenevares/blob/master/cmd/createFolder.md) 
