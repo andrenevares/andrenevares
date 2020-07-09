@@ -2,8 +2,12 @@
 
 Este repositório contém anotações, playlists, materiais e códigos referentes ao estudo do Framework Django. 
 
-O site oficial do [Django pode ser acessado por meio deste link](https://www.djangoproject.com/) ou diretamente por meio do https://www.djangoproject.com/
+## O projeto Django
+O site oficial do [Django pode ser acessado por meio deste link](https://www.djangoproject.com/) ou diretamente por meio do https://www.djangoproject.com/.  Achamos extremamente importante a leitura da documentação no site do django.  No momento em que estamos estudando esse Framework [a documentação pode ser acessada aqui](https://docs.djangoproject.com/en/3.0/)
 
+## Sistema Operacional + IDE
+- Sistema Operacional Windows 10, infelizmente...
+- IDE Pycharm
 
 ## Django Youtube Playlist
 > Thanks for Corey Schafer
