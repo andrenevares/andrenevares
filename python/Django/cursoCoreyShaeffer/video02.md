@@ -187,7 +187,7 @@ Mas isso ainda não vai fucionar... Precisamos ajustar o ```blogproject > urls.p
 
 Para isso vamos abrir ```blogproject > urls.py```.
 
-Nosso ``blogproject > urls.py``` está assim:
+Nosso ```blogproject > urls.py``` está assim:
 ```
 from django.contrib import admin
 from django.urls import path
@@ -217,3 +217,9 @@ urlpatterns = [
 Agora que fizemos todo esse trabalho vamos testar para ver se funciona!
 
 ```python manage.py runserver```
+
+- Não esqueça de estar no diretório certo!
+- no nosso caso estamos em:```(venv) PS D:\django\DjangoOne\blogproject>```
+
+- Se tudo der certo a ```http://127.0.0.1:8000/``` vai estar com erro
+- Nosso blog estará dentro de ```http://127.0.0.1:8000/blog/```
