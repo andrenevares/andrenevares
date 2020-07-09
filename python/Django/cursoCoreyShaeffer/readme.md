@@ -93,24 +93,15 @@ D:\django
       | - blogproject
       |     | blogproject
       |     |     | - __init__.py 
-      |     |     | - manage.py  
-      |     |     | - manage.py  
-      |     |     | - manage.py  
-      |     |     | - manage.py  
+      |     |     | - asgi.py  
+      |     |     | - settings.py  
+      |     |     | - urls.py  
+      |     |     | - wsgi.py  
       |     | - manage.py  
       | - venv
 ```
 
-```
-DjangoBlog
-   | - DjangoBlog
-   |      | - __init__.py   
-   |      | - asgi.py
-   |      | - settings.py
-   |      | - urls.py
-   |      | - wsgi.py
-   | - manage.py
-```
+
 
 
 
