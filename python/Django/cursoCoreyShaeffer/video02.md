@@ -179,3 +179,41 @@ por
 - Apontando para a função home dentro de views
 - Com nome = 'blog-home'
 
+
+
+OK... Agora já temos o arquivo ```blog > urls.py``` apontando para a função ```home``` que está dentro do nosso arquivo ```views.py```
+
+Mas isso ainda não vai fucionar... Precisamos ajustar o ```blogproject > urls.py``` de modo a apontar para o ```blog > urls.py```.
+
+Para isso vamos abrir ```blogproject > urls.py```.
+
+Nosso ``blogproject > urls.py``` está assim:
+```
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+```
+
+Vamos falar pro django onde estão as urls do nosso app.
+
+Para isso precisamos importar ```include```.
+
+```from django.urls import path, include```
+
+Agora com o include nós podemos colocar as urls do app.
+```
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('blog/', include('blog.urls')),
+]
+```
+
+Agora que fizemos todo esse trabalho vamos testar para ver se funciona!
+
+```python manage.py runserver```
