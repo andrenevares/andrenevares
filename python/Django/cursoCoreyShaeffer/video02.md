@@ -89,7 +89,41 @@ from django.http import HttpResponse
 Agora vamos criar uma nova função, vamos chamar essa função de HOME. 
 - Essa função HOME vai cuidar das requisições feitas para a HOMEPAGE do nosso blog.
 - Essa função precisa do ```request``` argument para que a função funcione
-- 
+
+Nossa função ficaria assim:
+```
+def home(request):
+    return HttpResponse('<h1>Blog Homepage</h1>')
+```
+
+### Criar Blog > ```urls.py```
+
+Bem nós definimos a lógica quando um usuári for para nossa homepage.... No entanto, não mapeamos as URLS de modo que o djago saiba como fazer isso. 
+
+Então nós temos que criar um novo módulo chamado ```urls.py``` dentro do nosso app Blog.
+
+Será nesse arquivo que vamos colocar qual URL corresponderá a que função. 
+
+```
+> blogproject
+    | > blog
+    |     | > migrations
+    |     |       | - __init__.py
+    |     | - __init__.py
+    |     | - admin.py
+    |     | - apps.py
+    |     | - models.py
+    |     | - tests.py
+    |     | - view.py
+    |     | - urls.py  # esse url.py é do APP
+    | > blogproject
+    |     | - __init__.py 
+    |     | - asgi.py  
+    |     | - settings.py  
+    |     | - urls.py  # esse url.py é do Projeto
+    |     | - wsgi.py  
+- manage.py  
+```
 
 
 
