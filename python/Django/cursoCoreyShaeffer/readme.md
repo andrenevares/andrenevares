@@ -3,15 +3,15 @@
 ## Video 01
 
 
-### Abrir seu editor de texto
+### 01. Abrir seu editor de texto
 Comecei abrindo o meu VSCODE
 
-### Criar um diretório para seus projetos do django
+### 02. Criar um diretório para seus projetos do django
 Fui até a raiz do meu HD ```D:``` e criei uma pasta chamada ```django```
 ```
 D:\django
 ```
-### Sincronizar com GITHUB
+### 03. Sincronizar com GITHUB
 Depois fui até meu github e criei um repositório chamado ```gitone```
 
 Agora vou fazer o meu ```git clone``` de modo a trazer para minha máquina o repositório do github.  Com isso eu posso deixar a cópia do meu código na WEB... Se eu quiser acessar esse projeto de outro lugar, basta eu fazer um ```git clone``` e boa!
@@ -27,7 +27,7 @@ D:\django
       | - DjangoOne
 ```
 
-### Criar um Ambiente virtual (Virtual Enviroment)
+### 04. Criar um Ambiente virtual (Virtual Enviroment)
 Vou criar um virtual enviroment dentro do Django!
 
 Se você não tem instalado [virtual enviroment](https://github.com/andrenevares/andrenevares/blob/master/venv/virtual_enviroment.md) e quiser saber um pouco mais eu coloco aqui link de uma anotação de como criar [virtual enviroment](https://github.com/andrenevares/andrenevares/blob/master/venv/virtual_enviroment.md).
@@ -42,16 +42,39 @@ D:\django
       | - venv
 ```
 
-### Instalando Django
-```pip install django```
+### 06. Ativar o seu ambiente virtual
 
-### Confirmando se a instalação teve sucesso
-```pip -m django version```
+Comando para ativar um ambiente virtual: ```venv\Scripts\activate```
 
-### Subcomandos do Django
+```D:\django> venv\Scripts\activate```
+
+O resultado deverá ser algo mais ou menos assim:
+
+```(venv) PS D:\django>```
+
+### 07. Instalando Django
+
+Comando para instalar o django via pip:```pip install django```
+
+```(venv) PS D:\django>pip install django```
+
+### 06. Confirmando se a instalação teve sucesso
+
+Comando para saber a versão do django: ```python -m django --version```
+
+```
+(venv) PS D:\django> python -m django --version
+3.0.8
+```
+
+No momento em que estamos fazendo essa anotação a versão do Django está em __3.0.8__
+
+
+
+### 07. Subcomandos do Django
 No terminal digite ```django-admin```
 
-### Iniciando um projeto Django
+### 08. Iniciando um projeto Django
 No terminal digite ```django-admin startproject [nome_do_projeto]```.
 
 Se o seu projeto for blog irá digitar ```django-admin startproject blog```
