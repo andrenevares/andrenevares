@@ -1,7 +1,7 @@
 # Anotações curso corey Shaeffer
 ## Links dos arquivos
 - [Notes 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md)
-- [Notes 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md)
+- [Notes 02](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md)
 
 ## Video 01 - Pontos
 - [Link do vídeo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md#link-do-video)
