@@ -18,5 +18,16 @@ No terminal digite ```django-admin startproject [nome_do_projeto]```.
 
 Se o seu projeto for blog irá digitar ```django-admin startproject blog```
 
+```
+DjangoBlog
+   | - DjangoBlog
+   |      | - __init__.py   
+   |      | - asgi.py
+   |      | - settings.py
+   |      | - urls.py
+   |      | - wsgi.py
+   | - manage.py
+```
+
 
 
