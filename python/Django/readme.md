@@ -1,6 +1,7 @@
 # Django
 
 ## Django Youtube Playlist
+> Thanks for Corey Schafer
 
 - [Python Django Tutorial: Full-Featured Web App Part 1 - Getting Started](https://youtu.be/UmljXZIypDc)
 - [Python Django Tutorial: Full-Featured Web App Part 2 - Applications and Routes](https://youtu.be/a48xeeo5Vnk)
