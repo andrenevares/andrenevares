@@ -21,3 +21,17 @@
 - [urls.py](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md#urlspy)
 - [Parar o servidor](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md#parar-o-servidor)
 
+## Video 02 - Pontos
+- [Youtube - Video Link](https://youtu.be/a48xeeo5Vnk)
+- [Apps no Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#apps-no-django)
+- [Como começar um App](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#como-come%C3%A7ar-um-app)
+- [Comando startapp](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#comando-startapp)
+- [Estrutura do projeto com APP criado](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#estrutura-do-projeto-com-app-criado)
+- [Blog > Views.py](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#blog--viewspy)
+- [Importar Http.Response](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#importar-httpresponse)
+- [Criar a primeira função home](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#criar-a-primeira-fun%C3%A7%C3%A3o-home)
+- [Criar Blog > urls.py](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#criar-blog--urlspy)
+- [Comparando urls.py](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#comparando-urlspy)
+- [Código do urls.py do app](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#c%C3%B3digo-do-urlspy-do-app)
+- [blog > urls.py](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#blog--urlspy)
+- [views.py](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md#viewspy)
