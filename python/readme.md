@@ -9,8 +9,8 @@
 - SQL - 
 
 ## Fontes
-- [w3schools](https://www.w3schools.com/python/)
-- [w3resourse](https://www.w3resource.com/index.php)
+- [Fontes](https://github.com/andrenevares/andrenevares/blob/master/python/fontes_confiaveis.md)
+
 
 ## Tutoriais
 - [Atualizar PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
