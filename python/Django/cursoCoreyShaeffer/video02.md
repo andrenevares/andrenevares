@@ -52,7 +52,8 @@ Se você quer criar um app chamdo __blog__ deverá digitar
 > blogproject
     | > blog
     |     | > migrations
-    |     | - init.py
+    |     |       | - __init__.py
+    |     | - __init__.py
     |     | - admin.py
     |     | - apps.py
     |     | - models.py
