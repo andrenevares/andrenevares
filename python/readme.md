@@ -1,13 +1,5 @@
 # Python
 
-- Python
-- Beautiful Soup - _Get Data_
-- Scrapy - _Get Data_
-- Python and APIs - _Get Data_
-- Pandas - _Work with Data_
-- Numpy - _Work with Data_
-- SQL - 
-
 ## Fontes
 - [Fontes](https://github.com/andrenevares/andrenevares/blob/master/python/fontes_confiaveis.md)
 
