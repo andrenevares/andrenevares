@@ -270,9 +270,21 @@ No nosso template vamos usar:
 │   │   └───blog
 |   │      └─── main.css
 │   ├───templates
-|   │      ├─── base.html
-|   │      ├─── home.html
-|   │      └─── about.html
-
 ```
 
+
+Para poder referenciar um arquivo estático, nós precimos antes carregar ```static```.  Dessa forma vamos colocar no topo do HTML 
+
+```
+{% load static %}
+```
+
+Para usar static temos a seguinte sintaxe:
+```
+{% static 'blog/main.css' %}
+```
+
+Com isso nosso CSS fica referenciado com a seguinte sintaxe:
+```
+<link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+```
