@@ -212,7 +212,13 @@ def about(request):
     return render(request, 'blog/home.html')
 ```
 
+No nosso template vamos usar:
 ```
+{% for post in posts %}
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+    <p>em {{ post.date_posted }} por {{ post.author }} </p>
+{% endfor %}
 ```
 
 ```
