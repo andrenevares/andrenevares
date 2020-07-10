@@ -3,6 +3,7 @@
 - [Notes 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md)
 - [Notes 02](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md)
 - [Notes 03](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video03.md)
+- [Notes 04](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video04.md)
 ## Video 01 - Pontos
 - [Link do vídeo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md#link-do-video)
 - [Abrir o Editor de Texto](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md#abrir-seu-editor-de-texto)
