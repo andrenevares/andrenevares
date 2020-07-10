@@ -141,27 +141,79 @@ def about(request):
 
 ### Usando sample dada para testes...
 
-Vamos criar um dicionário com um conteúdo qualquer... Por Exemplo
+- Vamos criar uma lista com um conteúdo qualquer... 
+- Essa lista vai ser uma lista de dicionários
+- Cada dicionário será uma lista associada a um post! 
 
 ```
 posts = [
     {
         'author': 'André Nevares',
         'title': 'Blog Post 01',
-        'content': 'Esse é o aniversário do André',
-        'date_posted': '12/06/1978'
+        'content': 'Primeiro conteúdo do Blog',
+        'date_posted': '28/10/2016'
     },
     {
-        'author': 'André Nevares',
+        'author': 'André1 Nevares',
         'title': 'Blog Post 02',
-        'content': 'Esse é o aniversário da Camila',
-        'date_posted': '01/01/1983'
-    },
-    {
-        'author': 'André Nevares',
-        'title': 'Blog Post 03',
-        'content': 'Esse é o aniversário do Rafael',
-        'date_posted': '28/10/2015'
+        'content': 'Segundo conteúdo do Blog',
+        'date_posted': '28/10/2017'
     }
 ]
+```
+
+- Dentro da nossa função home vamos criar um dicionário chamado ```context```
+- vamos criar uma __chave__ chamada de __posts__
+- o valor que nós vamos usar será a lista de posts que nós criamos no topo do arquivo
+- dessa forma será: ```'posts' (chave): posts(lista de valores)```
+
+A sintaxe do dicionário:
+```
+context = {
+    'posts': posts
+}
+```
+
+Agora podemos usar dentro da função ```render```
+- Fazendo isso nós passamos os valores para a função ```render```
+- Isso vai nos permitir usar esses valores dentro do template
+```
+return render(request, 'blog/home.html', context)
+```
+
+
+
+Dessa forma nossa função home fica
+```
+from django.shortcuts import render
+
+posts = [
+    {
+        'author': 'André Nevares',
+        'title': 'Blog Post 01',
+        'content': 'Primeiro conteúdo do Blog',
+        'date_posted': '28/10/2016'
+    },
+    {
+        'author': 'André1 Nevares',
+        'title': 'Blog Post 02',
+        'content': 'Segundo conteúdo do Blog',
+        'date_posted': '28/10/2017'
+    }
+]
+
+def home(request):
+    context = {
+        'posts': posts
+    }
+    return render(request, 'blog/home.html', context)
+
+def about(request):
+    return render(request, 'blog/home.html')
+```
+
+```
+```
+
+```
 ```
