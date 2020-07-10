@@ -119,9 +119,9 @@ def home(request):
     return render(request, 'blog/home.html')
 ```
 A função ```render``` tem 03 argumentos :
-- recebe o objeto ```request``` como primeiro argumento
-- O nome do template que queremos renderizar.  A maneira que usamos para especificar é: 1º subdiretório dentro do diretório ```templates```, que no nosso caso é ```blog```... depois usamos o nome do nosso template... que no caso é ```home.html``` ... Logo o segundo argumento será ```'blog/home.html'```
-- ```context``` _opcional_:  é como passaremos a informação para o nosso template
+1. recebe o objeto ```request``` como primeiro argumento
+2. O nome do template que queremos renderizar.  A maneira que usamos para especificar é: 1º subdiretório dentro do diretório ```templates```, que no nosso caso é ```blog```... depois usamos o nome do nosso template... que no caso é ```home.html``` ... Logo o segundo argumento será ```'blog/home.html'```
+3. ```context``` _opcional_:  é como passaremos a informação para o nosso template
 
 
 
