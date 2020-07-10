@@ -33,10 +33,13 @@ Vamos criar template:
 
 
 
-### Alterar ```blogproject > settings.py```
+### Inserir nosso app dentro de ```settings.py```
 
-Dentro do nosso  blog > ```apps.py``` temos 
 
+
+1. Vamos abrir o arquivo ```blog > apps.py```
+
+O conteúdo do nosso arquivo é:
 ```
 from django.apps import AppConfig
 
@@ -44,10 +47,13 @@ class BlogConfig(AppConfig):
     name = 'blog'
 ```
 
-Pegamos esse ```BlogConfig``` app e copiamos para ```blogproject > settings.py```
+Quando criamos o nosso app foi criada ```class BlogConfig(AppConfig):```
+
+2. Vamos pegar esse ```BlogConfig``` app e copiar para ```blogproject > settings.py```
+
+3. Vamos abrir ```blogproject > settings.py```
 
 Nosso ```blogproject > settings.py``` contém:
-
 ```
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -59,7 +65,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Vamos adcionar o ```BlogConfig``` app.
+4. Vamos adcionar o ```BlogConfig``` app.
 - Está dentro de blog > apps >  BlogConfig
 - Dessa forma vamos adcionar 
 - ```'blog.apps.BlogConfig',```
@@ -77,6 +83,14 @@ INSTALLED_APPS = [
 ]
 ```
 
+### Não esqueça de sempre inserir dentro do ```settings.py``` do projeto:
+Porque???
+
+Ora... Django precisa saber onde procurar !
+
+Será com essa configuração que o DJANGO irá saber onde procurar
+- Templates
+- Modules (banco de dados)
 
 
 
