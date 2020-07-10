@@ -47,3 +47,13 @@ Password:
 Password (again):
 Superuser created successfully.
 ```
+## Entrar no Admin
+
+Agora que criamos o __superuser__ podemos entrar na área de Admin
+
+Devemos rodar nosso servidor novamente... Então...
+```
+python manage.py runserver
+``` 
+
+Entre em http://localhost:8000/admin e agora você conseguirá se logar 
