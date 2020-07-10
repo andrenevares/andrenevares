@@ -221,5 +221,19 @@ No nosso template vamos usar:
 {% endfor %}
 ```
 
+### Vamos criar um template base 
+- Dentro do diretório ```templates > blog```
+- ```base.html```
+
+
+### Syntax Extend
+
 ```
+{% extends "base.html" %}
 ```
+
+### Syntax Variáveis
+
+
+### Syntax If/Else/
+
