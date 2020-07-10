@@ -258,5 +258,21 @@ No nosso template vamos usar:
 ```
 
 
-### Syntax If/Else/
+### Referenciando CSS
+
+- Precisa haver uma pasta dentro ```app``` chamada ```static```
+
+
+```
+├───blog
+│   ├───migrations
+│   ├───static
+│   │   └───blog
+|   │      └─── main.css
+│   ├───templates
+|   │      ├─── base.html
+|   │      ├─── home.html
+|   │      └─── about.html
+
+```
 
