@@ -147,19 +147,19 @@ Vamos criar um dicionário com um conteúdo qualquer... Por Exemplo
 posts = [
     {
         'author': 'André Nevares',
-        'title': 'Blog Post 02',
+        'title': 'Blog Post 01',
         'content': 'Esse é o aniversário do André',
         'date_posted': '12/06/1978'
     },
     {
         'author': 'André Nevares',
-        'title': 'Blog Post 01',
+        'title': 'Blog Post 02',
         'content': 'Esse é o aniversário da Camila',
         'date_posted': '01/01/1983'
     },
     {
         'author': 'André Nevares',
-        'title': 'Blog Post 01',
+        'title': 'Blog Post 03',
         'content': 'Esse é o aniversário do Rafael',
         'date_posted': '28/10/2015'
     }
