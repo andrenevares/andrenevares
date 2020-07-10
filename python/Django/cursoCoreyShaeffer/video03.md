@@ -94,4 +94,35 @@ Será com essa configuração que o DJANGO irá saber onde procurar
 
 
 
+### Apontar as views do ```blog > views.py``` para o template
+
+Vamos abrir o arquivo ```blog > views.py```.
+
+Ele está assim no momento:
+```
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('<h1>Blog Homepage</h1>')
+
+def about(request):
+    return HttpResponse('<h1>Blog About Page</h1>')
+```
+
+Vamos usar somente ```render``` que o próprio django cria para gente quando criamos o app.
+
+
+#### Vamos alterar a função ```home()```
+```
+def home(request):
+    return render(request, 'blog/home.html')
+```
+A função ```render``` tem 03 argumentos :
+- recebe o objeto ```request``` como primeiro argumento
+- O nome do template que queremos renderizar.  A maneira que usamos para especificar é: 1º subdiretório dentro do diretório ```templates```, que no nosso caso é ```blog```... depois usamos o nome do nosso template... que no caso é ```home.html``` ... Logo o segundo argumento será ```'blog/home.html'```
+- ```context``` _opcional_:  é como passaremos a informação para o nosso template
+
+
+
 
