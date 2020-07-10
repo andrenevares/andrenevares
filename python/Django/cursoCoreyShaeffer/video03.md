@@ -125,4 +125,43 @@ A função ```render``` tem 03 argumentos :
 
 
 
+### Removemos o ```HttpResponse```
 
+O nosso ```views.py``` está assim:
+
+```
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'blog/home.html')
+
+def about(request):
+    return render(request, 'blog/home.html')
+```
+
+### Usando sample dada para testes...
+
+Vamos criar um dicionário com um conteúdo qualquer... Por Exemplo
+
+```
+posts = [
+    {
+        'author': 'André Nevares',
+        'title': 'Blog Post 02',
+        'content': 'Esse é o aniversário do André',
+        'date_posted': '12/06/1978'
+    },
+    {
+        'author': 'André Nevares',
+        'title': 'Blog Post 01',
+        'content': 'Esse é o aniversário da Camila',
+        'date_posted': '01/01/1983'
+    },
+    {
+        'author': 'André Nevares',
+        'title': 'Blog Post 01',
+        'content': 'Esse é o aniversário do Rafael',
+        'date_posted': '28/10/2015'
+    }
+]
+```
