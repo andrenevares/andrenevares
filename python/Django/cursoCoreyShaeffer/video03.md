@@ -232,7 +232,30 @@ No nosso template vamos usar:
 {% extends "base.html" %}
 ```
 
-### Syntax Variáveis
+### Syntax Blocks
+
+#### No arquivo base ```base.html```
+```
+{% block content %}
+{% endblock content %}
+```
+#### No arquivo que herdou 
+
+```
+{% extends "blog/base.html" %}
+
+{% block titulo %}
+<h1>Blog</h1>
+{% endblock titulo %}
+
+{% block content %}
+{% for post in posts %}
+<h3>{{ post.title }}</h3>
+<p>{{ post.content }}</p>
+<p>em {{ post.date_posted }} por {{ post.author }} </p>
+{% endfor %}
+{% endblock content %}
+```
 
 
 ### Syntax If/Else/
