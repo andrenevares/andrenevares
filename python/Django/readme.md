@@ -7,7 +7,7 @@ O site oficial do [Django pode ser acessado por meio deste link](https://www.dja
 
 ## Sistema Operacional + IDE
 - Sistema Operacional Windows 10, infelizmente...
-- IDE Pycharm
+- Editores de Texto: [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Django Youtube Playlist
 > Thanks for Corey Schafer
