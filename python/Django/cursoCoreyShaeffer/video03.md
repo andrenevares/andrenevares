@@ -288,3 +288,33 @@ Com isso nosso CSS fica referenciado com a seguinte sintaxe:
 ```
 <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 ```
+
+### Trabalhando com links (tipo URL_FOR do flask)
+
+Para fazer links dentro do Django podemos usar a ```django url tag```
+
+1. Olhamos dentro do ```blog > urls.py``` os valores de ```name``` 
+2. Chamamos o link de acordo com a seguinte sintaxe: ```{% url '[valor_do_name]'%}```
+
+Exemplo: ```<a>{% url 'blog-home' %}</a>```
+
+
+Olhando o arquivo ```blog > urls.py``` nós temos:
+
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='blog-home'),
+    path('about/', views.about, name='blog-about'),
+]
+```
+
+Os valores ```name``` da home e about foram:
+- 'blog-home'
+- 'blog-about'
+
+Sendo assim os links devem ser feitos
+- 'blog-home' --> ```<a>{% url 'blog-home' %}</a>```
+- 'blog-about' --> ```<a>{% url 'blog-about' %}</a>```
