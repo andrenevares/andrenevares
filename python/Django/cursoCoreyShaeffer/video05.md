@@ -30,10 +30,12 @@ Podemos colocar restrições... No caso vamos colocar que o título tenha no má
 from django.db import models
 
 class Post(models.Model):
-  title = modelsCharField(max_lenght=100)
+  title = models.CharField(max_lenght=100)
 ```
 
 #### Definindo campo content 
+```CharField``` e ```TextField``` são praticamente os mesmos campos.  No entanto ```TextField``` é um campo sem restrições...
+
 ```
 from django.db import models
 
