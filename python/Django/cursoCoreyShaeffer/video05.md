@@ -258,7 +258,7 @@ Para isso nós podemos definir dentro da class ```Post``` uma __Dunder Method__.
 
 __Dunder STR Method__ é uma referência a dois sinais de _under score_ ou seja ```__```
 
-Criaremos ```def __str(self):``` dentro da class post...
+Criaremos ```def __str__(self):``` dentro da class post...
 
 Vamos colocar que nós queremos que o objeto seja representado pelo title;
 
@@ -277,6 +277,25 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
-    return self.title
+        return self.title
 ```
 
+Vamos salvar nosso arquivo ```models.py```
+
+Para que as mudanças surtam efeito nó precisamos reiniciar o shell...
+
+vamos dar ```exit()``` para sair do console python, e depois chamamos novamente ```python manage.py shell```
+
+Vamos precisar importar tanto Post como User novamente.  Para isso vamos...
+
+```
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+```
+
+Agora se consultarmos o nossos ```Posts```
+
+```
+>>> Post.objects.all()
+<QuerySet [<Post: Post nº 1>]>
+```
