@@ -222,3 +222,32 @@ O resultado foi a lista com apenas um usuário, no caso o __superuser__.
 >>> user
 <User: andre>
 ```
+
+### Vamos criar um post e colocar o obtido como o autor.
+
+01. Vamos verificar se há algum post
+```
+>>> Post.objects.all()
+<QuerySet []>
+```
+
+O resultado não poderia ser outro, afinal, não temos nenhum post ainda.
+
+02. Vamos criar um objeto post_1
+```
+>>> post_1 = Post(title = 'Post nº 1', content = 'Conteúdo nº 01', author = user)           
+```
+03. Vamos ver o que está na banco de dados
+```
+>>> Post.objects.all()
+<QuerySet []>
+```
+04. Vamos fazer o save
+```
+>>> post_1.save()     
+```
+05. Vamor ver o que está no banco de dados
+```
+>>> Post.objects.all()
+<QuerySet [<Post: Post object (1)>]>
+```
