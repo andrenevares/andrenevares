@@ -159,6 +159,7 @@ Vamos importar o Model Post e o Model User
 >>> from django.contrib.auth.models import User
 ```
 
+##### All
 ```
 >>> User.objects.all()
 <QuerySet [<User: andre>]>
@@ -166,7 +167,48 @@ Vamos importar o Model Post e o Model User
 
 O resultado foi a lista com apenas um usuário, no caso o __superuser__.
 
+##### First
 ```
 >>> User.objects.first() 
 <User: andre>
 ```
+
+##### Filter
+```
+>>> User.objects.filter(username='andre')
+<QuerySet [<User: andre>]>
+```
+
+##### Filter com First
+```
+>>> User.objects.filter(username='andre').first()
+<User: andre>
+```
+
+#### Vamos analisar um objeto user
+
+##### Primeiro vamos atribuir a uma variável o resultado
+```
+>>> user = User.objects.filter(username='andre').first() 
+```
+##### Vamos chamar para ver o que ocorre
+```
+>>> user
+<User: andre>
+```
+
+
+##### Posso buscar pelo campo ```id```
+```
+>>> user.id
+1  
+```
+##### Posso buscar pela __primary key__ ```pk```
+```
+>>> user.pk
+1  
+```
+> No caso, como a primary key da tabela é também a ID, o resultado será o mesmo.
+
+
+
