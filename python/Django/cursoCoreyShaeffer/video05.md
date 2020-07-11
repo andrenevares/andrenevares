@@ -153,3 +153,20 @@ Para isso vamos rodar o comando:  ```python manage.py shell```
 
 Será aberto um console parecido com o do __Python__.  Na verdade ele é um console __python__ mas que também permite interações com __Django__
 
+Vamos importar o Model Post e o Model User
+```
+>>> from blog.models import Post   
+>>> from django.contrib.auth.models import User
+```
+
+```
+>>> User.objects.all()
+<QuerySet [<User: andre>]>
+```
+
+O resultado foi a lista com apenas um usuário, no caso o __superuser__.
+
+```
+>>> User.objects.first() 
+<User: andre>
+```
