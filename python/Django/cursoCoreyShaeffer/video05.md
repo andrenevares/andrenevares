@@ -211,4 +211,14 @@ O resultado foi a lista com apenas um usuário, no caso o __superuser__.
 > No caso, como a primary key da tabela é também a ID, o resultado será o mesmo.
 
 
+##### Também posso usar com o ```get```
 
+```
+>>> user = User.objects.get(id=1)
+```
+
+
+```
+>>> user
+<User: andre>
+```
