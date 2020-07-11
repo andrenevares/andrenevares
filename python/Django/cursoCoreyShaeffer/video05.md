@@ -99,11 +99,17 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 ```
 
-### Rodar ```migrate```
+### Agora que nós temos o arquivo pronto temos que fazer o processo de ```migrate```
 Para atualizar as tabela e relações nós precisamos fazer o que?  
-```
-python manage.py makemigrations
-```
+
+1. Criar ```migrations```  ---> ```python manage.py makemigrations```
+2. Executar as ```migrations``` ---> ```python manage.py migrate```
+
+#### 1. Criar ```migrations```
+Primeiramente criamos uma ```migration```, para depois executar essa ```migration```
+
+```python manage.py makemigrations```
+
 O output será:
 ```
 Migrations for 'blog':
@@ -111,11 +117,13 @@ Migrations for 'blog':
     - Create model Post
 ```
 
-### Ver o comando SQL feito 
+#### Se você quiser ver como o comando SQL é feito...
 
 ```python manage.py sqlmigrate [nome_do_app] [nº_do_migrate]```
 
-Como no nosso caso o o app se chama ```blog``` e o migrate foi ```blog\migrations\0001_initial.py``` nosso comando vai ser ```python manage.py sqlmigrate blog 0001```
+Como no nosso caso o o app se chama ```blog``` e o migrate foi ```blog\migrations\0001_initial.py``` nosso comando vai ser:
+
+```python manage.py sqlmigrate blog 0001```
 
 O Output desse comando será:
 ```
@@ -128,6 +136,20 @@ CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
 COMMIT;
 ```
 
-### Como fazer as queries
+#### 2. Executar as ```migrations```
 
-```python manage.py shell```
+```python manage.py migrate```
+
+As ```migrations``` são uma coisa muito importante.  Nós podemos alterar as tabelas e o banco de dados mesmo que haja dados nele!
+
+### Como podemos fazer nossas quereis com os Models do Django?
+
+A interface ORM do Django permite que façamos interações com o banco de dados por meio de classes (também).
+
+
+Para mostrar esse processo vai rodar um comando de forma a ver o processo linha a linha por meio da interface de comando
+
+Para isso vamos rodar o comando:  ```python manage.py shell```
+
+Será aberto um console parecido com o do __Python__.  Na verdade ele é um console __python__ mas que também permite interações com __Django__
+
