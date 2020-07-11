@@ -16,8 +16,20 @@ Quando criamos o APP, o Django já cria o arquivo ```[nome_do_app] > models.py``
 from django.db import models
 ```
 
+### Tabelas do nosso banco de dados
+- User (criada pelo backend do Django)
+- Posts (esta nós vamos criar!!!)
+
+__Observação__:  Nós temos que estabelecer uma relação de entre as tabelas.  Será o que chamamos de ```one-to-many``` ou ```um-pra-muitos```.  Isto porque um ```author``` pode ter muitos ```posts```, no entanto um ```post``` só pode ter um ```author```.
 
 ### Criando um model para o post
+
+#### Campos
+Os campos da tabela ```Post``` serão:
+- title
+- content
+- date_posted
+- author (Será nossa chave estrangeira)
 
 #### Vamos criar um model ```Post```
 ```
