@@ -38,7 +38,7 @@ Os campos da tabela ```Post``` serão:
 ##### Campo ```title```
 Podemos colocar restrições... No caso vamos colocar que o título tenha no máximo 100 caracteres...
 ```
-title = models.CharField(max_lenght=100)
+title = models.CharField(max_length=100)
 ```
 
 ##### Campo ```content```
@@ -74,16 +74,6 @@ Note que usamos ```timezone.now``` ao invés de ```timezone.now()``` com ```()``
 - Como queremos atribuir a uma variável o valor de ```timezone.now``` não usaremos o ```()```
 
 
-### ```Post``` model concluído
-```
-from django.db import models
-from django.utils import timezone
-
-class Post(models.Model):
-  title = models.CharField(max_lenght=100)
-  content = models.TextField()
-  date_posted = models.DateTimeField(default=timezone.now)
-```
 ##### Campo ```user```
 
 ```
@@ -96,17 +86,47 @@ author = models.ForeignKey(User, on_delete=models.CASCADE)
 
 ```on_delete=models.CASCADE``` define que se um usuário for excluído, todos os posts relacionados àquele usuário serão excluídos também.
 
-### Código até o momento
+### ```Post``` model concluído
+```
+from django.db import models
+from django.utils import timezone
+from django.contrib.auth.models import User
+
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    date_posted = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+```
 
 ### Rodar ```migrate```
-
+Para atualizar as tabela e relações nós precisamos fazer o que?  
 ```
 python manage.py makemigrations
+```
+O output será:
+```
+Migrations for 'blog':
+  blog\migrations\0001_initial.py
+    - Create model Post
 ```
 
 ### Ver o comando SQL feito 
 
 ```python manage.py sqlmigrate [nome_do_app] [nº_do_migrate]```
+
+Como no nosso caso o o app se chama ```blog``` e o migrate foi ```blog\migrations\0001_initial.py``` nosso comando vai ser ```python manage.py sqlmigrate blog 0001```
+
+O Output desse comando será:
+```
+BEGIN;
+--
+-- Create model Post
+--
+CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "date_posted" datetime NOT NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED);
+CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
+COMMIT;
+```
 
 ### Como fazer as queries
 
