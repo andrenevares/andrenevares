@@ -355,3 +355,30 @@ datetime.datetime(2020, 7, 11, 20, 41, 51, 24677, tzinfo=<UTC>)
 >>> post.author.email
 'andre.nevares@gmail.com'
 ```
+
+Se eu quiser buscar todos os posts de um usuário específico???
+Primeiro temos um usuário atribuído à varivel ```user``` ?
+```
+>>> user          
+<User: andre>
+```
+Sim... temos
+
+O django tem uma sintaxe que facilita bastante!  É o ```_set```
+
+Fica mais ou menos assim:
+```
+>>> user.post_set
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x000001D021124D08>
+```
+
+```
+>>> user.post_set.all()
+<QuerySet [<Post: Post nº 1>, <Post: Post nº 002>, <Post: Post nº 003>]>
+```
+
+Com o ```_set``` também podemos criar um registro!!!
+
+```
+user.post_set.create(title='Post nº 04', content='Este Post foi criado com _set.create', author=user) 
+```
