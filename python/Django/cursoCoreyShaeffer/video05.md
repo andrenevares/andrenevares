@@ -321,4 +321,10 @@ Vamos ver o que temos...
 Eu poderia adionar, também, com id...
 ```
 post_3 = Post(title = 'Post nº 003', content = 'Conteúdo nº 03 salvo com _ID', author_id = user.id)
+>>> post_3.save()
+```
+Vamos ver o resultado disso?
+```
+>>> Post.objects.all()
+<QuerySet [<Post: Post nº 1>, <Post: Post nº 002>, <Post: Post nº 003>]>
 ```
