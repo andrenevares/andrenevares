@@ -7,8 +7,8 @@
 ### Django ORM
 Diferentemente de flask, que usa Flask-SqlAlchemy, o Django tem sua própria estrutura ORM - Oriented Relational Mapping.
 
-- classes
-- models
+- Nós vamos respresentar essas estruturas como ```classes``` do python
+- Mas vamos chamar essas ```classes``` como ```models```.
 
 ### ```blog > models.py```
 Quando criamos o APP, o Django já cria o arquivo ```[nome_do_app] > models.py```
