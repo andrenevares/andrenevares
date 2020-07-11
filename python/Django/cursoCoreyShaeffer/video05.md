@@ -299,3 +299,26 @@ Agora se consultarmos o nossos ```Posts```
 >>> Post.objects.all()
 <QuerySet [<Post: Post nº 1>]>
 ```
+
+```
+>>> user = User.objects.get(id=1)
+```
+
+Vamos criar mais um post...
+
+```
+>>> user = User.objects.get(id=1)
+>>> post_2 = Post(title = 'Post nº 002', content = 'Conteúdo nº 02 salvo via shell!!!', author = user)
+>>> post_2.save()
+```
+
+Vamos ver o que temos...
+```
+>>> Post.objects.all()
+<QuerySet [<Post: Post nº 1>, <Post: Post nº 002>]>
+```
+
+Eu poderia adionar, também, com id...
+```
+post_3 = Post(title = 'Post nº 003', content = 'Conteúdo nº 03 salvo com _ID', author_id = user.id)
+```
