@@ -380,5 +380,13 @@ Fica mais ou menos assim:
 Com o ```_set``` também podemos criar um registro!!!
 
 ```
-user.post_set.create(title='Post nº 04', content='Este Post foi criado com _set.create', author=user) 
+>>> user.post_set.create(title='Post nº 04', content='Este Post foi criado com _set.create') 
+<Post: Post nº 04>
+```
+- com esse modelo nós não especificamos um Author, pois o Django já sabe que é para aquele user!!!
+- Outra coisa... Nós não precisamos executar ```.save()```.  Com o método ```_set.create``` já ocorre o save automático.
+
+```
+>>> Post.objects.all()              
+<QuerySet [<Post: Post nº 1>, <Post: Post nº 002>, <Post: Post nº 003>, <Post: Post nº 04>]>
 ```
