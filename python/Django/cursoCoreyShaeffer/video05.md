@@ -39,23 +39,27 @@ class Post(models.Model):
 #### Definindo title
 Podemos colocar restrições... No caso vamos colocar que o título tenha no máximo 100 caracteres...
 ```
-from django.db import models
-
-class Post(models.Model):
-  title = models.CharField(max_lenght=100)
+title = models.CharField(max_lenght=100)
 ```
 
 #### Definindo campo content 
 ```CharField``` e ```TextField``` são praticamente os mesmos campos.  No entanto ```TextField``` é um campo sem restrições...
 
 ```
-from django.db import models
-
-class Post(models.Model):
-  title = models.CharField(max_lenght=100)
-  content = models.TextField()
+content = models.TextField()
 ```
 #### Definido o campo date_posted
+
+Temos duas opções:
+- ```date_posted = models.DateTimeField(auto_now)``` ou
+- ```date_posted = models.DateTimeField(default=timezone.now)```
+
+Com ```auto_now``` nós vamos dizer que a data do post é o momento que foi criado...  Mas se você quer a possibilidade de colocar a data, e caso não seja preenchida, a mesma seja considerada como agora... bem, neste caso você deverá usar ```default=timezone.now```
+
+Note que usamos ```timezone.now``` ao invés de ```timezone.now()``` com ```()```.  Porque?
+- Ao colocar ```()``` estaremos usando a função.
+- Como queremos atribuir a uma variável o valor de ```timezone.now``` não usaremos o ```()```
+
 Para trabalhar com o date posted nós vamos importar do __django utils__ >>> timezone
 
 ```
@@ -73,10 +77,12 @@ date_posted = models.DateTimeField(default=timezone.now)
 Nosso código até agora está:
 ```
 from django.db import models
+from django.utils import timezone
 
 class Post(models.Model):
   title = models.CharField(max_lenght=100)
   content = models.TextField()
+  date_posted = models.DateTimeField(default=timezone.now)
 ```
 #### Definido relação com o campo user
 
