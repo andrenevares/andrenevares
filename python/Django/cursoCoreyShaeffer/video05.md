@@ -418,3 +418,20 @@ Podemos usar o Date Filter
 ```
 
 
+### Como usar o admin 
+
+Se digitarmos ```http://localhost:8000/admin``` e nos logarmos na aplicação não irá aparecer o ```Post model``` ...
+
+Para que ele apareça na nosso Admin temos que fazer algumas coisas...
+
+Nós tenmos que registar na nossa admin
+
+### Ajustar ```blog > admin.py```
+Aqui é que registramos nossos modelos para que eles apareçam no nosso admin page
+
+```
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
+```
