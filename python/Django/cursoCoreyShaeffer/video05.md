@@ -328,3 +328,30 @@ Vamos ver o resultado disso?
 >>> Post.objects.all()
 <QuerySet [<Post: Post nº 1>, <Post: Post nº 002>, <Post: Post nº 003>]>
 ```
+
+Vamos criar o resultado de uma query da Table ```Post```
+```
+>>> post = Post.objects.get(id=1)  
+```
+
+```
+>>> post.title  
+'Post nº 1'
+```
+```
+>>> post.content
+'Conteúdo nº 01'
+```
+```
+>>> post.author
+<User: andre>
+```
+```
+>>> post.date_posted 
+datetime.datetime(2020, 7, 11, 20, 41, 51, 24677, tzinfo=<UTC>)
+```
+
+```
+>>> post.author.email
+'andre.nevares@gmail.com'
+```
