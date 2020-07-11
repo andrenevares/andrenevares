@@ -251,3 +251,32 @@ O resultado não poderia ser outro, afinal, não temos nenhum post ainda.
 >>> Post.objects.all()
 <QuerySet [<Post: Post object (1)>]>
 ```
+
+Como podemos notar o ```<QuerySet [<Post: Post object (1)>]>``` não é muito representativo.
+
+Para isso nós podemos definir dentro da class ```Post``` uma __Dunder Method__.
+
+__Dunder STR Method__ é uma referência a dois sinais de _under score_ ou seja ```__```
+
+Criaremos ```def __str(self):``` dentro da class post...
+
+Vamos colocar que nós queremos que o objeto seja representado pelo title;
+
+O método a ser criado será:
+```
+def __str__(self):
+    return self.title
+```
+
+Assim nossa class ```Post``` está assim:
+```
+class Post(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    date_posted = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+    return self.title
+```
+
