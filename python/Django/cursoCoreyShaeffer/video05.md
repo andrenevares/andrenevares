@@ -79,3 +79,7 @@ python manage.py makemigrations
 ### Ver o comando SQL feito 
 
 ```python manage.py sqlmigrate [nome_do_app] [nº_do_migrate]```
+
+### Como fazer as queries
+
+```python manage.py shell```
