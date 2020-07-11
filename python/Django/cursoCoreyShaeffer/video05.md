@@ -390,3 +390,31 @@ Com o ```_set``` também podemos criar um registro!!!
 >>> Post.objects.all()              
 <QuerySet [<Post: Post nº 1>, <Post: Post nº 002>, <Post: Post nº 003>, <Post: Post nº 04>]>
 ```
+
+### Vamos substituir os dados que estão em HARDCODE no ```blog > views.py```
+
+1. Vamos abrir ```blog > views.py```
+2. Depois precisamos importar nosso Post Model
+3. Vamos substituir o conteúdo de ```context``` de ```'posts': posts``` para ```'posts': Post.objects.all()```
+
+#### Formatação de Data
+Observação: Formatação da data__ 
+
+Ao analisar a formatação da data você irá perceber que o formato da data está diferente.  Isto porque não aplicamos nenhum tipo de formatação!!!
+
+##### Vamos abrir o home 
+
+Nossa data está assim:
+```
+{{ post.date_posted }}
+```
+
+Podemos usar o Date Filter
+
+[Link para documentação do Django sobre filtros de data](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#date)
+
+```
+{{ post.date_posted|date:"d F, Y" }}
+```
+
+
