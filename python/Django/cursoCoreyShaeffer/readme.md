@@ -4,7 +4,7 @@
 - [Notes 02 - App](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video02.md)
 - [Notes 03 - Templates](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video03.md)
 - [Notes 04 - Superuser e Admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video04.md)
-- [Notes 05 - Database e Migrations](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video04.md)
+- [Notes 05 - Database e Migrations](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video05.md)
 
 ## Video 01 - Pontos
 - [Link do vídeo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video01.md#link-do-video)
