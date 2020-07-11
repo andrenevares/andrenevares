@@ -74,7 +74,7 @@ Note que usamos ```timezone.now``` ao invés de ```timezone.now()``` com ```()``
 - Como queremos atribuir a uma variável o valor de ```timezone.now``` não usaremos o ```()```
 
 
-Nosso código até agora está:
+### ```Post``` model concluído
 ```
 from django.db import models
 from django.utils import timezone
