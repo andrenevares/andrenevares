@@ -4,6 +4,10 @@ Ao instalar uma biblioteca Python sem um ambiente virtual, você a instala globa
 Isso geralmente requer que você seja um administrador ou execute como root e que a biblioteca Python exista 
 para todos os usuários e projetos na máquina. Felizmente, é fácil criar um ambiente virtual:
 
+## Biblioteca virtualenv instalada
+
+```pip install virtualenv```
+
 ## A melhor prática é:
 ### Criar um diretório 
 ```
