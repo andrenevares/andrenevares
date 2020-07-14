@@ -6,7 +6,14 @@ para todos os usuários e projetos na máquina. Felizmente, é fácil criar um a
 
 ## Biblioteca virtualenv instalada
 
+Esse passo só é necessário se você não tiver a biblioteca ```virtualenv``` instalada.
+
+Caso não tenha ```virtualenv``` instalada, digite:
+
 ```pip install virtualenv```
+
+Caso você já tenha a biblioteca ```virtualenv``` instalada, siga os próximos passos...
+
 
 ## A melhor prática é:
 ### Criar um diretório 
