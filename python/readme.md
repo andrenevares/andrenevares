@@ -3,7 +3,6 @@
 ## Fontes
 - [Fontes](https://github.com/andrenevares/andrenevares/blob/master/python/fontes_confiaveis.md)
 
-
 ## Tutoriais
 - [Pip - Como Atualizar o PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
 - [Pip - pip search](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/pip.md#pesquisando-um-nome-de-um-pacote)
