@@ -1,7 +1,8 @@
 Gerenciando Pacotes com PIP
 > Tradução da documentação 3.804 por André Nevares 
+
 ## Fonte:
-Item: 12.3. Managing Packages with pip
+_Item: 12.3. Managing Packages with pip_  da documentação do python. 
 
 ## Instrodução
 
@@ -9,11 +10,15 @@ Você pode instalar, atualizar e remover pacores usando o programa chamado de ``
 
 Por padrão ```pip``` irá instalar pacotes do Python Package Index https://pypi.org.
 
+## Pesquisando um nome de um pacote
+
 Você pode navegar pelo Índice de Pacotes Python usando o seu navegador ou pode usar o recurso de pesquisa do ```pip```:
 
+Mas... Você pode também usar o comando ```pip search```
 
-```pip search astronomy```
+Exemplo: ```pip search astronomy```
 
+Resultado: 
 ```
 astronomy (0.0.1)             - Astronomy!
 catastropy (0.0dev)           - (cat)astronomy
@@ -53,12 +58,9 @@ Imaginemos que eu queira instalar uma versão 2.6.0 do módulo requests...
 
 ```pip install requests==2.6.0```
 
-Collecting requests==2.6.0
-
 Se você reexecutar imediatamente esse comando, ```pip``` irá perceber que a versão que você quer já está instalada e não fará mais nada...
 
-
-Você pode fornecer uma versão diferente se vocë quiser...
+Observação: Você pode fornecer uma versão diferente se vocë quiser...
 
 ## Atualizando para versão mais recente
 
@@ -98,23 +100,17 @@ six        1.15.0
 virtualenv 20.0.26
 
 ```
-pip freeze will produce a similar list of the installed packages, but the output uses the format that pip install expects. A common convention is to put this list in a requirements.txt file:
+## Pip Freeze
 
-(tutorial-env) $ pip freeze > requirements.txt
-(tutorial-env) $ cat requirements.txt
-novas==3.1.1.3
-numpy==1.9.2
-requests==2.7.0
-The requirements.txt can then be committed to version control and shipped as part of an application. Users can then install all the necessary packages with install -r:
+```pip freeze``` irá listar os pacotes instalados formatados para que o pip possa utilizar depois. 
 
-(tutorial-env) $ pip install -r requirements.txt
-Collecting novas==3.1.1.3 (from -r requirements.txt (line 1))
-  ...
-Collecting numpy==1.9.2 (from -r requirements.txt (line 2))
-  ...
-Collecting requests==2.7.0 (from -r requirements.txt (line 3))
-  ...
-Installing collected packages: novas, numpy, requests
-  Running setup.py install for novas
-Successfully installed novas-3.1.1.3 numpy-1.9.2 requests-2.7.0
-pip has many more options. Consult the Installing Python Modules guide for complete documentation for pip. When you’ve written a package and want to make it available on the Python Package Index, consult the Distributing Python Modules guide.
+Utilza-se como convenção colocar esta lista em um arquivo chamado ```requirements.txt```:
+
+O requirements.txt pode ser enviado para o git junto com a aplicação. Assim, usuários poderão instalar todos os pacotes necessários utilizado o  ```pip install -r```:
+
+
+## Instalando pacotes do ```requirements.txt```
+
+```pip install -r requirements.txt```
+
+
