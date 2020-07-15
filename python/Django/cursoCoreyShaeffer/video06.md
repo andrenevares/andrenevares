@@ -42,7 +42,7 @@ from django.shortcuts import render
 def register(request):
 ```
 
-### Agora precisamos criar os forms...
+### Criar os forms: UserCreationForm
 
 1. Importamos o módulo ```from django.contrib.auth.forms import UserCreationForm```
 2. Ajustamos a nossa class:
