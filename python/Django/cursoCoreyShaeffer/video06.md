@@ -247,9 +247,20 @@ Vamos colocar logo acima do bloco {% content %}
         {{ message }}
     </div>
     {% endfor %}
-{% endif}
+{% endif %}
 
 {% block content %}{% endblock %}
 ```
+
+Vamos testar para ver se funciona!
+
+- O form ainda não está salvando no banco
+- O form se obtém sucesso está entrando no ```if form.is_valid():``` 
+- Dessa forma está ocorrendo o alerta visual via flash message
+- Mas se for inválido... O Django está mostrando o erro dentro do form mas não está muito visivel
+- E também ainda precisamos fazer ajustes de Layout
+
+### Fazendo que os dados sejam inseridos no banco de dados
+
 
 
