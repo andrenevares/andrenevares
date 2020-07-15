@@ -3,6 +3,9 @@
 ## Fontes
 - [Fontes](https://github.com/andrenevares/andrenevares/blob/master/python/fontes_confiaveis.md)
 
+## Instalando Git
+- [Problemas com Permissão no VSCODE](https://github.com/andrenevares/andrenevares/blob/master/.vscode/vscode_execution_policy.md)
+
 ## PIP
 - [Pip - Como Atualizar o PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
 - [Pip - pip search](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/pip.md#pesquisando-um-nome-de-um-pacote)
