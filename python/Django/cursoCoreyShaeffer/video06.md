@@ -261,6 +261,54 @@ Vamos testar para ver se funciona!
 - E também ainda precisamos fazer ajustes de Layout
 
 ### Fazendo que os dados sejam inseridos no banco de dados
+Muito simples... ```form.save()```
 
+Nosso código até aqui é:
+```
+from django.shortcuts import render, redirect
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib import messages
 
+def register(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            messages.success(request, f'Conta criada para {username}')
+            return redirect('blog-home')
+    else:    
+        form = UserCreationForm()
+    return render(request, 'users/register.html', {'form': form})
+```
 
+#### Testando: 
+Vamos criar um usuário e depois logar no admin para ver se está rolando?
+1. Criar usuário
+2. Ser redirecionado para HOME e ser exibida a mensagem de Sucesso
+3. Logar no Admin ```http://127.0.0.1:8000/login``` e 
+4. Verificar se o usuário foi criado no BD
+
+#### Resultado 
+- Sucesso
+- Só que não há o campo e-mail colocado...
+- Afinal isso não foi solicitado
+
+### Adcionando mais campos para Registration Form
+
+#### criar ```forms.py```
+
+Vamos criar um arquivo ```users > forms.py```.
+
+```
+from django import forms
+from django.contrib.auth.models import User
+from django.contrib.auth.forms import UserCreationForm
+
+class UserRegisterForm(UserCreationForm):
+    email = forms.EmailField()
+
+    class Meta:
+        model = User
+        fields = ['username', 'email', 'password1', 'password2']
+```
