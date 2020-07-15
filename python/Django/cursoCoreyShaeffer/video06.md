@@ -47,7 +47,7 @@ def register(request):
 ```
 
 
-Criar um Template que use esse form
+### Template do user
 
 Para criar um template temos que ter a pasta ```templates``` dentro do nosso ```app```... E dentro desse app nós temos que criar a pasta ```[nome_do_app]```...
 
@@ -63,6 +63,75 @@ O que fica assim:
         └───users
               └───register.html
 ```
+
+Vamos herdar as configurações do template que já exista
+
+No Django nós podemos herdar de outro app sem problemas...
+
+### HTML
+
+```
+{% extends "blog/base.html" %}
+
+{% block content %}
+<div class="content-section">
+    <form method="POST">
+        {% csrf_token %} # sem isso não vai funcionar... Questão de segurança
+        <fieldset class="form-group">
+            <legend class="border-botton mb-4">Crie sua conta</legend>
+            {{ form }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Criar conta</button>
+        </div>
+
+    </form>
+    <div class="border-top pt-3">
+        <small class="text-muted">Já possui uma conta?<a class="ml-2" href="">Faça seu Login</a></small>
+    </div>
+</div>
+```
+
+### urls
+
+O nosso projeto está com a seguinte url.
+
+blogproject > urls.py
+```
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
+]
+```
+
+14m +_ 15 m
+
+Ajustaremos para:
+
+```
+from django.contrib import admin
+from django.urls import path, include
+from users import views as users_views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('blog.urls')),
+    path('register/', users_views.register, name='register'),
+]
+```
+
+Vamos rodar o nosso servidor: ```python manage.py runserver```
+
+Quando rodamos percebemos que o layout não fica muito bonito...
+
+Nós faremos alguns ajustes...
+
+### {{ form.ap_p }}
+
+- Ao invés de ```{{ form }}``` vamos colocar ```{{ form.ap_p }}```
+- isso faz que o conteúdo seja renderizado como parágrafos
+
+Ainda está bem ruim... mas já houve uma melhora...
 
 
 
