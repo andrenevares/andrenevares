@@ -126,13 +126,15 @@ Quando rodamos percebemos que o layout não fica muito bonito...
 
 Nós faremos alguns ajustes...
 
-### {{ form.ap_p }}
+### {{ form.as_p }}
 
-- Ao invés de ```{{ form }}``` vamos colocar ```{{ form.ap_p }}```
+- Ao invés de ```{{ form }}``` vamos colocar ```{{ form.as_p }}```
 - isso faz que o conteúdo seja renderizado como parágrafos
 
 Ainda está bem ruim... mas já houve uma melhora...
 
+Quando submtermos nosso formulário, não acontece nada...
 
+Estamos fazendo nosso POST e entrando no nosso ```form = UserCreationForm()``` mas ele está vazio!
 
 
