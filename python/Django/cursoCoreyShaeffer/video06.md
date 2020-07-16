@@ -88,7 +88,7 @@ No Django nós podemos herdar de outro app sem problemas...
 {% block content %}
 <div class="content-section">
     <form method="POST">
-        {% csrf_token %} # sem isso não vai funcionar... Questão de segurança
+        {% csrf_token %}
         <fieldset class="form-group">
             <legend class="border-botton mb-4">Crie sua conta</legend>
             {{ form }}
@@ -103,22 +103,30 @@ No Django nós podemos herdar de outro app sem problemas...
     </div>
 </div>
 ```
+> ```{% csrf_token %}``` é uma questão de segurança de modo a proteger a aplicação de determinados ataques.  É uma exigência do Django, sem isso não vai funcionar!!!
 
-### urls
+### ```urls.py```
 
 O nosso projeto está com a seguinte url.
 
-blogproject > urls.py
+#### ```blogproject > urls.py```
+
+
+Poderíamos incluir as __urls__ de duas maneiras.
+
+A primeira seria fazendo da mesma forma que no __blog__, ou seja, fazer um ```user > urls.py``` e inserir ```path('', include('blog.urls')```.
+
+Mas de forma contrária vamos fazer isso __direto__ dentro do __urls.py do projeto__
+
+Nosso __```blogproject > urls.py```__ estava assim:
+
 ```
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
 ]
 ```
-
-14m +_ 15 m
-
-Ajustaremos para:
+__Agora__ ele ficará assim:
 
 ```
 from django.contrib import admin
@@ -131,6 +139,8 @@ urlpatterns = [
     path('register/', users_views.register, name='register'),
 ]
 ```
+
+### Reiniciar novamente o servidor...
 
 Vamos rodar o nosso servidor: ```python manage.py runserver```
 
