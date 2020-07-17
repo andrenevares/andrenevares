@@ -42,7 +42,7 @@ from django.shortcuts import render
 def register(request):
 ```
 
-### Criar os forms: UserCreationForm
+### Criar os forms: ```UserCreationForm```
 
 1. Importamos o módulo ```from django.contrib.auth.forms import UserCreationForm```
 2. Ajustamos a nossa class:
@@ -59,7 +59,7 @@ def register(request):
 ```
 
 
-### Template do user
+### Template do users
 
 Para criar um template temos que ter a pasta ```templates``` dentro do nosso ```app```... E dentro desse app nós temos que criar a pasta ```[nome_do_app]```...
 
@@ -155,19 +155,20 @@ Nós faremos alguns ajustes...
 
 Ainda está bem ruim... mas já houve uma melhora...
 
-Quando submtermos nosso formulário, não acontece nada...
+### Modificando a class ```register```
+
+Quando submetermos nosso formulário, não acontece nada...
 
 Estamos fazendo nosso POST e entrando no nosso form mas ele está vazio!
+
+Como não especificamos o que fazer com os dados no POST o que está ocorrendo é que os dados inseridos pelo usuário estão sendo enviados via POST para mesma route
 
 ```
 def register(request):
     form = UserCreationForm()
 ```
 
-Como não especificamos o que fazer com os dados no POST o que está ocorrendo é que os dados inseridos pelo usuário estão sendo enviados via POST para mesma route
-
-
-Vamos colocar uma condição
+#### Primeira Condição: ```if request.method == 'POST':```
 
 ```
 def register(request):
@@ -181,7 +182,7 @@ def register(request):
 - Se a requisição for ```POST``` então os dados serão passados
 - Se não apenas instancia um novo form vazio 
 
-Precisamos validar 
+#### Segunda condição: ```if form.is_valid():```
 
 ```
 def register(request):
@@ -194,12 +195,19 @@ def register(request):
     return render(request, 'users/register.html', {'form': form})
 ```
 
+### Flash Messages - Alertas para o usuário
 
-Vamos usar mensagens 
+#### Tipos de message:
+- messages.debug
+- messages.info
+- messages.sucess
+- messages.warning
+- messages.error
 
-Para isso precisaremos usar 
+#### Nosso código...
+
+Para usar flash messages precisamos importar o módulo ```messages```
 ```from django.contrib import messages``` 
-
 
 Assim nosso ```views.py``` está assim:
 ```
@@ -217,17 +225,11 @@ def register(request):
     return render(request, 'users/register.html', {'form': form})
 ```
 
-##### Tipos de message:
 
-- messages.debug
-- messages.info
-- messages.sucess
-- messages.warning
-- messages.error
-
-##### Syntaxe usada
+#### Syntaxe usada
 ```messages.sucess(request, f'Conta criada para {username}')```
 
+#### Código até agora
 ```
 from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
@@ -246,9 +248,16 @@ def register(request):
 
 #### Redirecionar
 
-Agora vamos redirecionar o cara se houve sucesso!  No nosso exemplo vamos redirecionar para a home.
+Agora que já conseguimos:
+- Validar
+- Converter os dados para um dicionário python
+- Criar mensagens de validação
 
-Para isso temos que usar o ```redirect``` 
+Nós precisamos fazer com que o usuário seja redirecionado para uma outra página.  Imagine que o usuário conseguiu se logar na aplicação, mas ele continua na tela de login... Isso não faz muito sentido.
+
+No nosso exemplo vamos redirecionar para a home.
+
+Para isso precisamos usar o ```redirect``` 
 
 Faremos isso importando ```from django.shortcuts import redirect```
 
@@ -258,9 +267,15 @@ Como já temos um import do ```django.shortcuts``` podemos colocar:
 
 ### Atualizar o Template para mostrar as mensagens de validação!
 
-blog > templates > blog > base.py
+Nós colocamos na função ```register``` para criar um mensagem, certo?  Mas isso ainda não vai funcionar!   Nós ainda não ajustamos nossos templates para isso.
 
-Vamos colocar logo acima do bloco {% content %}
+A opção mais interessante nesse momento seria colocar no __template base__... Assim, a mensagem seria exibida em todas as páginas.
+
+```blog > templates > blog > base.html```
+
+Vamos colocar uma condicional logo acima do bloco ```{% content %}```
+- Se houver mensagem --> então exiba mensagem
+- Colocamos um for dentro para podermos usar diferentes mensagens!
 
 ```
 {% if messages %}
@@ -276,13 +291,15 @@ Vamos colocar logo acima do bloco {% content %}
 
 Vamos testar para ver se funciona!
 
+Algumas observações...
+
 - O form ainda não está salvando no banco
 - O form se obtém sucesso está entrando no ```if form.is_valid():``` 
 - Dessa forma está ocorrendo o alerta visual via flash message
-- Mas se for inválido... O Django está mostrando o erro dentro do form mas não está muito visivel
-- E também ainda precisamos fazer ajustes de Layout
+- No entanto, quando não é válido... O Django, de forma nativa, mostra o erro dentro do form... Mas não está muito visivel
+- Além disso precisamos fazer alguns ajustes de Layout
 
-### Fazendo que os dados sejam inseridos no banco de dados
+### ```form.save()``` salvar os dados no banco de dados
 Muito simples... ```form.save()```
 
 Nosso código até aqui é:
@@ -316,7 +333,9 @@ Vamos criar um usuário e depois logar no admin para ver se está rolando?
 - Só que não há o campo e-mail colocado...
 - Afinal isso não foi solicitado
 
-### Adcionando mais campos para Registration Form
+Então precisamos colocar um campo customizado!!!!
+
+### Adicionando mais campos para Registration Form
 
 #### criar ```forms.py```
 
