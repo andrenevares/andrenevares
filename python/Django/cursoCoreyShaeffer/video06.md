@@ -400,5 +400,50 @@ Vamos entender um pouco sobre esse tal de ```class Meta:``` Ele permite que tenh
 ### ```UserCreationForm``` --> ```UserRegisterForm```
 Agora que temos o nosso formulário completo, podemos substituir na nossa ```users > view.py```.  Ao invés de usarmos o ```UserCreationForm``` passaremos a usar ```UserRegisterForm``` que contém o campo e-mail.
 
+Nosso código de ```users > views.py``` estava assim:
+
+```
+from django.shortcuts import render, redirect
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib import messages
+
+def register(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            messages.success(request, f'Conta criada para {username}')
+            return redirect('blog-home')
+    else:    
+        form = UserCreationForm()
+    return render(request, 'users/register.html', {'form': form})
+```
+
+Precisamos importar o ```UserRegisterForm```.
+
+Veja que temos tanto o views.py como o forms.py estão no mesmo diretório.  Logo vamos importar usando ```.```
+
+```
+└───users
+    ├───forms.py
+    ├───views.py
+    └───(...)
+```
+
+- nosso import será: ```from .forms import UserRegisterForm```
+- Não estaremos mais usando ```UserCreationForm```, logo podemos apagar ```from django.contrib.auth.forms import UserCreationForm```
+- ```form = UserCreationForm(request.POST)``` --> __```form = UserRegisterForm(request.POST)```__
+- ```form = UserCreationForm()``` -->   __```form = UserRegisterForm()```__
+
+### Reload ou Runserver
+
+Podemos atualizar o nosso ```http://127.0.0.1:8000/register/``` ou fazer o ```python manage.py runserver```.
+
+Fazendo isso veremos que há um campo para o ```email```
+
+
+
+
 
 
