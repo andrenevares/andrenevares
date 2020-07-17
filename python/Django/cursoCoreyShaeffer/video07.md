@@ -84,5 +84,61 @@ ao irmos para a url ```localhost:8000/logout/``` realmente conseguimos fazer log
 
 Temos inclusive um link para que façamos o nosso login... Ao clicarmos ali nós somos direcionados para a página de login nativo do Django!
 
+Para que isso não aconteça nós precisamos :
+1. criar um template logout 
+2. fazer com que a view do logout utilize esse template
+
+Vamos voltar com ```path ('logout/', auth_views.LogoutView.as_view(template_name=('users/logout.html', name='logout'), name='logout'),```
+
+Vamos criar nosso template.
+
+```
+{% block content %}
+  <h2>Logout bem sucedido</h2>
+  <div class = "border-top pt-3">
+    <small class="text-muted">
+      <a href={% url 'login' %}>Faça seu login novamente</a>
+    <small>
+  <div>
+{% endblock  %}
+```
+
+Vamos tentar fazer o login e logout.
+
+### user.is_authenticated
+
+Só queremos que a navbar mostre o __login__ e __cadastra-se__ se o usuário não estiver logado.  Caso ele não esteja logado faz mais sentido que apareça algo como __Meu Perfil__
+
+Para isso o Django possui uma ```user variable``` que contém o ```current user``` sendo que esta variável possui um atributo ```is_authenticated``` o qual permite que o Django saiba se um usuário está logado ou não!
+```
+{% if user.is_authenticated %}
+
+{% else  %}
+
+{% endif  %}
+```
+
+### Profile
+
+```views.py``` temos a nossa view register.
+
+vamos criar uma chamada ```profile```
+
+```
+def profile(request):
+  return render(request, 'users/profile.html')
+
+```
+
+#### Template profile
 
 
+#### urls.py
+
+```path ('profile/', auth_views.profile, name='profile'),```
+ 
+#### ajustar a navbar do ```base.html```
+```
+<a class="nav-item nav-link" href={% url 'profile' %}>profile</a>
+<a class="nav-item nav-link" href={% url 'logout' %}>Logout</a>
+```
