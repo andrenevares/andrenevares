@@ -442,8 +442,50 @@ Podemos atualizar o nosso ```http://127.0.0.1:8000/register/``` ou fazer o ```py
 
 Fazendo isso veremos que há um campo para o ```email```
 
+Faça um teste e depois entre no ```admin```
 
+### Customizando com crispy forms
+> link para [documentação do crispy forms](https://django-crispy-forms.readthedocs.io/en/latest/)
 
+#### Instalar crispy forms
+Se o estiver rodando o servidor <kbd>Ctrl</kbd>+<kbd>C</kbd>
+
+Primeiro vamos instalar 
+```pip install django-crispy-forms```
+
+Depois de instalado precisamos informar ao Django que temos um app instalado.  E toda vez que temos um APP devemos adcionar o APP à lista de ```INSTALLED_APPS=[]``` em ```settings.py``` do projeto.
+
+Nossa configuração do ```settings.py``` irá ficar assim:
+
+```
+(...)
+INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
+    'users.apps.UsersConfig',
+    'crispy_forms',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+(...)
+```
+
+E já que estamos no ```settings.py``` vamos informar ao ```crispy forms``` qual o css framework que queremos usar!
+- O padrão é Bootstrap 2
+- Mas ele já está meio velho!
+- Ao invés disso vamos usar o Bootstrap 4
+
+Vamos até o final do nosso ```settings.py``` e vamos adicionar:
+
+```
+(...)
+CRYSPY_TEMPLATE_PACK = 'bootstrap4'
+```
+
+Agora que já falamos que iremos usar o bootstrap4 podemos usar o crispy forms diretamente no nosso template!
 
 
 
