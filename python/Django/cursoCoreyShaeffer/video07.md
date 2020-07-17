@@ -13,29 +13,66 @@
 
 ### Views nativas de ```login``` e ```logout```
 
-1. __projeto > urls.py__  importaremos as views nativas do django.
-2. ```from django.contrib.auth import views as auth_views```
+#### Importar módulos no ```projeto > urls.py```
+Importaremos as views ```login``` e ```logout``` nativas do django.
 
-##### Sintaxe ```login```: 
-```path ('login/', auth_views.LoginView.as_view(), name='login'),```
+Sintaxe:
+```
+from django.contrib.auth import views as auth_views
+```
 
-##### Sintaxe ```logout```: 
-```path ('login/', auth_views.LogoutView.as_view(), name='logout'),```
+
+##### Começando a sintaxe ```login``` e ```logout```: 
+```
+path('login/', auth_views.LoginView.as_view(), name='login'),
+path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+```
 
 Ao invés de criarmos um app para ```login```e outro app para ```logout``` podemos usar o app ```users``` o que faz mais sentido.
 
 Para isso precisamos dizer ao Django isso...  Nós vamos dizer ao django onde olhar pelos templates
 
-Então dentro da função ```as_view()``` vamos colocar ```as_view(template_name='users/login.html', name='login')```
+Então dentro da função ```as_view()``` vamos colocar 
+```
+.as_view(template_name='users/login.html')
+```
 
-#### Sintaxes ```login``` e ```logout```: 
-```path ('login/', auth_views.LoginView.as_view(template_name=('users/login.html', name='login'), name='login'),```
-```path ('logout/', auth_views.LogoutView.as_view(template_name=('users/logout.html', name='logout'), name='logout'),```
+#### Sintaxes finais ```login``` e ```logout```: 
+
+```
+path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
+path('logout/', auth_views.LogoutView.as_view(template_name='users/logour.html'), name='logout'),
+```
 
 ### Criar template ```login```
 Vamos copiar o código html do ```register.html``` para servir de base para o nosso template.
 
 Fazer alguns ajustes
+
+```
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="content-section">
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Log in/legend>
+                {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Log in</button>
+        </div>
+    </form>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Ainda não possui uma conta? <a class="ml-2" href="{% url 'register' %}">Cadastre-se agora!</a>
+        </small>
+    </div>
+</div>
+{% endblock content %}
+```
 
 ### Ajustar o ```{% url '...' %}```
 - As páginas precisam ser ajustadas para serem redirecionadas de forma dinâmica
@@ -94,12 +131,12 @@ Vamos criar nosso template.
 
 ```
 {% block content %}
-  <h2>Logout bem sucedido</h2>
-  <div class = "border-top pt-3">
+<h2>Logout bem sucedido</h2>
+<div class="border-top pt-3">
     <small class="text-muted">
-      <a href={% url 'login' %}>Faça seu login novamente</a>
-    <small>
-  <div>
+        <a href={% url 'login' %}>Faça seu login novamente</a>
+    </small>
+</div>
 {% endblock  %}
 ```
 
@@ -133,8 +170,8 @@ def profile(request):
 
 
 #### urls.py
-
-```path ('profile/', auth_views.profile, name='profile'),```
+   
+```path('profile/', users_views.profile, name='profile'),```
  
 #### ajustar a navbar do ```base.html```
 ```
@@ -143,6 +180,7 @@ def profile(request):
 ```
 
 #### @login_required 
+Entrar no ```views.py``` do app ```users```
 ```
 from django.contrib.auth.decorators import login_required
 (...)
