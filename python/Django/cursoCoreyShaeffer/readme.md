@@ -5,7 +5,7 @@
 - [Notes 03 - Templates](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video03.md)
 - [Notes 04 - Superuser e Admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video04.md)
 - [Notes 05 - Database e Migrations](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video05.md)
-- [Notes 06 - User Registration](https://www.youtube.com/watch?v=q4jPR-M0TAQ&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=6)
+- [Notes 06 - User Registration](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/video06.md)
 - [Python Django Tutorial: Full-Featured Web App Part 7 - Login and Logout System](https://youtu.be/3aVqWaLjqS4)
 - [Python Django Tutorial: Full-Featured Web App Part 8 - User Profile and Picture](https://youtu.be/FdVuKt_iuSI)
 - [Python Django Tutorial: Full-Featured Web App Part 9 - Update User Profile](https://youtu.be/CQ90L5jfldw)
