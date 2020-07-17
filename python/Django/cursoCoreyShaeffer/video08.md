@@ -47,7 +47,7 @@ Toda vez que criamos ou alteramos models nós temos que fazer o processo de migr
 
 1. Esteja certo de que está no diretório onde fica o ```manage.py```
 2. Make Migrations: ```python manage.py makemigrations```
-3.
+3. Executar a Migration: ```python manage.py migrate```
 
 #### Erro - Intalar Pillow
 
@@ -64,3 +64,38 @@ users.Profile.image: (fields.E210) Cannot use ImageField because Pillow is not i
 Pillow é uma bliblioteca python para lidar com imagens.
 
 Então instalamos o pillow: ```pip install pillow```
+
+Vamos tentar rodar ```python manage.py makemigration```
+
+Agora tivemos sucesso!
+
+Vamos então à Migration: ```python manage.py migrate```
+
+### Registrar no adm file do nosso APP
+Para que possamos ver no nossa admin
+
+#### users > admin.py
+Vamos lembrar como fizermos o registro do nosso model Post???
+
+```
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
+```
+
+Então nosso código será muito parecido... Só que ao invés de __Post__ vamos usar __Profile__
+
+```
+from django.contrib import admin
+from .models import Profile
+
+admin.site.register(Profile)
+```
+
+Vamos entrar no Admin?
+
+```python manage.py runserver```
+
+Entrando no ```localhost:8000/admin``` veremos que dentro do ADMIN nós temos o RUNSERVER.
+
