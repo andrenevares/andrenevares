@@ -485,7 +485,18 @@ Vamos até o final do nosso ```settings.py``` e vamos adicionar:
 CRYSPY_TEMPLATE_PACK = 'bootstrap4'
 ```
 
+### Colocando os avisos em Português
+
+Dentro do ```settings.py``` vamos colocar: ```LANGUAGE_CODE = 'pt-BR'```.  Dessa forma os avisos vão ser em Poruguês!!!
+
+
+### Ajustando o Template
+
 Agora que já falamos que iremos usar o bootstrap4 podemos usar o crispy forms diretamente no nosso template!
 
+O processo de estilização com o crispy é bem simples!  Basta 
+
+1. Colocar ```{% load crispy_forms_tags %}``` abaixo do extends
+2. usar {{ form|crispy }}
 
 
