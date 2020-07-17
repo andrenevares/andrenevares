@@ -1,6 +1,9 @@
 # Parte 08
 > Notes from Mscorey, made by André Nevares 
 
+## Youtube link
+- [Python Django Tutorial: Full-Featured Web App Part 8 - User Profile and Picture](https://youtu.be/FdVuKt_iuSI)
+
 ## User Profile and Picture
 - Expandir o app user
 - Django Signals
