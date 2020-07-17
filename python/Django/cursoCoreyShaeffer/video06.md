@@ -337,9 +337,47 @@ Então precisamos colocar um campo customizado!!!!
 
 ### Adicionando mais campos para Registration Form
 
-#### criar ```forms.py```
+Nós precisamos criar um form que herda o ```UserCreationForm```
+1. Criar um novo arquivo users > forms.py 
+2. Fazer alguns imports: forms, User, UserCreationForm
+3. Criar um ```form```que herde do ```UserCreationForm```
+
+#### 1. Criar um novo arquivo users > forms.py
 
 Vamos criar um arquivo ```users > forms.py```.
+
+#### 2. Fazer alguns imports: forms, User, UserCreationForm
+
+```
+from django import forms
+from django.contrib.auth.models import User
+from django.contrib.auth.forms import UserCreationForm
+```
+
+#### 3. Criar um ```form```que herde do ```UserCreationForm```
+1. Vamos criar uma ```class``` chamada ```UserRegisterForm```: 
+2. Que herde de UserCreationForm basta colocar entre ```()```... Assim a sintaxe fica ```class UserRegisterForm(UserCreationForm):```
+
+O código com os imports e a class criada já herdando do ```UserCreationForm``` está assim
+
+```
+from django import forms
+from django.contrib.auth.models import User
+from django.contrib.auth.forms import UserCreationForm
+
+class UserRegisterForm(UserCreationForm):
+```
+
+Agora nós queremos adcionar os campos adcionais que queremos adcionar ao ```UserCreationForm```
+
+```
+class UserRegisterForm(UserCreationForm):
+    email = forms.EmailField()
+```
+
+- ```email = forms.EmailField()``` por padrão o campo é obrigatório
+- ```email = forms.EmailField(required=False)``` se quisessemos criar um campo que não fosse obrigatório
+
 
 ```
 from django import forms
