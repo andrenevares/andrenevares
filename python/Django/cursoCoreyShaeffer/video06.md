@@ -391,3 +391,14 @@ class UserRegisterForm(UserCreationForm):
         model = User
         fields = ['username', 'email', 'password1', 'password2']
 ```
+
+Vamos entender um pouco sobre esse tal de ```class Meta:``` Ele permite que tenhamos a configuração em um único lugar!  com o código acima estamos informando:
+- o modelo que estará sendo afetado é o __User Model__
+- quando a função realizar ```user.save()``` os dados serão salvos dentro desse __User Model__
+- Os campos que nós temos na lista ```fields=[]``` são os campos que queremos que existam, e nesta ordem!
+
+### ```UserCreationForm``` --> ```UserRegisterForm```
+Agora que temos o nosso formulário completo, podemos substituir na nossa ```users > view.py```.  Ao invés de usarmos o ```UserCreationForm``` passaremos a usar ```UserRegisterForm``` que contém o campo e-mail.
+
+
+
