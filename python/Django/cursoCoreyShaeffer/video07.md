@@ -127,7 +127,6 @@ vamos criar uma chamada ```profile```
 ```
 def profile(request):
   return render(request, 'users/profile.html')
-
 ```
 
 #### Template profile
@@ -142,3 +141,34 @@ def profile(request):
 <a class="nav-item nav-link" href={% url 'profile' %}>profile</a>
 <a class="nav-item nav-link" href={% url 'logout' %}>Logout</a>
 ```
+
+#### @login_required 
+```
+from django.contrib.auth.decorators import login_required
+(...)
+```
+
+Colocando o decorator...
+```
+@login_required
+def profile(request):
+  return render(request, 'users/profile.html')
+```
+
+Irá retornar erro pois estará procurando por ```localhost:8000/accounts/login/?next=/profile/``` 
+
+Esse é o padrão onde o django irá verificar as routes...
+
+Mas acontece que nós decidimos colocar a nossa route em outro lugar
+
+Precisaremos ajustar o ```settings.py``` para verificar onde o django irá procurar
+
+```
+LOGIN_URL = 'login'
+```
+
+Perceba que o Django está guarndando o local que precisa ser acessado com o LOGIN.  Quando um sistema diz que você precisa se logar para acessar àquela página... Ele vai te mandar para uma página de Login... O que você espera?  Acredito que você deseje que a página depois do login seja aquela que você estava tentando acessar antes!!! 
+
+```localhost:8000/accounts/login/?next=/profile/``` 
+
+Agora nós vemos o profile
