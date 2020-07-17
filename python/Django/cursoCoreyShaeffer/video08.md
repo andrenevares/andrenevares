@@ -46,7 +46,7 @@ class Profile(models.Model):
 Toda vez que criamos ou alteramos models nós temos que fazer o processo de migration.
 
 1. Esteja certo de que está no diretório onde fica o ```manage.py```
-2. Make Migration
+2. Make Migrations: ```python manage.py makemigrations```
 3.
 
 #### Erro - Intalar Pillow
@@ -60,4 +60,7 @@ ERRORS:
 users.Profile.image: (fields.E210) Cannot use ImageField because Pillow is not installed.
         HINT: Get Pillow at https://pypi.org/project/Pillow/ or run command "python -m pip install Pillow".
 ```
- 
+
+Pillow é uma bliblioteca python para lidar com imagens.
+
+Então instalamos o pillow: ```pip install pillow```
