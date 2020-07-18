@@ -116,10 +116,22 @@ Vamos adcionar dois perfis.  Um com foto e outro sem.
 <User: andre>
 ```
 
+```
+>>> user.profile
+<Profile: andre Profile>
+>>> user.profile.image
+<ImageFieldFile: profile_pics/GITHUB-LOGO.png>
+>>> user.profile.image.url
+'profile_pics/GITHUB-LOGO.png'
+```
 
-### Diretório criado
+```
+>>> exit()
+\ python manage.py runserver
+```
+### Mundando onde a imagem é salva
 
-Ao fazermos isso criamos o django cria uma pasta na nossa raiz chamada ```profile_pics```
+Quando criamos perfis, verificamos que o django etá armazendo as imagens do diretório ```profile_pics```...
 
 ```
 projeto
@@ -129,4 +141,15 @@ projeto
 └───users
 ```
 
-O local de armazenamento das ```profile_pics``` não me parece muito bom...  O nosso sistema pode vir a fazer upload de outras imagens e toda vez que fizermos esse upload acabaremos por criar novo diretório na raiz...  Isso poderia poluir nossa raiz!
+No entanto, o local do diretório ```profile_pics``` não nos  parece muito bom...  
+
+O projeto pode ter outras funcionalidades que façam upload de outras imagens! 
+
+Se toda vez que fizermos uma nova função de upload colocarmos uma nova pasta dentro da raiz ...  Isso poderia poluir nossa raiz!
+
+Para resolver esse problema nós podemos fazer o seguinte:
+
+dentro do nosso __settings.py__ precisaremos configurar __MEDIA_ROOT__ e __MEDIA_URL__.
+
+- __MEDIA_ROOT__:
+- __MEDIA_URL__:
