@@ -49,7 +49,7 @@ Toda vez que criamos ou alteramos models nós temos que fazer o processo de migr
 2. Make Migrations: ```python manage.py makemigrations```
 3. Executar a Migration: ```python manage.py migrate```
 
-#### Erro - Intalar Pillow
+#### Erro - Instalar Pillow
 
 Ao rodar o comando ```python manage.py makemigrations``` teremos: 
 
@@ -99,3 +99,34 @@ Vamos entrar no Admin?
 
 Entrando no ```localhost:8000/admin``` veremos que dentro do ADMIN nós temos o RUNSERVER.
 
+
+### Adcionar Perfis via Admin
+
+Vamos adcionar dois perfis.  Um com foto e outro sem.
+
+### Vamos acessar via shell
+
+- <kbd>Ctrl</kbd>+<kbd>C</kbd>
+- ```python manage.py shell```
+
+```
+>>> from django.contrib.auth.models import User
+>>> user = User.objects.filter(username='andre').first() 
+>>> user
+<User: andre>
+```
+
+
+### Diretório criado
+
+Ao fazermos isso criamos o django cria uma pasta na nossa raiz chamada ```profile_pics```
+
+```
+projeto
+├───blog
+├───blogproject
+├───profile_pics
+└───users
+```
+
+O local de armazenamento das ```profile_pics``` não me parece muito bom...  O nosso sistema pode vir a fazer upload de outras imagens e toda vez que fizermos esse upload acabaremos por criar novo diretório na raiz...  Isso poderia poluir nossa raiz!
