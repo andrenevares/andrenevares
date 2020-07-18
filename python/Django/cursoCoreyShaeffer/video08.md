@@ -151,5 +151,20 @@ Para resolver esse problema nós podemos fazer o seguinte:
 
 dentro do nosso __settings.py__ precisaremos configurar __MEDIA_ROOT__ e __MEDIA_URL__.
 
-- __MEDIA_ROOT__:
-- __MEDIA_URL__:
+
+- __MEDIA_URL__: é a URL pública daquela URL
+
+
+### MEDIA_ROOT
+
+#### O que é MEDIA_ROOT
+- MEDIA_ROOT: o full path onnde queremos que o Django armazene aqruivos upados!  Por questões de performance, esses arquivos são salvos no ```filesystem``` e não no banco dados.  Então o __MEDIA_ROOT__ será o diretório onde os arquivos serão salvos...
+
+#### Alterar MEDIA_ROOT
+Vamos mudar manter os arquivos salvos na raiz, mas façamos que todos os arquivos upados sejam salvos em um diretório chamado ```media``` 
+
+Sintaxe em ```settings.py```
+```MEDIA_ROOT = os.path.join(BASE_DIR, 'media')```
+- Vai ficar na raiz do sistema 
+- independentemente do sistema operacional que você esteja usando
+- em um diretório ```media```
