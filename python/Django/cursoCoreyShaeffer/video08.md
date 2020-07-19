@@ -168,3 +168,29 @@ Sintaxe em ```settings.py```
 - Vai ficar na raiz do sistema 
 - independentemente do sistema operacional que você esteja usando
 - em um diretório ```media```
+
+### Nova estrutua
+```
+projeto
+├───blog
+├───blogproject
+└───media
+    └───profile_pics
+```
+
+### ```default.png``` ou ```default.png```
+As fotos dos usuários serão salvas dentro do ```media > profile_pics```.   A foto ```default```deve ficar no diretório ```media``` e não dentro de ```profile_pics``` como demonstramos abaixo:
+
+As fotos ficam assim:
+
+```
+projeto
+├───blog
+├───blogproject
+└───media
+    ├───profile_pics
+    |   ├───andre.jpg
+    |   ├───camila.jpg
+    |   └───rafael.png
+    └───default.png
+```
