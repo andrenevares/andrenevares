@@ -38,9 +38,21 @@ E como vamos transformar isso em ```css```?
 - clique o botão ___Watch Sass___
 - Isso vai gerar o ```style.css``` do ```style.scss```
 
-## Link
+## Link no HTML 
 ```
 <link rel="stylesheet" type="text/css" href="./styles/style.css">
 ```
-Uma das coisas que essa extensão faz de interessante é que o 
+
+## Ajustes automáticos
+Vamos imaginar que façamos um código assim
+```
+header {
+  backgroung: lightblue;
+  display: flex;
+  justify-content: center;
+}
+```
+Uma das coisas que essa extensão faz de interessante é que ela já faz os ajustes necessários para os navegadores diferentes que não ofereçam suporte para uma ou outra coisa.
+
+
 
