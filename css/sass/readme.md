@@ -71,6 +71,21 @@ header {
 }
 ```
 
+## Mapping
+
+```
+$colors(
+  primary: #005dff,
+  accent: #fff6bb
+  
+);
+
+body {
+  backgroung-color: map-get($colors, primary);
+}
+```
+
+
 ## Nesting
 
 ```
