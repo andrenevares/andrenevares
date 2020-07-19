@@ -54,5 +54,35 @@ header {
 ```
 Uma das coisas que essa extensão faz de interessante é que ela já faz os ajustes necessários para os navegadores diferentes que não ofereçam suporte para uma ou outra coisa.
 
+## Vriáveis
+```
+$bg-gray: #F6F6F6;
 
+header {
+  backgroung: $bg-gray;
+  display: flex;
+  justify-content: center;
+}
+```
+
+## Nesting
+
+
+```
+$bg-gray: #F6F6F6;
+
+header {
+  backgroung: $bg-gray;
+  display: flex;
+  justify-content: center;
+  h1 {
+    color: FFF
+  }
+  
+  p {
+    (...)
+  }
+  
+}
+```
 
