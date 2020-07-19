@@ -213,7 +213,19 @@ projeto
 {% endblock content %}
 ```
 
-### Associar um ```profile``` para cada user
+### ```SIGNALS``` 
+
+Para Associar um ```profile``` para cada user Do jeito que está funcionando hoje nós temos que entrar no ```admin``` 
+
+- Dentro de ```users``` vamos criar um novo arquivo chamado ```signals.py```
+
 
 ```
+projeto
+├───blog
+├───blogproject
+├───media
+└───users
+    ├───signals.py
+    └───(...)
 ```
