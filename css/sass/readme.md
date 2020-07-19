@@ -18,10 +18,16 @@ https://sass-lang.com/install
 ### o que isso irá fazer?
 Vai pegar o nosso Sass e transformar em css, afinal o navegador só consegue ler CSS.
 
-### Criando arquivos
+```
+style
+└───style.scss
+```
+
+Para ...
 
 ```
 style
+└───style.css
 └───style.scss
 ```
 
@@ -54,7 +60,7 @@ header {
 ```
 Uma das coisas que essa extensão faz de interessante é que ela já faz os ajustes necessários para os navegadores diferentes que não ofereçam suporte para uma ou outra coisa.
 
-## Vriáveis
+## Variáveis
 ```
 $bg-gray: #F6F6F6;
 
@@ -67,22 +73,83 @@ header {
 
 ## Nesting
 
-
 ```
-$bg-gray: #F6F6F6;
+$and-bg-gray: #F6F6F6;
+$and-dark-blue: #0E1E40
+$and-mediun-blue: #0E1E40
 
 header {
-  backgroung: $bg-gray;
+  backgroung: $and-bg-gray;
   display: flex;
   justify-content: center;
-  h1 {
-    color: FFF
+  button {
+    background: $and-mediun-blue;
+    &::after {
+      content: "--"
+    }
+    &:hover {
+      background: $and-dark-blue;
+    }
   }
   
   p {
     (...)
   }
-  
+}
+```
+## Separar em Multiplas partes
+```
+style
+└───style.css
+└───style.scss
+└───_header.scss
+└───_viariables.scss
+```
+No arquivo main temos que fazer o import.
+
+```
+@import ".variables";
+@import ".header";
+
+```
+
+## Mixins
+
+Basicamente é como se fosse uma função.  Vai nos permitir que coloquemos várias linhas de códigos em um determinado local e depois chamar.
+```
+@mixin flexCenter {
+  height: 100vh.;
+  display: flex;
+  justify-content: center;
+  alings-itens: center;
+}
+
+header {
+  @include flexCenter();
+  (...)
 }
 ```
 
+Com variáveis...
+```
+@mixin flexCenter ($bg-color) {
+  height: 100vh.;
+  display: flex;
+  justify-content: center;
+  alings-itens: center;
+  backgroung: $bg-color
+}
+
+header {
+  @include flexCenter(red);
+  (...)
+}
+```
+
+## Inheritance
+
+```
+.contact {
+@extend header;
+}
+```
