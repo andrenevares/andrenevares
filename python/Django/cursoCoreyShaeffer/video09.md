@@ -2,15 +2,15 @@
 
 Youtube Link: https://www.youtube.com/watch?v=CQ90L5jfldw&feature=youtu.be
 
-## This video
+## Nesse video
 - Finish Profile
 - Upload Profile Information
 - Upload Profile Picture
 - Images automaticamente resize quando fazemos o upload.
 
-
+Para isso:
 - Criar Forms 
-- Abrir 
+- Abrir ```forms.py```
 - Criar alguns forms adcionais para fazer o update do nosso user e do nosso profile
 
 ## User > ```forms.py```
