@@ -64,3 +64,27 @@ class ProfileUpdateForm(forms.ModelForm):
 
 1. Importar os forms que acabamos de criar
 2. no nosso profile vamos criar instâncias 
+
+
+## Redimensionando imagens
+- Usaremos um pacote chamado __pillow__
+
+user > models.py > ```class Profile(models.Model):```
+Nós vamos sobrescrever o método save
+
+```
+from PIL import Image
+
+(..)
+
+def save(self):
+    super().save()
+    
+    img = Image.open(self.image.path)
+    
+    if img.height > 300 or img.widht > 300:
+        output_size = (300, 300)
+        img.thumbnail(output_size)
+        img.save(self.image.path)
+    
+```
