@@ -16,6 +16,7 @@ Para isso:
 ## User > ```forms.py```
 - Nós vamos criar algo chamado de ```model form```
 - ```model form``` nós 
+- Dentro do tamplate __UserUpdateForm__ e o __ProfileUpdateForm__ parecerão que são uma única coisa.
 
 #### ```forms.py``` as is..;
 ```
@@ -50,8 +51,16 @@ class UserUpdateForm(forms.ModelForm):
 
 ```
 from .models import Profile
+
+(...)
+
+class ProfileUpdateForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        field = ['image']
 ```
 
-```
+## user > views.py
 
-```
+1. Importar os forms que acabamos de criar
+2. no nosso profile vamos criar instâncias 
