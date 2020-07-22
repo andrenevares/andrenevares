@@ -3,9 +3,8 @@
 Este repositório contém anotações, playlists, materiais e códigos referentes ao estudo do Framework Django. 
 
 ## Preparando o ambiente
-- Criar diretório s sincronizar com GIT HUB
-- Criar um Ambiente virtual (Virtual Enviroment)
-- Ativar o seu ambiente virtual
+- Criar diretório sincronizar com GIT HUB
+- [Criar / Ativa um Ambiente virtual (Virtual Enviroment)](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/virtual_env_criar_ativar.md)
 
 ## Intro Django
 - Instalando Django
