@@ -42,3 +42,14 @@ Resultado: ```Olá não inserido, você tem 0!```
 - colocamos o retorno dessa função em uma variável chamada ```frase```
 - depois imprimimos ```frase```
 
+
+
+## Desafio...
+
+__print triplo em uma mesma linha__
+
+crie uma função chamada de ```print_triplo``` que receba uma string e imprima isso três vezes. 
+> Se você digitar ```print_triplo("Andre")``` o resultado deverá ser AndreAndreAndre
+
+Solução:
+
