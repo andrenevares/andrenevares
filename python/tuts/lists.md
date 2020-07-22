@@ -35,3 +35,31 @@ Podemos extrair pela posição
 ```
 del(times[2])
 ```
+
+## Len()
+
+Imagine uma lista com ```times = ["Sport", "Fluminense", "Flamengo", "Vasco", "Botafogo"]```
+
+Ela tem 5 times.
+
+Para saber o tamanho de uma lista usamos ```len(nome_da_lista)```
+
+No caso usaremos ```len(times)```
+
+Resultado: 5
+
+## Atualizar itens em uma lista
+
+Imagine que eu só queira ter times cariocas em uma lista...
+
+```
+times = ["Sport", "Fluminense", "Flamengo", "Vasco", "Botafogo"]
+```
+
+Queremos trocar __Sport__ por __Bangu__
+
+```
+times[0] = "Bangu"
+```
+
+
