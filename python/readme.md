@@ -9,6 +9,9 @@
 ## Comandos para não esquecer...
 - [Interpolação com ```f"{(...)}"```](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/interpolacao-variaveis.md)
 - [```python --version```](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/como-saber-a-vers%C3%A3o-do-python-via-prompt.md)
+- [Comentários](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/coment%C3%A1rios.md)
+
+
 ## PIP
 - [Pip - Como Atualizar o PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
 - [Pip - pip search](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/pip.md#pesquisando-um-nome-de-um-pacote)
