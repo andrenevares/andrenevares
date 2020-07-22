@@ -1,0 +1,15 @@
+# Estrutura de um projeto 
+
+```
+D:\django
+      | - DjangoOne  
+      |     | - blogproject
+      |     |     | - blogproject
+      |     |     |     | - __init__.py 
+      |     |     |     | - asgi.py  
+      |     |     |     | - settings.py  
+      |     |     |     | - urls.py  
+      |     |     |     | - wsgi.py  
+      |     | - manage.py  
+      | - venv
+```
