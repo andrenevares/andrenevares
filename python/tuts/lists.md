@@ -1,7 +1,7 @@
 # Lists
 
 ## Métodos:
-| Method	| Description |
+| Método	| Descrição |
 | - | - |
 | append()	|  Adciona um elemento no final da lista | 
 | clear()	| Apaga todos os elementos da lista | 
