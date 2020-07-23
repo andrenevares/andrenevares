@@ -14,6 +14,7 @@
 - [Listas [...] ](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/lists.md)
 - [Loops](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/loops.md)
 - [Dicionários {...}](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/dicionarios.md)
+- [Classes](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/classes.md)
 
 ## PIP
 - [Pip - Como Atualizar o PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
