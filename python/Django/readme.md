@@ -11,6 +11,7 @@ Este repositório contém anotações, playlists, materiais e códigos referente
 - [Instalação](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/instalando_django.md)
 - [Start Project - Iniciando um projeto](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/iniciando-projeto-django.md)
 - [Estrutura de um projeto Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura-projeto-django..md)
+- [Listar Comandos django-admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comandos-admin.md)
 - [Comando Runserver](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comando-runserver.md)
 - [Apps]()
 - [Urls]()
