@@ -1,11 +1,5 @@
 # Python
 
-## Fontes
-- [Fontes](https://github.com/andrenevares/andrenevares/blob/master/python/fontes_confiaveis.md)
-
-## Instalando Git
-- [Problemas com Permissão no VSCODE](https://github.com/andrenevares/andrenevares/blob/master/.vscode/vscode_execution_policy.md)
-
 ## Comandos para não esquecer...
 - [Interpolação com ```f"{(...)}"```](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/interpolacao-variaveis.md)
 - [```python --version```](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/como-saber-a-vers%C3%A3o-do-python-via-prompt.md)
@@ -15,6 +9,14 @@
 - [Loops](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/loops.md)
 - [Dicionários {...}](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/dicionarios.md)
 - [Classes](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/classes.md)
+
+
+## Fontes
+- [Fontes](https://github.com/andrenevares/andrenevares/blob/master/python/fontes_confiaveis.md)
+
+## Instalando Git
+- [Problemas com Permissão no VSCODE](https://github.com/andrenevares/andrenevares/blob/master/.vscode/vscode_execution_policy.md)
+
 
 ## PIP
 - [Pip - Como Atualizar o PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
