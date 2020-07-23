@@ -30,36 +30,89 @@ Usados no deploy
 ## settings.py 
 Este é reamente importante.
 
-__BASE_DIR__: onde fica o seu projeto no seu computador
+#### BASE_DIR
+onde fica o seu projeto no seu computador
 
-__SECRET_KEY__: 
+#### SECRET_KEY
+isso vc não quer que outras pessoas saibam...   
 
-__DEBUG__: No desenvolvimento ```DEBUG = True``` permite que vejamos os erros.  Ajuda a que nós tenhamos um feedback.
+#### DEBUG
+No desenvolvimento ```DEBUG = True``` permite que vejamos os erros.  Ajuda a que nós tenhamos um feedback.
+- Desenvolvimento: ```DEBUG = True```
+- Produção: ```DEBUG = False```
 
-__ALLOWED_HOSTS__
+#### ALLOWED_HOSTS 
 
-__INSTALLED_APPS__
+#### INSTALLED_APPS
+Toda vez que você criar um _**app**_ você deve adcionar esse _**app**_ à lista.
 
-__MIDDLEWARE__
+#### MIDDLEWARE
+são coisas pré moldadas do Django.  Não se preocupar com isso.
 
-__ROOT_URLCONF__
+#### ROOT_URLCONF
 
-__TEMPLATES__
 
-__WSGI_APPLICATION__
+#### TEMPLATES
 
-__DATABASES__
 
-__AUTH_PASSWORD_VALIDATORS__
+#### WSGI_APPLICATION
+quando fizermos o deploy
 
-__LANGUAGE_CODE = 'en-us'__
+#### DATABASES
 
-__TIME_ZONE = 'UTC'__
+Padrão:
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+```
+Se mudarmos no __NAME__ criaremos um novo nome de arquivo...
 
-__USE_I18N = True__
 
-__USE_L10N = True__
+#### AUTH_PASSWORD_VALIDATORS
 
-__USE_TZ = True__
+#### LANGUAGE_CODE
+padrão:
+```
+LANGUAGE_CODE = 'en-us'
+```
+ 
+Mudar para
+```
+LANGUAGE_CODE = 'pt-BR'
+```
 
-__STATIC_URL = '/static/'__
+#### TIME_ZONE
+Padrão:
+```
+TIME_ZONE = 'UTC'
+```
+
+
+#### USE_I18N
+Padrão:
+```
+USE_I18N = True
+```
+
+#### USE_L10N
+Padrão:
+```
+USE_L10N = True
+```
+
+#### USE_TZ = True
+Padrão:
+```
+USE_TZ = True
+```
+
+#### STATIC_URL
+Padrão:
+```
+STATIC_URL = '/static/'
+```
+
