@@ -51,6 +51,7 @@ __print triplo em uma mesma linha__
 crie uma função chamada de ```print_triplo``` que receba uma string e imprima isso três vezes. 
 > Se você digitar ```print_triplo("Andre")``` o resultado deverá ser AndreAndreAndre
 
-[Solução 01]()
-[Solução 02]()
+[Solução 01](https://github.com/andrenevares/andrenevares/blob/master/python/desafios/triple_print_solucao01.py)
+
+[Solução 02](https://github.com/andrenevares/andrenevares/blob/master/python/desafios/triple_print_solucao02.py)
 

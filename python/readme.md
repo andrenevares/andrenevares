@@ -11,6 +11,8 @@
 - [```python --version```](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/como-saber-a-vers%C3%A3o-do-python-via-prompt.md)
 - [Comentários](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/coment%C3%A1rios.md)
 - [Função 01](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/funcao_01.md)
+- [Listas](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/lists.md)
+- [Loops](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/loops.md)
 
 ## PIP
 - [Pip - Como Atualizar o PIP](https://github.com/andrenevares/andrenevares/blob/master/python/tuts/atualizar_pip.md)
