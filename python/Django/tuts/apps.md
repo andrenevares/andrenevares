@@ -20,7 +20,7 @@ Projeto
 
 ## Passos:
 1. Criar um app
-2. Ajustar o __settings__ para que ele saiba sobre o app
+2. Adcionar nome do app ao ```settings.py```
 
 
 ### 1. Criar app
@@ -32,6 +32,8 @@ python manage.py startapp nome_do_app
 Essa comando vai criar um app com toda a estrutura do Django
 
 ### 2. Editar Settings
+Ajustar o __settings__ para que ele saiba sobre o app
+
 Adcionar à lista de apps o nome do seu app.
 
 Exemplo: se você criar um app que a folder seja ```pwdapp``` colcaremos na lista de ```URLS = []``` a seguinte string:
