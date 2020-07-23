@@ -13,8 +13,8 @@ Este repositório contém anotações, playlists, materiais e códigos referente
 - [Estrutura de um projeto Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura-projeto-django..md)
 - [Listar Comandos django-admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comandos-admin.md)
 - [Comando Runserver](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comando-runserver.md)
-- [Apps]()
-- [Urls]()
+- [Apps](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps.md)
+- [Urls](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/urls.md)
 - Templates
 - Forms
 
