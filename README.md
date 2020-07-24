@@ -24,5 +24,6 @@ Ensine alguém a programar.  Ame e ajude os outros.
 - [Python Django Sistema Produtividade Funcional - SEFA]()
 - [CSS](https://github.com/andrenevares/andrenevares/blob/master/css/readme.md)
 - [CSS - SAAS](https://github.com/andrenevares/andrenevares/blob/master/css/sass/readme.md)
+- [Emoji Cheat-Sheet](https://github.com/andrenevares/andrenevares/blob/master/emoji-cheatsheet.md)
 
 
