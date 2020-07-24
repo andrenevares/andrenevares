@@ -2,7 +2,7 @@
 
 [![build](https://travis-ci.org/ikatyang/emoji-cheat-sheet.svg?branch=master)](https://travis-ci.org/ikatyang/emoji-cheat-sheet)
 
-This cheat sheet is automatically generated from [GitHub Emoji API](https://api.github.com/emojis) and [Unicode Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html).
+Dados gerados automaticamente pela [API Emoji do GitHub](https://api.github.com/emojis) e [Lista completa de Emoji Unicode](https://unicode.org/emoji/charts/full-emoji-list.html).
 
 ## Table of Contents
 
