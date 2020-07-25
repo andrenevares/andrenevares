@@ -1,6 +1,6 @@
 # Sintax Básica do Mardown
 
-<img style="float: right !important" src=https://cdn2.iconfinder.com/data/icons/boxicons/256/github.png alt="git hub logo"> 
+<img src=https://cdn2.iconfinder.com/data/icons/boxicons/256/github.png alt="git hub logo" align="right" width="300"> 
 
 ## Cabeçalhos
 
