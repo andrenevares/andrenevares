@@ -1,39 +1,5 @@
 # Sintax Básica do Mardown
 
-## índice
-- Cabeçalho 
-- Parágrafos 
-- Enfasi
-    - Negrito 
-    - Itálico 
-    - Tachado 
-- Comentários 
-    - simples
-    - com múltiplas linhas
-- Listas
-    - Listas ordenadas
-    - Listas não ordenada
-    - Adcionando elementos a uma lista
-- Imagens
-- Links normais
-- Códigos 
-- Linhas Horizontais 
-
----
-
-- Links relativos
-- Negrito com Itálico
-- Cabeçalho Alternativo 
-- Adcionando títulos
-- Urls e endereco de email
-- Tabelas
-- Alinhamentos
-- Notas de Rodapé
-- Colocando Ids
-- Quebras de Linha
-
-
-
 
 ## Cabeçalhos
 
@@ -46,9 +12,9 @@
 | h5  | ```<h5> </h5>```  | ##### h5 |
 | h6  | ```<h6> </h6>```  | ###### h6 |
 
-
 ---
-## Ênfasi
+
+## Textos...
 
 |   | Alternativa | Resultado 
 |---|---|---|
