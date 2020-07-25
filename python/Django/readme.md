@@ -27,20 +27,22 @@ Este repositório contém anotações, playlists, materiais e códigos referente
 2. adicionar nome_do_app no urls.py dentro do arquivo settings
 
 ## Migrations
-Todas as vezes que criar/alterar uma class dentro do models.py temos que fazer
+Todas as vezes que criar/alterar uma class dentro do models.py temos que fazer:
 1. ```python manage.pi migrate```
 2. ```python manage.pi makemigrations```
 
+
+
 ## Criar um super user
-
-
-## forms
-
 Para se logar no ```localhost:8000/admin``` nós temos que criar um usuário.  Para isso:
+
 1.```python manage.py createsuperuser```
 2. username: ```seu_super_user_name```
 3. email: ```seu_email``` _opcional_
 4. password: ```sua_senha``` 
+
+Para mudar a senha do superuser
+```python manage.py nome_usuário```
 
 
 
