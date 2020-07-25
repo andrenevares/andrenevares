@@ -1,27 +1,20 @@
 <img src=https://cdn2.iconfinder.com/data/icons/boxicons/256/github.png alt="git hub logo" align="right" width="300"> 
 
 # Sintax Básica do Mardown
-## Cabeçalhos
-
+## Títulos
 - h1: #h1
-- h2: ## h2  |
-- h3: ### h3  |
-- h4: #### h4 |
-- h5: ##### h5 |
-- h6: ###### h6 |
-
----
+- h2: ## h2 
+- h3: ### h3
+- h4: #### h4
+- h5: ##### h5
+- h6: ###### h6
 
 ## Textos...
-
-|   | Alternativa | Resultado 
-|---|---|---|
-| Negrito 01  | ```__texto__```|__texto__|  
-| Negrito 02  | ```**texto**```|__texto__|  
-| Itálico 01  | ```_texto_```|_texto_|  
-| Itálico 02  | ```*texto*```|_texto_|  
-| Tachado  | ```~~texto~~```|~~texto~~|  
-
+- __Negrito__: ```__Negrito__```
+- __Negrito__: ```**Negrito**```
+- _Itálico_: ```_texto_```
+- *Itálico*: ```*texto*```
+- ~~Tachado~~: ```~~texto~~```
 > Obs.  Você pode combinar estilos
 ---
 ## Links
