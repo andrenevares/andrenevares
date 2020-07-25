@@ -1,0 +1,73 @@
+.login{
+    
+    width: 420px;
+    height: 650px;
+    background-color: #f8f9fa;
+    border: 1px solid #d3d3d3;
+    border-radius: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px; /*metade do height*/
+    margin-left: -210px; /*metade do width*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.login h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.login .underTitle{
+    text-align: center;
+    margin-bottom: 1.7rem;
+    
+}
+
+.login-icon-size{
+    font-size: 4rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+
+}
+
+.login input{
+    margin-bottom: .8rem;
+}
+
+.login .loglink{
+    text-align: center;
+    font-style: italic;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.login button{
+    margin-top: 2rem;
+}
+
+.alerta-pequeno h1{
+    font-size: 1rem !important;
+    font-weight: normal !important;
+}
+
+.space-top-allert {
+    margin-top: 1.5rem;
+}
+
+
+.border-none {
+    border-style: none !important;
+}
+
+.border-andre {
+    background-color: #f8f9fa;
+    border: 1px solid #d3d3d3;
+
+}

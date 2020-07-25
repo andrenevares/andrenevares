@@ -1,0 +1,28 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Predawn",
+    "workbench.iconTheme": "ayu",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    // Here you can change your Python Version on JSON file
+    "python.pythonPath": "C:\\Users\\MICRO\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 17,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "debug.console.fontFamily": "default",
+    "debug.console.fontSize": 17,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontWeight": "600",
+    "code-runner.executorMap": {
+        "python": "@pythonPath -u $fullFileName",
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "workbench.colorCustomizations": {},
+    "diffEditor.renderSideBySide": false,
+    "git.enableSmartCommit": true
+}

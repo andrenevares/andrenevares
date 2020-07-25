@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+<div>
+    {% block pagetitle %}
+    {{ pagetitle }}
+    {% endblock pagetitle %}
+</div>
+<div>
+    {% block alert %}
+    <div class="space-top-allert">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{category}}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </div>
+    {% endblock alert %}
+</div>
+
+<div>
+    {% block content %}
+    <div class="mb-4">
+        <h4>Share your oppinion</h4>
+        <p class="m-0">book: {{ book.title }}</p>
+        <p class="m-0">review: {{ book.author }}</p>
+        <p class="m-0">ibsn: {{ book.isbn }}</p>
+        <p class="m-0">year: {{ book.year }}</p>
+    </div>
+    <div>
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset>
+                <div class="form-group">
+                    {% if form.header.errors  %}
+                    <div>
+                        {{ form.header(class="form-control is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.header.errors %}
+                            <span>{{ error }} </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div>
+                        {{ form.header(class="form-control") }}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {% if form.rating.errors  %}
+                    <div>
+                        {{ form.rating(class="form-control is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.rating.errors %}
+                            <span>{{ error }} </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div>
+                        {{ form.rating(class="form-control") }}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {% if form.content.errors  %}
+                    <div>
+                        {{ form.content(class="form-control is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.content.errors %}
+                            <span>{{ error }} </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div>
+                        {{ form.content(class="form-control") }}
+                    </div>
+                    {% endif %}
+                </div>
+            </fieldset>
+            <div class="form-group mt-3">
+                {{ form.submit(class="btn btn-block btn-primary") }}
+            </div>
+        </form>
+        {% endblock content %}
+    </div>
+</div>

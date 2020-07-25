@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+{% block header %}
+
+<h1>Search for: {{ user_search_for }}</h1>
+
+{% endblock header %}
+
+{% block content %}
+<h5>Search Results</h5>
+<p class="lead">Your search have found {{ n_s_titles }} books by title, {{ n_s_authors }} books by author,
+    {{ n_s_years }} books by
+    year, {{ n_s_isbns }} books by ISBN </p>
+
+
+<!-- Start Title -->
+
+{% if s_titles %}
+<h5>Search for title: </h5>
+{% for s_title in s_titles %}
+<p class="lead"><a href="{{ url_for('book', book_id=s_title.id) }}">{{ s_title.title }}</a> - {{ s_title.author }} -
+    {{ s_title.year }} -
+    {{ s_title.isbn }}</p>
+{% endfor %}
+<hr>
+{% else %}
+{% endif %}
+<!-- End Title -->
+
+
+
+<!-- Start Author -->
+
+{% if s_authors %}
+<h5>Search for author: </h5>
+{% for s_author in s_authors %}
+<p class="lead"><a href="{{ url_for('book', book_id=s_author.id) }}">{{ s_author.title }} </a>- {{ s_author.author }} -
+    {{ s_author.year }} -
+    {{ s_author.isbn }}</p>
+{% endfor %}
+<hr>
+{% else %}
+{% endif %}
+
+
+
+
+
+<!-- Start Year -->
+
+{% if s_years %}
+<h5>Search for year: </h5>
+{% for s_year in s_years %}
+<p class="lead"><a href="{{ url_for('book', book_id=s_year.id) }}">{{ s_year.title }}</a> - {{ s_year.author }} -
+    {{ s_year.year }} -
+    {{ s_year.isbn }}</p>
+{% endfor %}
+<hr>
+{% else %}
+{% endif %}
+
+
+
+<!-- Start ISBN -->
+
+{% if s_isbns %}
+<h5>Search for isbn: </h5>
+{% for s_isbn in s_isbns %}
+<p class="lead"><a href="{{ url_for('book', book_id=s_isbn.id) }}">{{ s_isbn.title }}</a> - {{ s_isbn.author }} -
+    {{ s_isbn.year }} -
+    {{ s_isbn.isbn }}</p>
+{% endfor %}
+<hr>
+{% else %}
+{% endif %}
+{% endblock content %}

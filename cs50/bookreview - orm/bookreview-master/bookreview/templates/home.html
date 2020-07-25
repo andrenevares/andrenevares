@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<h1>Keep reading...</h1>
+{% endblock header %}
+
+
+{% block content %}
+<p class="lead">I will make notes here </p>
+
+<form name="searchForm" id="searchForm" method="POST" action={{ url_for('search') }}>
+    <div class="form-group">
+        <input type="text" name="search" placeholder="search by Title, Author or ISBN" class="form-control" id="search"
+            required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+
+{% for book in books %}
+<div class="row mt-4">
+    <div class="col-lg-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <a href="{{ url_for('book', book_id=book.id) }}">
+                    <h5 class=" card-title">{{ book.title }}</h5>
+                </a>
+                <p class=" card-text">By {{ book.author }} -
+                    {{ book.year }} - {{ book.isbn }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endfor %}
+
+{% endblock content %}

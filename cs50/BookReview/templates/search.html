@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+
+
+{% block pagetitle %}
+{{ pagetitle }}
+{% endblock pagetitle %}
+
+{% block alert %}
+<div class="space-top-allert">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="alert alert-{{category}}">
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+</div>
+{% endblock alert %}
+
+{% block content %}
+<div>
+    <form method="POST" action="">
+        <fieldset>
+            <p class="lead">You can serch by full text of partial</p>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        {{ form.search(class="form-control") }}
+                        <small class="text-muted">Search by title, author, isbn or year</small>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-group mt-0">
+                {{ form.submit(class="btn btn-primary") }}
+            </div>
+    </form>
+    </fieldset>
+
+</div>
+<div>
+    {% if books %}
+    <div class="mt-3">
+        <!-- This is a ISBN to check the is statment 0778324516-->
+        <!-- But you can try anything you want-->
+        {% if contagem == 1 %}
+        <h4>Your have found just {{ contagem }} book </h4>
+        {% else %}
+        <h4>Your have found {{ contagem }} books... </h4>
+        {% endif %}
+
+        <hr>
+    </div>
+    <div class="mt-3">
+        {% for book in books %}
+        <p><a href="{{ url_for('book', book_id=book.id) }}">{{ book.title }} - {{ book.author }} <small>-
+                    {{ book.isbn }} - {{ book.year }}</small>
+            </a></p>
+        {% endfor %}
+    </div>
+    {% else %}
+
+    {% endif %}
+</div>
+{% endblock content %}

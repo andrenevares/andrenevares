@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<h1>Make a review</h1>
+{% endblock header %}
+
+{% block content %}
+
+<div class="form-group">
+    <h3>{{ book.title }}</h3>
+    <p>Author: {{ book.author }} - Year: {{ book.year }} - ISBN: {{ book.isbn }} - BookId: {{ book.id }}</p>
+    <p class="lead">Write your opinion! </p>
+
+
+    <form method="POST" action="">
+
+
+        <!-- Add CSRF Token-->
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.title.label(class="form-control-label") }}
+            {{ form.title(class="form-control form-control-lg") }}
+        </div>
+        <div class="form-group">
+            {{ form.rating.label(class="form-control-label") }}
+            {{ form.rating(class="form-control form-control-lg") }}
+        </div>
+        <div class="form-group">
+            {{ form.content.label(class="form-control-label") }}
+            {{ form.content(class="form-control form-control-lg") }}
+        </div>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-primary") }}
+        </div>
+    </form>
+</div>
+
+
+{% endblock content %}

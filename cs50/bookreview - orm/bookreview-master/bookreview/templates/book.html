@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<h1>Book: {{ book.title }}</h1>
+{% endblock header %}
+
+{% block content %}
+<div class="">
+
+    <p class="lead">Author: {{ book.author }} </p>
+    <p class="lead">Year: {{ book.year}}</p>
+    <p class="lead">ISBN: {{ book.isbn}}</p>
+    <p class="lead">AVG RATING: XX from our users</p>
+    <p class="lead">AVG RATING: XX from our Good Readers users</p>
+    <hr>
+</div>
+<div class="mt-4">
+    <a class="btn btn-primary" href="{{ url_for('makereview', book_id=book.id) }}" role="button">Make a Review</a>
+</div>
+
+<div class="mt-4">
+    {% for review in reviews %}
+    <div class="card mt-3">
+        <div class="card-header">Rating: {{ review.rating }} in {{ review.date_posted.strftime('%Y-%m-%d') }}</div>
+        <div class="card-body">
+            <h5 class="card-title mb-1">{{ review.title }}</h5>
+            <p class="card-text mb-1">{{ review.content }}</p>
+            <p class="card-text mb-1">by {{ review.review_author }}</p>
+
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+
+{% endblock content %}

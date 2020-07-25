@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+{% block log %}
+<div class="login">
+    <span class="login-icon-size">
+        <i class="fas fa-book-open"></i>
+    </span>
+    <h1>Join us Today!</h1>
+    <p class="underTitle">Join us today and get the full experience off Books Review</p>
+    <div>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{category}}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </div>
+    <div>
+        <!-- add a CSRF token -->
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset>
+                <div class="form-group">
+                    {% if form.username.errors  %}
+                    <div>
+                        {{ form.username(class="form-control is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.username.errors %}
+                            <span>{{ error }} </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div>
+                        {{ form.username(class="form-control") }}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {% if form.password.errors  %}
+                    <div>
+                        {{ form.password(class="form-control is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.password.errors %}
+                            <span>{{ error }} </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div>
+                        {{ form.password(class="form-control") }}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    {% if form.confirm_password.errors  %}
+                    <div>
+                        {{ form.confirm_password(class="form-control is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.confirm_password.errors %}
+                            <span>{{ error }} </span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div>
+                        {{ form.confirm_password(class="form-control") }}
+                    </div>
+                    {% endif %}
+                </div>
+            </fieldset>
+            <div class="form-group mt-3">
+                {{ form.submit(class="btn btn-block btn-primary") }}
+            </div>
+        </form>
+    </div>
+    <small class="align-text-bottom">Already have an account? <a class="ml-2" href="{{ url_for('login') }}">Sign In</a>
+    </small>
+</div>
+{% endblock log %}

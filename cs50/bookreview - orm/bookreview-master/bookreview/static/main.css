@@ -1,0 +1,45 @@
+.texto-azul {
+    color: #007bff;
+}
+
+
+.review-user{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+
+}
+
+.review-date::before{
+    content: " on ";
+
+}
+.review-user::before{
+    content: "- ";
+} 
+
+.review-title {
+    color: red;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.review-rating{
+    color: royalblue !important;
+}
+.review-rating::before{ 
+    content: " - rating: " ;
+}
+
+.review-coment {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.destaque_titulos {
+    font-size: 1.35rem;
+    font-weight: 400;
+}
