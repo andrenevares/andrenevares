@@ -20,7 +20,7 @@ Este repositório contém anotações, playlists, materiais e códigos referente
 - [Urls](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/urls.md)
 - Templates
 - Forms
-
+- [documentação models](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types)
 
 ## Views
 
