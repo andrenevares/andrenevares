@@ -5,6 +5,18 @@
 2. ```cmd```
 3. Digite: ```git``` depois <kbd>Enter</kbd>
 
+Caso não esteja instalado vá até o site [git-scm.com](https://git-scm.com/) e faça o download.
+
+## Como fazer git de um projeto?
+
+1. Abra o prompt do windows ( <kbd>Winkey</kbd>+<kbd>R</kbd> depois ```cmd``` )
+2. Entre na pasta do diretório do seu projeto.
+3. ```git init```
+
+- é criada um diretório invisível
+- caso você digite ```dir``` não conseguirá ver...
+- no windows use o comando ```dir /ah```
+
 ## git clone
 
 ## git push
