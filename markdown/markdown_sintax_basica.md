@@ -1,7 +1,6 @@
-# Sintax Básica do Mardown
-
 <img src=https://cdn2.iconfinder.com/data/icons/boxicons/256/github.png alt="git hub logo" align="right" width="300"> 
 
+# Sintax Básica do Mardown
 ## Cabeçalhos
 
 | Tipo  | Html  | Markdown  |
