@@ -44,7 +44,15 @@ Para se logar no ```localhost:8000/admin``` nós temos que criar um usuário.  P
 Para mudar a senha do superuser
 ```python manage.py nome_usuário```
 
+## Admin
+Dentro de cada app temos um arquivo ```admin```.  Será aqui que definiremos o que será exibido no painel do admin!
 
+Se criamos um model chamado __Post__ que fica dentro do app __blog__ teremos que fazer
+
+```
+from .models import Project
+```
+> o ```.``` significa que estamos referenciando a mesma pasta.
 
 ## O projeto Django
 O site oficial do [Django pode ser acessado por meio deste link](https://www.djangoproject.com/) ou diretamente por meio do https://www.djangoproject.com/.  Achamos extremamente importante a leitura da documentação no site do django.  No momento em que estamos estudando esse Framework [a documentação pode ser acessada aqui](https://docs.djangoproject.com/en/3.0/)
