@@ -17,6 +17,10 @@
 - ~~Tachado~~: ```~~texto~~```
 > Obs.  Você pode combinar estilos
 ---
+## Botões de Atalhos
+Exemplo: <kbd>Winkey</kbd>+<kbd>R</kbd>
+sintax ```<kbd>Winkey</kbd>+<kbd>R</kbd>```
+
 ## Links
 |   | Sintax | Resultado| 
 |---|---|---|
