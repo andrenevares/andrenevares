@@ -1,5 +1,10 @@
 # Comandos importantes
 
+## Como saber se o git está instalado?
+1. <kbd>Winkey</kbd>+<kbd>R</kbd>
+2. ```cmd```
+3. Digite: ```git``` depois <kbd>Enter</kbd>
+
 ## git clone
 
 ## git push
