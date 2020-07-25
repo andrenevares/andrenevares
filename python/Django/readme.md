@@ -1,3 +1,5 @@
+<img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" align="right" width="300px")
+
 # Django
 
 Este repositório contém anotações, playlists, materiais e códigos referentes ao estudo do Framework Django. 
