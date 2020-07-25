@@ -49,7 +49,7 @@ Dentro de cada app temos um arquivo ```admin```.  Será aqui que definiremos o q
 
 Se criamos um model chamado __Post__ que fica dentro do app __blog__ teremos que fazer
 
-```
+```python
 from .models import Project
 ```
 > o ```.``` significa que estamos referenciando a mesma pasta.
