@@ -96,4 +96,13 @@ from django.conf import settings
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
+## views.py do app
+```python
+from .models import Nome_do_model
+
+admin.site.register(Nome_do_model)
+```
+
+
+
 - [Notes Corey Shaeffer](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/readme.md)
