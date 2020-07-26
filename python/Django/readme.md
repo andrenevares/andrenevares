@@ -54,7 +54,9 @@ admin.site.register(Post)
 ```
 > o ```.``` significa que estamos referenciando a mesma pasta.
 
-## Ajustar onde são salvas as imagens
+
+
+## Ajustar settings.py referente às imagens
 1. Vá até o arquivo __settings.py__
 2. digitar o endereço no final do arquivo utilizando a seguinte sintaxe: ```MEDIA_ROUTE = ''```
 
@@ -63,7 +65,22 @@ Para que funcione em qualquer computador, seja linux, windows, mac... devemos us
 Podemos colar do __DATABASES__ que fica dentro do __settings.py__
 
 ```python
+MEDIA_URL = '/static/' 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+```
+
+- MEDIA_URL: será a URL que será exibida no navegador 
+- MEDIA_ROOT: será onde ela será salva de fato, seja no servidor, seja na sua máquina
+
+## Importar ```static``` para urls.py do projeto
+
+```python
+from django.conf.urls.static import static
+from django.conf import settings
+
+(...)
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
 ## O projeto Django
