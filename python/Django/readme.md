@@ -26,6 +26,16 @@ Este repositório contém anotações, playlists, materiais e códigos referente
 1. ```python manage.py startpp nome_do_app```
 2. adicionar nome_do_app no urls.py dentro do arquivo settings
 
+## Class
+```python
+from django.db import models
+
+class Project(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.CharField(max_length=250)
+    image = models.ImageField(upload_to='portfolio/images')
+    url = models.URLField(blank=True)
+```
 ## Migrations
 Todas as vezes que criar/alterar uma class dentro do models.py temos que fazer:
 1. ```python manage.pi migrate```
