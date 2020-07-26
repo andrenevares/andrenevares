@@ -38,8 +38,8 @@ class Project(models.Model):
 ```
 ## Migrations
 Todas as vezes que criar/alterar uma class dentro do models.py temos que fazer:
-1. ```python manage.pi migrate```
-2. ```python manage.pi makemigrations```
+1. ```python manage.py migrate```
+2. ```python manage.py makemigrations```
 
 ## Criar um super user
 Para se logar no ```localhost:8000/admin``` nós temos que criar um usuário.  Para isso:
@@ -73,7 +73,7 @@ Temos que ajustar
 
 #### ```settings.py```
 1. Vá até o arquivo __settings.py__
-2. digitar o endereço no final do arquivo utilizando a seguinte sintaxe: ```MEDIA_ROUTE = ''```
+2. digitar o endereço no final do arquivo utilizando a seguinte sintaxe: ```MEDIA_ROOT = ''```
 
 Para que funcione em qualquer computador, seja linux, windows, mac... devemos usar a sintace de sistema operacional.
 
@@ -96,13 +96,16 @@ from django.conf import settings
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
 
-## views.py do app
-```python
-from .models import Nome_do_model
+## Criar os templates
 
-admin.site.register(Nome_do_model)
+## Criar estrutura
+1. Criar diretório templates > nome_do_app
+2. dentro desse diretório colocar ```home.html```
 ```
-
+nome_do_app
+    |- Templates
+        |- nome_do_app
+```
 
 
 - [Notes Corey Shaeffer](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/readme.md)
