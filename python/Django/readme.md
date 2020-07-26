@@ -70,7 +70,7 @@ Para que funcione em qualquer computador, seja linux, windows, mac... devemos us
 Podemos colar do __DATABASES__ que fica dentro do __settings.py__
 
 ```python
-MEDIA_URL = '/static/' 
+MEDIA_URL = '/imagens/' 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 ```
 - MEDIA_URL: será a URL que será exibida no navegador 
