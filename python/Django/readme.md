@@ -55,8 +55,13 @@ admin.site.register(Post)
 > o ```.``` significa que estamos referenciando a mesma pasta.
 
 
+## Imagens 
 
-## Ajustar settings.py referente às imagens
+Temos que ajustar 
+1. ```settings.py``` do projeto
+2. ```urls.py``` do projeto
+
+#### ```settings.py```
 1. Vá até o arquivo __settings.py__
 2. digitar o endereço no final do arquivo utilizando a seguinte sintaxe: ```MEDIA_ROUTE = ''```
 
@@ -68,11 +73,10 @@ Podemos colar do __DATABASES__ que fica dentro do __settings.py__
 MEDIA_URL = '/static/' 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 ```
-
 - MEDIA_URL: será a URL que será exibida no navegador 
 - MEDIA_ROOT: será onde ela será salva de fato, seja no servidor, seja na sua máquina
 
-## Importar ```static``` para urls.py do projeto
+## ```urls.py``` do projeto
 
 ```python
 from django.conf.urls.static import static
@@ -82,15 +86,5 @@ from django.conf import settings
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 ```
-
-## O projeto Django
-O site oficial do [Django pode ser acessado por meio deste link](https://www.djangoproject.com/) ou diretamente por meio do https://www.djangoproject.com/.  Achamos extremamente importante a leitura da documentação no site do django.  No momento em que estamos estudando esse Framework [a documentação pode ser acessada aqui](https://docs.djangoproject.com/en/3.0/)
-
-## Sistema Operacional + IDE
-- Sistema Operacional Windows 10, infelizmente...
-- Editores de Texto: [Visual Studio Code](https://code.visualstudio.com/download)
-
-## Django Youtube Tutorial
-> Thanks for Corey Schafer
 
 - [Notes Corey Shaeffer](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/readme.md)
