@@ -63,7 +63,7 @@ Para que funcione em qualquer computador, seja linux, windows, mac... devemos us
 Podemos colar do __DATABASES__ que fica dentro do __settings.py__
 
 ```python
-MEDIA_ROUTE = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 ```
 
 ## O projeto Django
