@@ -147,7 +147,7 @@ No início do arquivo:
 
 #### extendendo modelos do template
 
-No base:
+##### No base:
 
 ```html
 {% load static %}
@@ -155,9 +155,9 @@ No base:
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 </head>
 ```
-
+##### no home...
 ```html
-{% extends "base.html" %}
+{% extends "nome_do_projeto/base.html" %}
 <div class="container">
     {% block content %}      
     {% endblock content %} 
