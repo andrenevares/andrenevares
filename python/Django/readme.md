@@ -98,7 +98,23 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 ## Criar os templates
 
-## Criar estrutura
+
+#### criar um path
+```python
+(...)
+from nome_do_app import views
+    (...)
+
+    path('', views.home, name='home'),
+```
+
+#### criar uma view
+```python
+def home(request):
+    return render(request, 'personal/home.html')
+```
+
+#### Criar estrutura
 1. Criar diretório templates > nome_do_app
 2. dentro desse diretório colocar ```home.html```
 ```
@@ -109,6 +125,5 @@ nome_do_app
             |- (...)
         
 ```
-
 
 - [Notes Corey Shaeffer](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/readme.md)
