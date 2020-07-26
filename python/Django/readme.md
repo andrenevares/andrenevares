@@ -114,16 +114,53 @@ def home(request):
     return render(request, 'personal/home.html')
 ```
 
-#### Criar estrutura
+#### Criar base e home
 1. Criar diretório templates > nome_do_app
 2. dentro desse diretório colocar ```home.html```
 ```
 nome_do_app
     |- Templates
         |- nome_do_app
+            |- base.html
             |- home.html
             |- (...)
-        
 ```
 
+#### CSS
+```
+nome_do_app
+    |- static
+        |- nome_do_app
+            |- main.css
+```
+
+sendo que no arquivo base usaremos:
+
+No início do arquivo:
+```html
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+</head>
+```
+
+
+#### extendendo modelos do template
+
+No base:
+
+```html
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+</head>
+```
+
+```html
+{% extends "base.html" %}
+<div class="container">
+    {% block content %}      
+    {% endblock content %} 
+</div>
+```
 - [Notes Corey Shaeffer](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/readme.md)
