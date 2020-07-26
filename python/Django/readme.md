@@ -31,8 +31,6 @@ Todas as vezes que criar/alterar uma class dentro do models.py temos que fazer:
 1. ```python manage.pi migrate```
 2. ```python manage.pi makemigrations```
 
-
-
 ## Criar um super user
 Para se logar no ```localhost:8000/admin``` nós temos que criar um usuário.  Para isso:
 
@@ -55,6 +53,18 @@ from .models import Post
 admin.site.register(Post)
 ```
 > o ```.``` significa que estamos referenciando a mesma pasta.
+
+## Ajustar onde são salvas as imagens
+1. Vá até o arquivo __settings.py__
+2. digitar o endereço no final do arquivo utilizando a seguinte sintaxe: ```MEDIA_ROUTE = ''```
+
+Para que funcione em qualquer computador, seja linux, windows, mac... devemos usar a sintace de sistema operacional.
+
+Podemos colar do __DATABASES__ que fica dentro do __settings.py__
+
+```python
+MEDIA_ROUTE = os.path.join(BASE_DIR, 'media')
+```
 
 ## O projeto Django
 O site oficial do [Django pode ser acessado por meio deste link](https://www.djangoproject.com/) ou diretamente por meio do https://www.djangoproject.com/.  Achamos extremamente importante a leitura da documentação no site do django.  No momento em que estamos estudando esse Framework [a documentação pode ser acessada aqui](https://docs.djangoproject.com/en/3.0/)
