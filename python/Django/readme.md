@@ -37,9 +37,11 @@ class Project(models.Model):
     url = models.URLField(blank=True)
 ```
 ## Migrations
+
 Todas as vezes que criar/alterar uma class dentro do models.py temos que fazer:
-1. ```python manage.py migrate```
-2. ```python manage.py makemigrations```
+1. ```python manage.py makemigrations```
+2. ```python manage.py migrate```
+[Resumo Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md) 
 
 ## Criar um super user
 Para se logar no ```localhost:8000/admin``` nós temos que criar um usuário.  Para isso:
