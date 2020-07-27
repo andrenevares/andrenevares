@@ -16,10 +16,10 @@ INSTALLED_APPS = [
 ```python
 INSTALLED_APPS = [
   (...)
-  'meu_app.apps.AlgumNomeConfig',
+  'nome_do_app.apps.AlgumNomeConfig',
 ```
 
-1.  buscar dentro do __meu_app__
+1.  buscar dentro do __nome_do_app__
 2.  dentro do arquivo __apps.py__
 3.  o nome da class ```AlgumNomeConfig```
 
@@ -27,7 +27,7 @@ INSTALLED_APPS = [
 #### estrutura do projeto
 ```terminal
 meu_projeto
-    |- meu_app
+    |- nome_do_app
           |- apps.py
 ```
 #### Arquivo ```apps.py ```
