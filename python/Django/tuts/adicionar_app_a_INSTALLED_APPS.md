@@ -1,4 +1,4 @@
-# Adcionar um app a INSTALLED_APPS 
+# Adcionar um app a ```INSTALLED_APPS```
 
 Toda vez que for criado um app será necessário avisar ao projeto que esse app exite!
 
