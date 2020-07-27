@@ -44,3 +44,16 @@ blog
   |- urls.py
   |- (...)
 ```  
+
+__Passo 2__ sintaxe do ```urls.py```
+
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.blog, name='blog'),
+    path('<int:post_id>', views.detalhe_blog, name='detalhe_blog'),
+]
+```
+
