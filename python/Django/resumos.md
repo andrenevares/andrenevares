@@ -7,8 +7,11 @@
 4. [Instalação](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/instalando_django.md)
 5. [Start Project - Iniciando um projeto](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/iniciando-projeto-django.md)
 
-## Conhecimentos Básicos
+## Estruturas
 - [Estrutura de um projeto Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura-projeto-django..md)
+- [Estrutura de um APP](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_estrutura.md)
+
+## Conhecimentos Básicos
 - [Listar Comandos django-admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comandos-admin.md)
 - [Comando Runserver](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comando-runserver.md)
 
