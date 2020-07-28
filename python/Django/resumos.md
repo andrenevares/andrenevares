@@ -12,13 +12,15 @@
 - [Listar Comandos django-admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comandos-admin.md)
 - [Comando Runserver](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comando-runserver.md)
 
-## Apps
+## Toda vez que criar um app
 - [Apps](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps.md)
 - [App simples com HttpResponse](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/app_com_http_response.md)
 - [Urls](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/urls.md)
+- [Apps include](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_INCLUDE.md)
+
+## Toda vez que alterar o ```models```
+- [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
 - [documentação models](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types)
 
-## Migrate
-- [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
-- [Apps include](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_INCLUDE.md)
+
 
