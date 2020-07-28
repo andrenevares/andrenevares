@@ -12,8 +12,8 @@
 5. [Start Project - Iniciando um projeto](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/iniciando-projeto-django.md)
 
 ## Estruturas
-- [Estrutura de um projeto Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura-projeto-django..md){:target="_blank"}
-- [Estrutura de um APP](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_estrutura.md){:target="_blank"}
+- [Estrutura de um projeto Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura-projeto-django..md)
+- [Estrutura de um APP](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_estrutura.md)
 
 ## Conhecimentos Básicos
 - [Criar um superuser](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/superuser_criar.md)
