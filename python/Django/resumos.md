@@ -30,8 +30,9 @@
 - [Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
 
 ## Templates
-- Estrutura de pastas de um template
-- Ajustando o view para o template
+- [Estrutura de pastas de um template](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura_template.md)
+- [Ajustando o view para o template](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/views_resumo.md)
+- [CSS onde colocar](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/css_onde_colocar.md)
 - Criando base.html e extendendo
 - Sintaxe ```{% for %}``` ```{% if %}``` 
 - Sintaxe para imagens
