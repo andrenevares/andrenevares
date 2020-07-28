@@ -23,7 +23,7 @@ Utilizando a sintaxe {{ autor.image }} virá um pedaço da url... mas não funci
 A sintaxe correta deve ser 
 
 ```html
-    <img src="{{ autores.image.url }}" alt="">
+    <img src="{{ autores.imagem.url }}" alt="">
 ```
 
 
