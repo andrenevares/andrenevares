@@ -1,9 +1,11 @@
 <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" align="right" width="300px">
 
+
 # Django Resumos
+> ```<a href="" target="_blank">Text</a>```
 
 ## Preparando o ambiente
-1. [Criar diretório sincronizar com GIT HUB](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/sincronizar_com_git.md)
+1. <a href="https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/sincronizar_com_git.md" target="_blank">Criar diretório sincronizar com GIT HUB</a>
 2. [Criar / Ativa um Ambiente virtual (Virtual Enviroment)](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/virtual_env_criar_ativar.md)
 3. [Subcomandos Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/subcomandos.md)
 4. [Instalação](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/instalando_django.md)
