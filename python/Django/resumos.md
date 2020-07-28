@@ -27,6 +27,7 @@
 ## Toda vez que alterar o ```models```
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
 - [documentação models](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types)
+- [Fazer com que o models apareça no admin]()
 
 
 
