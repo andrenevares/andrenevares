@@ -40,7 +40,7 @@
 - [Ajustando o view para o template](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/views_resumo.md)
 - [CSS onde colocar](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/css_onde_colocar.md)
 - [Criando base.html e extendendo](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_base_extends.md)
-- Sintaxe ```{% for %}``` ```{% if %}``` 
+- [Sintaxe ```{% for %}``` ```{% if %}``` ](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/for_if.md)
 - [Sintaxe para imagens nos templates](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_imagem_sintaxe.md)
 - Fazendo aparecer dados no template
 
