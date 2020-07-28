@@ -44,4 +44,5 @@
 - [Sintaxe para imagens nos templates](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_imagem_sintaxe.md)
 - Fazendo aparecer dados no template
 
-
+## Settings
+- [Colocar para português brasileiro](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/lingua_PORTUGUES.md)
