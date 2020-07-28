@@ -5,12 +5,17 @@
 > André Nevares &copy; 
 
 ## English
-I have found that English has so much better material... Cause of that all my sources are in English.  Sometimes I will write in English, or maybe use English expressions to explain myself.  I was born in Brazil, and my writing skills are not so great as a native English speaker...  Fell free to use anything that you have find here.  
+I have found that English has so much better material... Cause of that all my sources are in English.  Sometimes I will write in English, or maybe use English expressions to explain myself.  I was born in Brazil, and my writing skills are not so great as a native English speaker...  Fell free to use anything that you have found here.  
 
-If you use this material, please give me credit.  It will help me to make more material like that to help other people like you.
+If you use this material, please give me credit.  It will help me to make more material like that.
 
 Teach someone to code.  Love and help others.
 
+If you find any kind of errors, please contact me... 
+
+Best Reguards...
+
+andrevv
 
 ## Português
 Eu descobri que existem melhores materiais feitos em inglês.  Em virtude disso, todas as minhas fontes são em inglês.  ÀS vezes vou escrever em Inglês, ou utilizar expressões em inglês.  Eu sou brasileiro, e minha escrita não é tão boa quanto um americano, por exemplo.  Sinta-se à vontade de utilizar qualquer coisa que achar por aqui.
