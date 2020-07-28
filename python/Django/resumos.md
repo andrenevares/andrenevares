@@ -12,6 +12,7 @@
 - [Estrutura de um APP](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_estrutura.md)
 
 ## Conhecimentos Básicos
+- [Criar um superuser](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/superuser_criar.md)
 - [Listar Comandos django-admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comandos-admin.md)
 - [Comando Runserver](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comando-runserver.md)
 
