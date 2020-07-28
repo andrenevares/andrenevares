@@ -23,10 +23,6 @@ Ensine alguém a programar.  Ame e ajude os outros.
 ## Main Links
 - [Python](https://github.com/andrenevares/andrenevares/blob/master/python/readme.md)
 - [Python Django](https://github.com/andrenevares/andrenevares/blob/master/python/Django/readme.md)
-- [Python Django BLOG Tutorial](https://github.com/andrenevares/andrenevares/blob/master/python/Django/cursoCoreyShaeffer/readme.md)
-- [Python Django Sistema Produtividade Funcional - SEFA]()
-- [CSS](https://github.com/andrenevares/andrenevares/blob/master/css/readme.md)
-- [CSS - SAAS](https://github.com/andrenevares/andrenevares/blob/master/css/sass/readme.md)
 - [Emoji Cheat-Sheet](https://github.com/andrenevares/andrenevares/blob/master/emoji-cheatsheet.md)
 
 
