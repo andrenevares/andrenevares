@@ -5,6 +5,7 @@
 python manage.py runserver
 ```
 
+# Você deve estar no diretório correto!
 
 1. Vá até o diretório onde fica o arquivo ```manage.py```
 2. Digite comando: ```python manage.py runserver```
