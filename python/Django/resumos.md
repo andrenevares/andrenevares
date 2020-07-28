@@ -2,3 +2,4 @@
 
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
 - [Apps include](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_INCLUDE.md)
+- [runserver](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/comando-runserver.md)
