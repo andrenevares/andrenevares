@@ -29,5 +29,12 @@
 - [documentação models](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types)
 - [Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
 
+## Templates
+- Estrutura de pastas de um template
+- Ajustando o view para o template
+- Criando base.html e extendendo
+- Sintaxe ```{% for %}``` ```{% if %}``` 
+- Sintaxe para imagens
+- Fazendo aparecer dados no template
 
 
