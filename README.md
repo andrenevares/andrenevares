@@ -1,4 +1,4 @@
-<img src="https://github.com/andrenevares/andrenevares/blob/master/images/under-construction.png" align="right" width="300px">
+<img src="https://github.com/andrenevares/andrenevares/blob/master/images/under-construction.png" align="right" width="200px">
 
 
 # André Nevares - Home
