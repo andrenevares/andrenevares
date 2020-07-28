@@ -1,4 +1,5 @@
 <img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" align="right" width="300px">
+
 # Django Resumos
 
 ## Preparando o ambiente
