@@ -44,6 +44,7 @@ meu_projeto
           |    |-(..)
           |- registration 
                |-signup.html
+               |-login.html
 ```
 
 ## signup.html
@@ -60,3 +61,14 @@ meu_projeto
 ```
 > para melhorar um pouco o estilo podemos usar o {{ form.as_p }}  
  
+## login.html
+```html
+<div class="container">
+    <h2>Login</h2>
+    <form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit" class="btn btn-primary">Login<button> 
+    </form>
+</div>
+```
