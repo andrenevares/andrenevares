@@ -72,3 +72,11 @@ meu_projeto
     </form>
 </div>
 ```
+
+## settings.py
+
+```
+LOGIN_URL = 'login'
+LOGIN_REDIRECT = 'home'
+LOGOUT_REDIRECT = 'home'
+```
