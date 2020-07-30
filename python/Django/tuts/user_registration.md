@@ -54,6 +54,7 @@ meu_projeto
     <form method="post">
     {% csrf_token %}
     {{ form }}
+    <button type="submit" class="btn btn-primary">Sign Up<button> 
     </form>
 </div>
 ```
