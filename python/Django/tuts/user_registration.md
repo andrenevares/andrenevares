@@ -58,5 +58,5 @@ meu_projeto
     </form>
 </div>
 ```
- 
+> para melhorar um pouco o estilo podemos usar o {{ form.as_p }}  
  
