@@ -1,4 +1,4 @@
-<img src="https://diariodecuba.com/sites/default/files/images/2020-06/blackhand150620.jpeg" align="right" width="200px">
+<img src="https://diariodecuba.com/sites/default/files/images/2020-06/blackhand150620.jpeg" align="right" width="400px">
 
 
 # André Nevares - Home
