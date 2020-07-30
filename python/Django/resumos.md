@@ -39,6 +39,7 @@
 - [Estrutura de pastas de um template](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/estrutura_template.md)
 - [Ajustando o view para o template](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/views_resumo.md)
 - [CSS onde colocar](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/css_onde_colocar.md)
+- [Configurar Settings para Static](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/settings_staticConfig.md)
 - [Criando base.html e extendendo](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_base_extends.md)
 - [Sintaxe ```{% for %}``` ```{% if %}``` ](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/for_if.md)
 - [Sintaxe para imagens nos templates](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_imagem_sintaxe.md)
