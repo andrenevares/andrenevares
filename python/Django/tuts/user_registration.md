@@ -50,7 +50,10 @@ meu_projeto
 
 ```html
 <div class="container">
-    <form>
+    <h2>Sign Up</h2>
+    <form method="post">
+    {% csrf_token %}
+    {{ form }}
     </form>
 </div>
 ```
