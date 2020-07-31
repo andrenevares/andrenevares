@@ -53,6 +53,7 @@ fields = ['username', 'email', 'password1', 'password2']
 
 ## substituir o ```UserCreationForm``` pelo ```UserRegisterForm``` no ```views.py```
 
+##### Código com o ```UserCreationForm```
 ```python
 (...)
 from django.contrib.auth.forms import UserCreationForm # para usar os forms
@@ -71,3 +72,30 @@ def register(request):
     
     return render(request, 'users/register.html', {'form': form} )
 ```
+
+##### Código com o ```UserRegisterForm```
+
+1. Importar o ```UserRegisterForm```
+2. Substituir o ```UserCreationForm``` pelo ```UserRegisterForm```
+3. Apagar o import do ```UserCreationForm``` pois não vamos mais usar...
+
+```python
+from django.shortcuts import render # esse import é padrão
+from django.contrib import messages # para poder enviar as mensagens
+from django.shortcuts import redirect # para redirecionar o usuário caso...
+from .forms import
+
+def register(request):
+    if request.method == 'POST':
+        form = UserRegisterForm(request.POST)
+        if form.is_valid():
+            form.save() # é somente isso que precisa para salvar no banco do dados!
+            username = form.cleaned_data.get('username')
+            messages.sucess(request, f'Conta criada para {username}!')
+    else:
+        form = UserRegisterForm()
+    
+    return render(request, 'users/register.html', {'form': form} )
+```
+
+Agora veremos o novo campo no nosso formulário.
