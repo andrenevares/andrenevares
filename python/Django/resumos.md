@@ -29,7 +29,7 @@
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
 - [documentação models](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types)
 - [Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
-- [Model - Datas](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/models_DATAS.md)
+- [Model - Campos de data](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/models_DATAS.md)
 
 ## Imagens
 - [Ajustes para usar imagens](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/imagem_ajustes.md)
