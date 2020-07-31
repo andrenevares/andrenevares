@@ -26,9 +26,11 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ```
 
 ## colocar no template dos forms que queremos usar 
-no base que temos 
+
+Exemplo: _register.html_
 ```jinja2
 {% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
 {% block content %}
 <div class="container">
   <form method="POST>
