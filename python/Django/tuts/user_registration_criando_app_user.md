@@ -1,19 +1,25 @@
 # Criando app ```user```
 
-# Funções nativas
+## Views nativas de ```login``` e ```logout```
 Um sistema de autenticação basicamente possui:
 
 1. Registre-se
-2. Login _nativo do django_
-3. Logout
-4. Verifica se está logado
-- Login
-- Logout
-- If login
+2. Login __```*```__
+3. Logout __```*```__
+4. Verifica se está logado __```*```__
 
-### Views nativas de ```login``` e ```logout```
+__```*```__  São modelos nativos do django.
 
-#### Importar módulos no ```projeto > urls.py```
+## Criar um app ```user```
+De modo a tornar a aplicação mais escalável, faz mais sentido que criemos um app ```user``` dentro de cada projeto Django.  Assim, toda a parte de login, logout suas lógicas ficam dentro de um mesmo diretório!
+
+
+## No projeto
+
+## projeto > ```urls.py``` importar módulos nativos
+
+projeto > ```urls.py```
+
 Importaremos as views ```login``` e ```logout``` nativas do django.
 
 Sintaxe:
@@ -41,7 +47,7 @@ Então dentro da função ```as_view()``` vamos colocar
 
 ```
 path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
-path('logout/', auth_views.LogoutView.as_view(template_name='users/logour.html'), name='logout'),
+path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
 ```
 
 ### Criar template ```login```
