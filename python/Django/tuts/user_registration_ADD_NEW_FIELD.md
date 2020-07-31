@@ -10,6 +10,9 @@
 2. importar forms
 3. importar User
 4. importar UserCreationForm
+5. criar um novo form que vai herdar do UserCreationForm
+6. configurar por meio da class meta
+7. substituir o UserCreationForm pelo form que foi criado
 
 ### ```forms.py```
 
@@ -30,7 +33,7 @@ class UserRegisterForm(UserCreationForm)
 ```
 > EmailField() pode receber um argumento required.  Por padrão required = True.  Se quisessemos que fosse padrão poderíamos 
 
-#### class meta
+## class meta
 - Deixa que façamos as configurações necessárias
 - E faz com que as configurações fiquem em um só lugar
 - o model que será afetado
@@ -47,3 +50,6 @@ Depois vamos colocar os campos que serão exibidos no nosso form.  Os campos, fi
 ```python
 fields = ['username', 'email', 'password1', 'password2']
 ```
+
+## substituir o ```UserCreationForm``` pelo ```UserRegisterForm``` no ```views.py```
+
