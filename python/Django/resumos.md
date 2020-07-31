@@ -52,6 +52,11 @@
 
 ## User Registration
 - [Resumo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/user_registration.md)
+- Crispy forms
+- Criando um app users que vai ter tudo relativo sistema de autenticação
+- Adcionando campos que não estão no modelo do Django
+- Mensagens de Erros
+
 
 ## Outros
 - [Dunder method ou ```def __str__()```](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/def__str__.md)
