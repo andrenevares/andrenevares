@@ -33,6 +33,8 @@ class UserRegisterForm(UserCreationForm)
 #### class meta
 - Deixa que façamos as configurações necessárias
 - E faz com que as configurações fiquem em um só lugar
+- o model que será afetado
+- os campos que queremos no nosso form e na seguinte ordem... 
 
 Vamos especificar o model que queremos que o esta class interaja.  Como queremos que o model que a class meta interaja seja o User, a sintaxe fica:
 
