@@ -43,6 +43,7 @@
 - [Criando base.html e extendendo](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_base_extends.md)
 - [Sintaxe ```{% for %}``` ```{% if %}``` ](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/for_if.md)
 - [Sintaxe para imagens nos templates](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_imagem_sintaxe.md)
+- [Filtros para Datas](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/templates_datas_e_filtros.md)
 - Fazendo aparecer dados no template
 
 ## Settings
