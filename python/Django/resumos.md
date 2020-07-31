@@ -2,7 +2,6 @@
 
 
 # Django Resumos
-> ```<a href="" target="_blank">Text</a>```
 
 ## Preparando o ambiente
 1. <a href="https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/sincronizar_com_git.md" target="_blank">Criar diretório sincronizar com GIT HUB</a>
@@ -47,3 +46,7 @@
 
 ## Settings
 - [Colocar para português brasileiro](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/lingua_PORTUGUES.md)
+
+
+## User Registration
+- [Resumo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/user_registration.md)
