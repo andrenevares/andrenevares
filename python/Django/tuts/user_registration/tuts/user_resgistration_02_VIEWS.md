@@ -1,7 +1,7 @@
-# Views
+# users > ```views.py```
 
 
-## users > ```views.py```
+## Com ```UserCreationForm```
 
 ```python
 from django.shortcuts import render # criado automaticamente pelo django
