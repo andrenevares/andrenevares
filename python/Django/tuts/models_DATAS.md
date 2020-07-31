@@ -11,3 +11,21 @@ class Post(models.Model):
   content = modens.TextField()
   date_posted = models.DateTimeField(auto_now_add=True)
 ```
+
+## ```auto_now_add=True``` --> ```default=timezone.now```
+ ```auto_now_add=True``` não permite que coloquemos uma data manualmente!!!
+
+Dessa forma a documetação do django ([neste link](https://docs.djangoproject.com/en/3.0/ref/models/fields/#django.db.models.DateField.auto_now)) fala para usarmos:
+
+
+Ao invés de 
+```python
+  date_posted = models.DateTimeField(auto_now_add=True)
+```
+
+Usar
+
+Ao invés de 
+```python
+  date_posted = models.DateTimeField(auto_now_add=True)
+```
