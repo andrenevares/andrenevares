@@ -2,6 +2,13 @@
 
 Vai permitir que o utilizemos poucos códigos de modo a estilizar o nosso formulário alinhado com o bootstrap.
 
+## Passo a passo
+1. Instalar o crispy
+2. Colocar o crispy no ```INSTALLED_APPS``` no settings.py
+3. Configurar ```CRISPY_TEMPLATE_PACK``` no settings.py
+4. No template do form, usar ```{% load crispy_forms_tags %}```
+5. Utilizar o crispy como filtro: ```{{ form|crispy }}```
+
 ## instalar crispy forms
 
 ```python
@@ -35,7 +42,7 @@ Exemplo: _register.html_
 <div class="container">
   <form method="POST>
     {% csrf_token %}
-    (...)
+    {{ form|crispy }}
   </form>
 </div>
 {% endblock %}
