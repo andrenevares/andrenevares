@@ -73,9 +73,32 @@ users
 {% endblock content %}
 ```
 
+## Colocando as urls dentro do ```urls.py``` do projeto
+
+Se você quiser criar um ```urls.py``` dentro do app ```users``` você precisará fazer isso:
+
+##### projeto > urls.py 
+```python
+from django.urls import include
+(...)
+urlspatterns = [
+    path('', include('users.urls')),
+]
+```
+
+##### users > urls.py 
+```python
+from django.urls import include
+(...)
+urlspatterns = [
+    path('register/', views.register, name='register'),
+    path('login/', views.register, name='register'),  
+]
+```
 
 
-## No projeto
+
+
 
 ## projeto > ```urls.py``` importar módulos nativos
 
