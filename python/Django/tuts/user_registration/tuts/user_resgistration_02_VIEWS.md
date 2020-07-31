@@ -4,7 +4,7 @@
 ## users > ```views.py```
 
 ```python
-(...)
+from django.shortcuts import render # criado automaticamente pelo django
 from django.contrib.auth.forms import UserCreationForm # para usar os forms
 from django.contrib import messages # para poder enviar as mensagens
 from django.shortcuts import redirect # para redirecionar o usuário caso...
