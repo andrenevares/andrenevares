@@ -37,6 +37,7 @@ def register(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
         if form.is_valid():
+            form.save() # é somente isso que precisa para salvar no banco do dados!
             username = form.cleaned_data.get('username')
             messages.sucess(request, f'Conta criada para {username}!')
     else:
