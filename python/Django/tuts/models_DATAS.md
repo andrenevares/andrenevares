@@ -23,7 +23,7 @@ Dessa forma a documetação do django ([neste link](https://docs.djangoproject.c
   date_posted = models.DateTimeField(auto_now_add=True)
 ```
 
-#### Usaremos um valor padrão colocado como agora, mas que pode ser editado! 
+#### Usaremos um valor padrão colocado como now...no entanto, se quisermos, podemos definir um valor para ele! 
 ```python
 from django.utils import timezone
   date_posted = models.DateTimeField(default=timezone.now)
