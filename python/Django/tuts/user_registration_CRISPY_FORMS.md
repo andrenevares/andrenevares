@@ -34,6 +34,7 @@ Exemplo: _register.html_
 {% block content %}
 <div class="container">
   <form method="POST>
+    {% csrf_token %}
     (...)
   </form>
 </div>
