@@ -18,7 +18,7 @@ from django.contrib import messages
 
 ## Ajustar o template
 
-```python
+```jinja2
 {% if messages %}
 
 {% else %}
