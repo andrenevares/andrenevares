@@ -42,6 +42,8 @@ Estrutura:
 users
  |-templates
       |-users
+          |-register.html
+          |-login.html
 ```
 
 
