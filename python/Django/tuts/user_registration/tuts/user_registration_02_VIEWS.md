@@ -16,6 +16,7 @@ def register(request):
             form.save() # é somente isso que precisa para salvar no banco do dados!
             username = form.cleaned_data.get('username')
             messages.sucess(request, f'Conta criada para {username}!')
+            return redirect('nome_do_path_que_você_quer_ir')
     else:
         form = UserCreationForm()
     
