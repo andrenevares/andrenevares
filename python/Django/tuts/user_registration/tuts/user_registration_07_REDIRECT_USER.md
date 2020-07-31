@@ -3,6 +3,7 @@
 ## ```views.py```
 
 ```pyhton
+
 (...) 
 from django.shortcuts import redirect
 
