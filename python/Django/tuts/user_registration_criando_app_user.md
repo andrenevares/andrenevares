@@ -13,6 +13,10 @@ __```*```__  São modelos nativos do django.
 ## Criar um app ```user```
 De modo a tornar a aplicação mais escalável, faz mais sentido que criemos um app ```user``` dentro de cada projeto Django.  Assim, toda a parte de login, logout suas lógicas ficam dentro de um mesmo diretório!
 
+```python
+python manage.py startapp users
+```
+
 
 ## No projeto
 
@@ -23,13 +27,13 @@ projeto > ```urls.py```
 Importaremos as views ```login``` e ```logout``` nativas do django.
 
 Sintaxe:
-```
+```python
 from django.contrib.auth import views as auth_views
 ```
 
 
 ##### Começando a sintaxe ```login``` e ```logout```: 
-```
+```python
 path('login/', auth_views.LoginView.as_view(), name='login'),
 path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ```
@@ -39,13 +43,13 @@ Ao invés de criarmos um app para ```login```e outro app para ```logout``` podem
 Para isso precisamos dizer ao Django isso...  Nós vamos dizer ao django onde olhar pelos templates
 
 Então dentro da função ```as_view()``` vamos colocar 
-```
+```python
 .as_view(template_name='users/login.html')
 ```
 
 #### Sintaxes finais ```login``` e ```logout```: 
 
-```
+```python
 path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
 path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
 ```
@@ -55,7 +59,7 @@ Vamos copiar o código html do ```register.html``` para servir de base para o no
 
 Fazer alguns ajustes
 
-```
+```html
 {% extends "blog/base.html" %}
 {% load crispy_forms_tags %}
 
@@ -105,7 +109,7 @@ Quando um usuário tiver sucesso ao se logar ele deve ser redirecionado para a p
 Dessa forma vamsos ajustar o nosso ```users > views.py```
 
 
-```
+```python
   messages.success(request, f'Sua conta foi criada com sucesso você já pode se logar')
   return redirect('login')
 ```
@@ -113,13 +117,17 @@ Dessa forma vamsos ajustar o nosso ```users > views.py```
 ### Logout nativo
 Dentro do nosso urls.py temos para o logout
 
-```path ('logout/', auth_views.LogoutView.as_view(template_name=('users/logout.html', name='logout'), name='logout'),```
+```python
+path ('logout/', auth_views.LogoutView.as_view(template_name=('users/logout.html', name='logout'), name='logout'),
+```
 
 E se tirássemos ```template_name=('users/logout.html', name='logout')```
 
 ficando assim:  
 
-```path ('logout/', auth_views.LogoutView.as_view(template_name=(), name='logout'),```
+```python
+path ('logout/', auth_views.LogoutView.as_view(template_name=(), name='logout'),
+```
 
 Vamos examinar o comportamento padrão do django...
 
@@ -131,11 +139,14 @@ Para que isso não aconteça nós precisamos :
 1. criar um template logout 
 2. fazer com que a view do logout utilize esse template
 
-Vamos voltar com ```path ('logout/', auth_views.LogoutView.as_view(template_name=('users/logout.html', name='logout'), name='logout'),```
+Vamos voltar com 
+```python
+path ('logout/', auth_views.LogoutView.as_view(template_name=('users/logout.html', name='logout'), name='logout'),
+```
 
 #### Template Logout
 
-```
+```html
 {% extends "blog/base.html" %}
 {% block content %}
 <h2>Logout bem sucedido</h2>
@@ -178,23 +189,25 @@ def profile(request):
 
 #### urls.py
    
-```path('profile/', users_views.profile, name='profile'),```
+```python
+path('profile/', users_views.profile, name='profile'),
+```
  
 #### ajustar a navbar do ```base.html```
-```
+```html
 <a class="nav-item nav-link" href={% url 'profile' %}>profile</a>
 <a class="nav-item nav-link" href={% url 'logout' %}>Logout</a>
 ```
 
 #### @login_required 
 Entrar no ```views.py``` do app ```users```
-```
+```python
 from django.contrib.auth.decorators import login_required
 (...)
 ```
 
 Colocando o decorator...
-```
+```python
 @login_required
 def profile(request):
   return render(request, 'users/profile.html')
