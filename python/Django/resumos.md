@@ -52,6 +52,9 @@
 
 ## User Registration
 - [Resumo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/user_registration.md)
+- [Fazendo esse](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/user_registration_criando_app_user.md)
+- Validações padrão do Django
+- Como ver melhor as mensagens padrão do Django? 
 - Crispy forms
 - Criando um app users que vai ter tudo relativo sistema de autenticação
 - Adcionando campos que não estão no modelo do Django
