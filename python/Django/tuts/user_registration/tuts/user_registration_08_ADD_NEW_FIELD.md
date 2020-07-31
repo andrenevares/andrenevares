@@ -1,5 +1,11 @@
 # Adcionando campos para o usuário
 
+## Como podemos colocar mais campos dentro do ```UserCreationForm```
+
+- Precisamos criar um novo form
+- Esse novo form vai herdar do ```UserCreationForm```
+- Vamor dar o nome de ```UserRegisterForm```... mas poderia ser qualquer um
+
 ## Campos padrão para um form register
 - Username
 - Password
