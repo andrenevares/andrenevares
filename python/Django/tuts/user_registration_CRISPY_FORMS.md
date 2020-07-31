@@ -13,6 +13,7 @@ pip intall django-crispy-forms
 ``` python
 INSTALLED_APPS = [
   (...)
-  
+  'crispy_forms',
+  (...)
 ]
 ```
