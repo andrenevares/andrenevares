@@ -17,6 +17,16 @@ De modo a tornar a aplicação mais escalável, faz mais sentido que criemos um 
 python manage.py startapp users
 ```
 
+Toda vez que criar um app __adcionar em settings.py__ a url.
+
+```python
+INSTALLED_APPS = [
+    (...)
+    'nome_do_app.apps.AlgumaCoisaConfig',
+]
+```
+
+
 
 ## No projeto
 
