@@ -18,14 +18,13 @@ class Post(models.Model):
 Dessa forma a documetação do django ([neste link](https://docs.djangoproject.com/en/3.0/ref/models/fields/#django.db.models.DateField.auto_now)) fala para usarmos:
 
 
-Ao invés de 
+Ao invés de usarmos um valor que não podemos editar
 ```python
   date_posted = models.DateTimeField(auto_now_add=True)
 ```
 
-Usar
-
-Ao invés de 
+Usaremos um valor padrão colocado como agora, mas que pode ser editado! 
 ```python
-  date_posted = models.DateTimeField(auto_now_add=True)
+from django.utils import timezone
+  date_posted = models.DateTimeField(default=timezone.now)
 ```
