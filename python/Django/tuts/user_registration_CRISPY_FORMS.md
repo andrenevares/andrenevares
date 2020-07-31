@@ -17,3 +17,23 @@ INSTALLED_APPS = [
   (...)
 ]
 ```
+
+## no settings colocar qual o framework que o crispy tem que estilizar
+> Costumava ser o Bootstrap2 mas...
+
+```python
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+```
+
+## colocar no template dos forms que queremos usar 
+no base que temos 
+```jinja2
+{% extends "blog/base.html" %}
+{% block content %}
+<div class="container">
+  <form method="POST>
+    (...)
+  </form>
+</div>
+{% endblock %}
+```
