@@ -2,7 +2,7 @@
 
 
 # Django Resumos
-
+- [Tradução de autenticação](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/traducao/usando_autenticacao_do_Django.md)
 ## Preparando o ambiente
 1. <a href="https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/sincronizar_com_git.md" target="_blank">Criar diretório sincronizar com GIT HUB</a>
 2. [Criar / Ativa um Ambiente virtual (Virtual Enviroment)](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/virtual_env_criar_ativar.md)
