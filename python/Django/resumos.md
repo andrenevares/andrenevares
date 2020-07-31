@@ -57,7 +57,7 @@
 - Como ver melhor as mensagens padrão do Django? 
 - Crispy forms
 - Criando um app users que vai ter tudo relativo sistema de autenticação
-- Adcionando campos que não estão no modelo do Django
+- [Adcionando campos não default](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/user_registration_ADD_NEW_FIELD.md)
 - [Mensagens de Erros](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/messages.md)
 
 
