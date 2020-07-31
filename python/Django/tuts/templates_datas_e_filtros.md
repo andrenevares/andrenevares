@@ -18,7 +18,7 @@ O django possui uma série de parâmetros de modo a exibir a data da maneira X o
 
 ```html
 <div>
-  <p class="text-muted">{{ post.date_posted }}</p> 
+  <p class="text-muted">{{ post.date_posted|date"F d, Y" }}</p> 
 </div>
 ```
 
