@@ -51,3 +51,6 @@
 
 ## User Registration
 - [Resumo 01](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/user_registration.md)
+
+## Outros
+- [Dunder method ou ```def __str__()```](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/def__str__.md)
