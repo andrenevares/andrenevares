@@ -19,7 +19,7 @@ users
     <form method="POST">
         {% csrf_token %}
         <fieldset class="form-group">
-            <legend class="border-bottom mb-4">Crie uma conta.../legend>
+            <legend class="border-bottom mb-4">Crie uma conta...</legend>
                 {{ form|crispy }}
         </fieldset>
         <div class="form-group">
