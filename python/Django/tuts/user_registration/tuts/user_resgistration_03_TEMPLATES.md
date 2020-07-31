@@ -10,7 +10,7 @@ users
 
 ## app > templates register form 
 
-```html
+```jinja2
 {% extends "blog/base.html" %}
 {% load crispy_forms_tags %}
 
