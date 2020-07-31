@@ -31,6 +31,8 @@ class UserRegisterForm(UserCreationForm)
 > EmailField() pode receber um argumento required.  Por padrão required = True.  Se quisessemos que fosse padrão poderíamos 
 
 #### class meta
+- Deixa que façamos as configurações necessárias
+- E faz com que as configurações fiquem em um só lugar
 
 Vamos especificar o model que queremos que o esta class interaja.  Como queremos que o model que a class meta interaja seja o User, a sintaxe fica:
 
