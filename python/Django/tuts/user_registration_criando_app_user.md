@@ -25,7 +25,24 @@ INSTALLED_APPS = [
     'nome_do_app.apps.AlgumaCoisaConfig',
 ]
 ```
+## users > ```views.py```
 
+```python
+(...)
+from django.contrib.auth.formsimport UserCreationForm
+
+def register(request):
+    form = UserCreationForm()
+    return render(request, 'users/register.html', {'form': form} )
+```
+
+## criar os templates para users
+Estrutura:
+```
+users
+ |-templates
+      |-users
+```
 
 
 ## No projeto
