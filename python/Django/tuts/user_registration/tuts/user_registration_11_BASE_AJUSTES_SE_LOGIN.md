@@ -16,6 +16,7 @@
             <ul class="navbar-nav ml-auto">
                 {% if user.is_authenticated %}
                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% url 'logout' %}">Logout</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% url 'profile' %}">Perfil</a></li>
                 {% else %}
                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% url 'login' %}">Login</a></li>
                   <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{% url 'register' %}">Cadastre-se</a></li>
