@@ -8,7 +8,9 @@ users
           |-login.html
 ```
 
-## app > templates register form 
+## app > ```templates``` 
+
+### ```register.html```
 
 ```jinja2
 {% extends "blog/base.html" %}
@@ -38,3 +40,6 @@ users
 Ver csrf token >>> 
 
 Ver crispy forms >>> 
+
+
+### ```login.html```
