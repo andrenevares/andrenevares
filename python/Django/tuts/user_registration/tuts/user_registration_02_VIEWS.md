@@ -27,3 +27,25 @@ def register(request):
 def profile(request):
     return render(request, 'users/profile.html')  
 ```
+
+## Com ```UserRegisterForm```
+> ```UserRegisterForm``` é um modelo criado por nós que herda os atributos do modelo ```UserCreationForm```
+
+```python
+from django.shortcuts import render # esse import é padrão
+from django.contrib import messages # para poder enviar as mensagens
+from django.shortcuts import redirect # para redirecionar o usuário caso...
+from .forms import
+
+def register(request):
+    if request.method == 'POST':
+        form = UserRegisterForm(request.POST)
+        if form.is_valid():
+            form.save() # é somente isso que precisa para salvar no banco do dados!
+            username = form.cleaned_data.get('username')
+            messages.sucess(request, f'Conta criada para {username}!')
+    else:
+        form = UserRegisterForm()
+    
+    return render(request, 'users/register.html', {'form': form} )
+```
