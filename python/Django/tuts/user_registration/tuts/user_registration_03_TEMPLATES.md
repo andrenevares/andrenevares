@@ -6,6 +6,7 @@ users
       |-users
           |-register.html
           |-login.html
+          |-logout.html
 ```
 
 ## app > ```templates``` 
