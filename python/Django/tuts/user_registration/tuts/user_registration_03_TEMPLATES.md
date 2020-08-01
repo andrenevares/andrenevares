@@ -80,7 +80,7 @@ Ver crispy forms >>>
    <h2>Logout realizado com sucesso.  Esperamos ver você em breve</h2> 
    <div class="border-top pt-3">
        <small class="text-muted">
-           Se você ainda não tem uma conta, <a class="ml-2" href="{% url 'register' %}">crie uma conta agora!</a>
+           <a class="ml-2" href="{% url 'register' %}">Faça o seu login novamente!</a>
        </small>
    </div>
 {% endblock content %}
