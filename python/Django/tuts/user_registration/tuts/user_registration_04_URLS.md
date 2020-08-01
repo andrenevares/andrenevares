@@ -7,7 +7,9 @@ Se você quiser criar um ```urls.py``` dentro do app ```users``` você precisar�
 
 ##### projeto > urls.py 
 ```python
-from django.urls import include
+from django.contrib import admin
+from django.urls import path, include
+
 (...)
 urlspatterns = [
     path('', include('users.urls')),
@@ -16,16 +18,16 @@ urlspatterns = [
 
 ##### users > urls.py 
 ```python
-from django.urls import include
+from django.contrib import admin
+from django.urls import path
+from django.contrib.auth import views
 (...)
 urlspatterns = [
     path('register/', views.register, name='register'),
-    path('login/', views.register, name='register'),  
+    path('login/', views.LoginView, name='login'),  
+    path('logout/', views.LogoutView, name='logout'),  
 ]
 ```
-
-
-
 
 
 ## projeto > ```urls.py``` importar módulos nativos
@@ -38,7 +40,6 @@ Sintaxe:
 ```python
 from django.contrib.auth import views as auth_views
 ```
-
 
 ##### Começando a sintaxe ```login``` e ```logout```: 
 ```python
