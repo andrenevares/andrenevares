@@ -13,7 +13,7 @@ __```*```__  São modelos nativos do django.
 ## Criar um app ```user```
 De modo a tornar a aplicação mais escalável, faz mais sentido que criemos um app ```user``` dentro de cada projeto Django.  Assim, toda a parte de login, logout suas lógicas ficam dentro de um mesmo diretório!
 
-```linux
+```python
 python manage.py startapp users
 ```
 
