@@ -1,3 +1,5 @@
+# Login e Logout
+
 ### Ajustar o ```{% url '...' %}```
 - As páginas precisam ser ajustadas para serem redirecionadas de forma dinâmica
 - A página __register.html__ deve ter um link para ```{% url 'login' %}```
