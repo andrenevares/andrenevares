@@ -25,6 +25,7 @@ urlspatterns = [
     path('register/', views.register, name='register'),
     path('login/', views.LoginView(template_name='users/login.html'), name='login'),  
     path('logout/', views.LogoutView(template_name='users/logout.html'), name='logout'),  
+    path('profile/', views.profile, name='profile'),
 ]
 ```
 
