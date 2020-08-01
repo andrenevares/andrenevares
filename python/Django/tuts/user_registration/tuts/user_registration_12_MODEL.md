@@ -20,4 +20,12 @@ class Profile(models.Model)
 
 __ATENÇÃO__: Se for trabalhar com imagem não esquecer de fazer o ```pip install pillow```
 
+## Se quiser ver no admin
 
+admin.py
+```python
+from django.contrib import admin
+from .models import Profile
+
+admin.site.register(Profile)
+```
