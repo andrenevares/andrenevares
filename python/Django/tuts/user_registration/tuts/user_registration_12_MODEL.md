@@ -18,3 +18,6 @@ class Profile(models.Model)
 > ```on_delete=models.CASCADE``` se apagarmos o usuário vamos apagar o profile
 > Mas se apagarmos o profile __não vamos apagar__ o user.
 
+__ATENÇÃO__: Se for trabalhar com imagem não esquecer de fazer o ```pip install pillow```
+
+
