@@ -43,3 +43,28 @@ Ver crispy forms >>>
 
 
 ### ```login.html```
+
+```jinja2
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="content-section">
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Login</legend>
+                {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Login</button>
+        </div>
+    </form>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Se você ainda não tem uma conta, <a class="ml-2" href="{% url 'register' %}">crie uma conta agora!</a>
+        </small>
+    </div>
+</div>
+{% endblock content %}
+```
