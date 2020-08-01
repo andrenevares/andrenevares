@@ -2,7 +2,7 @@
 
 ## ```views.py```
 
-```pyhton
+```python
 
 (...) 
 from django.shortcuts import redirect
