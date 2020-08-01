@@ -29,6 +29,7 @@ urlspatterns = [
 ]
 ```
 
+LoginView e LogoutView são class base views!!!
 
 ## projeto > ```urls.py``` importar módulos nativos
 
