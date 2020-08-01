@@ -23,7 +23,7 @@ users
 ```
 ## profile.html template
 
-```
+```jinja2
 {% entends 'blog/base.html' %}
 {% load crispy_forms_tags %}
 
