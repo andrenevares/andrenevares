@@ -8,6 +8,7 @@ from django.shortcuts import render # criado automaticamente pelo django
 from django.contrib.auth.forms import UserCreationForm # para usar os forms
 from django.contrib import messages # para poder enviar as mensagens
 from django.shortcuts import redirect # para redirecionar o usuário caso...
+from django.contrib.auth.decorators import login_required # caso tenhamos páginas com acesso restrito!
 
 def register(request):
     if request.method == 'POST':
@@ -21,4 +22,8 @@ def register(request):
         form = UserCreationForm()
     
     return render(request, 'users/register.html', {'form': form} )
+
+@login_required
+def profile(request):
+    return render(request, 'users/profile.html')  
 ```
