@@ -5,10 +5,12 @@
 ## users > ```views.py```
 
 ```python
-
 (...)
+from django.contrib.auth.decorators import login_required
+(...)
+@login_required
 def profile(request):
-    return render(request, 'users/profile.html'  
+    return render(request, 'users/profile.html')  
 ```
 
 ## criar um template para o profile
@@ -39,4 +41,16 @@ urlpatterns = [
     (...)
     path('profile/', views.profile, name='profile'),
 ]
+```
+
+## Ajustar no settings ```LOGIN_URL```
+
+Quando usamos o login required e não temos acesso, o django vai procurar onde fica o login.
+
+Pode acontecer de aparecer uma tela de erro.
+
+Para evitar esse erro, basta configurar no ```settings.py```:
+
+```python
+LOGIN_URL = 'login' # login é o nome que demos para o path da url do login!
 ```
