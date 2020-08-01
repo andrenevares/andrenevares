@@ -7,6 +7,7 @@ users
           |-register.html
           |-login.html
           |-logout.html
+          |-profile.html
 ```
 
 ## app > ```templates``` 
@@ -83,4 +84,14 @@ Ver crispy forms >>>
        </small>
    </div>
 {% endblock content %}
+```
+
+### ```profile.html```
+```jinja2
+{% entends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <h1>{{ user.username }}</h1>
+{% endblock %}
 ```
