@@ -75,12 +75,11 @@ Ver crispy forms >>>
 ```jinja2
 {% extends "blog/base.html" %}
 
-
 {% block content %}
    <h2>Logout realizado com sucesso.  Esperamos ver você em breve</h2> 
    <div class="border-top pt-3">
        <small class="text-muted">
-           <a class="ml-2" href="{% url 'register' %}">Faça o seu login novamente!</a>
+           <a href="{% url 'register' %}">Faça o seu login novamente!</a>
        </small>
    </div>
 {% endblock content %}
