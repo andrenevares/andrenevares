@@ -15,7 +15,7 @@ def register(request):
         if form.is_valid():
             form.save() # é somente isso que precisa para salvar no banco do dados!
             username = form.cleaned_data.get('username')
-            messages.sucess(request, f'Conta criada para {username}!')
+            messages.sucess(request, f'Conta criada para {username}!  Você já pode fazer o seu login!')
             return redirect('login') # faz mais sentido direcionar o usuário para a página de login depois que ele criar uma conta
     else:
         form = UserCreationForm()
