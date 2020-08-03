@@ -27,10 +27,15 @@
 - [Apps com render](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/app_com_render.md)
 - [Template - Bootstrap](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_bootstrap.html)
 
+## Admin
+- [Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
+- Alterar a ordem dos campos do admin
+- Formatar com divisores
+
 ## Toda vez que alterar o ```models```
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
 - [documentação models](https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types)
-- [Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
+
 - [Model - Campos de data](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/models_DATAS.md)
 
 ## Imagens
