@@ -10,10 +10,36 @@ def home(request):
 ```
 
 ## Com render
+1. Ajustar uma URL que apontará para uma view
+2. 
+ 
 
+### urls.py
 
+#### do projeto
+1. Colocar o include
+2. apontar para o seu app
+```
+from django.contrib import admin
+from django.urls import path, include
 
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('nome_do_app.urls')),
+]
+```
 
+#### do app
+1. criar um arquivo urls.py
+2. colocar a seguinte sintaxe:
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+]
+```
 ### Views.py
 ```
 from django.shortcuts import render
