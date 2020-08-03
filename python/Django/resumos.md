@@ -25,6 +25,7 @@
 - [Urls](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/urls.md)
 - [Apps include](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_INCLUDE.md)
 - [Apps com render](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/app_com_render.md)
+- [Template - Bootstrap](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_bootstrap.html)
 
 ## Toda vez que alterar o ```models```
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
