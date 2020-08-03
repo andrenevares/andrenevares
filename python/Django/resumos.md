@@ -28,9 +28,9 @@
 - [Template - Bootstrap](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/template_bootstrap.html)
 
 ## Admin
-- [Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
-- [Alterar a ordem dos campos do admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/admin_alterar_ordem_dos_campos.md)
-- Formatar com divisores
+- [Admin Fazer com que o models apareça no admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/fazer_aparecer_no_backend.md)
+- [Admin - Alterar a ordem dos campos do admin](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/admin_alterar_ordem_dos_campos.md)
+- [Admin - Formatar com divisores (agrupar)](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/admin_campos_separados_por_blocos.md)
 
 ## Toda vez que alterar o ```models```
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
