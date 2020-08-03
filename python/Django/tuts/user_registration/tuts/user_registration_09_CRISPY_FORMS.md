@@ -12,7 +12,7 @@ Vai permitir que o utilizemos poucos códigos de modo a estilizar o nosso formul
 ## instalar crispy forms
 
 ```python
-pip intall django-crispy-forms
+pip install django-crispy-forms
 ```
 
 ## colocar o crispy forms no settings
