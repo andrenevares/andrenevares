@@ -1,24 +1,14 @@
 # App com render
 
-## Com HttpResponse
-```
-from django.shortcuts import render
-from django.http import HttpResponse
+## Passos
+1. Criar um arquivo ```urls.py``` dentro do app
+2. Apontar o projeto > ```urls.py``` para o app > ```urls.py``` usando ```path('', include('nome_do_app.urls'))
+3. Apontar o app > ```urls.py``` para o uma view.
 
-def home(request):
-    return HttpResponse('<h1>Se aparece funcionou</h1>')
-```
 
-## Com render
-1. Ajustar uma URL que apontará para uma view
-2. 
- 
-
-### urls.py
-
-#### do projeto
-1. Colocar o include
-2. apontar para o seu app
+### projeto > ```urls.py```
+1. fazer import da função ```include```
+2. seguir o modelo
 ```
 from django.contrib import admin
 from django.urls import path, include
@@ -29,9 +19,11 @@ urlpatterns = [
 ]
 ```
 
-#### do app
-1. criar um arquivo urls.py
-2. colocar a seguinte sintaxe:
+#### app > ```urls.py```
+1. criar um arquivo ```urls.py```
+2. importar as views desse app
+3. usar o seguinte modelo
+
 ```
 from django.urls import path
 from . import views
