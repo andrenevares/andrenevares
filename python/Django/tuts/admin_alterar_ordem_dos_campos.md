@@ -20,4 +20,4 @@ class TutorialAdmin(admin.ModelAdmin):
 admin.site.register(Tutorial, TutorialAdmin)
 ```
 
-```![Alt Text](Url da Imagem "Título da Imagem")```
+![Alterar a ordem dos campos na imagem](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts_images/admin_reodena%C3%A7%C3%A3o%20de%20campos.JPG)
