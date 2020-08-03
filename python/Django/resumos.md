@@ -24,6 +24,7 @@
 - [App simples com HttpResponse](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/app_com_http_response.md)
 - [Urls](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/urls.md)
 - [Apps include](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/apps_INCLUDE.md)
+- [Apps com render](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/app_com_render.md)
 
 ## Toda vez que alterar o ```models```
 - [Migrate](https://github.com/andrenevares/andrenevares/blob/master/python/Django/tuts/migrate_padrao.md)
