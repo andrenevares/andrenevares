@@ -1,5 +1,32 @@
 {
-    "files.associations": {
-        "iostream": "cpp"
-    }
+  "editor.fontSize": 24,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 24,
+
+  // Configuração de Cor para comandos do Terminal
+  "workbench.colorCustomizations": {
+    //   fonte
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#1cff42",
+    // cursos
+    "terminalCursor.background": "#1cff42",
+    "terminalCursor.foreground": "#1cff42",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0d7858",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  }
 }
