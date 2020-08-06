@@ -1,7 +1,4 @@
 {
-  "editor.fontSize": 24,
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
   "terminal.integrated.fontSize": 24,
 
   // Configuração de Cor para comandos do Terminal
@@ -28,5 +25,6 @@
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
-  }
+  },
+  "editor.wrappingIndent": "none"
 }
