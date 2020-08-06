@@ -88,13 +88,12 @@
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
-
               <!-- DROPDOWN TRIGGER -->
               <li><a class="dropdown-button" data-activates="nevares-dropdown-nav" href="#!">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
               <!-- BUTTON LINK -->
-              <li><a>Login</a></li>
+              <li><a class="btn waves-effect waves-light red darken-4">Login</a></li>
               <!-- ICON LINK -->
-              <li><a href="#"><i class="">p</i></a></li>
+              <li><a href="#"><i class="material-icons">person</i></a></li>
             </ul>
             <!-- 
               navbar laterar que será aberta quando clicarmos no botão
@@ -104,8 +103,8 @@
 
               $('.button-collapse').sideNav();
             -->
-            
             <ul class="side-nav" id="nevares-mobile-nav">
+              <i class="material-icons grey-text right-align">closed</i>
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
@@ -116,6 +115,7 @@
 
       <!-- DROPDOWN MENU -->
       <ul id="nevares-dropdown-nav" class="dropdown-content">
+        
         <li><a href="#">Link 1</a></li>
         <li><a href="#">Link 2</a></li>
         <li><a href="#">Link 3</a></li>
@@ -125,9 +125,39 @@
     <br />
 
     <!-- FIXED NAVBAR -->
-    <div>
-      <nav class="teal darken-4">
+    <div class="navbar-fixed">
+      <nav class="black">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">DAIF</a>
+            <a class="button-collapse" data-activates="nevares-mobile-nav" href="#">
+              <i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <!-- DROPDOWN TRIGGER -->
+              <li><a class="dropdown-button" data-activates="nevares-dropdown-nav" href="#!">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+              <!-- BUTTON LINK -->
+              <li><a class="btn waves-effect waves-light red darken-4">Login</a></li>
+              <!-- ICON LINK -->
+              <li><a href="#"><i class="material-icons">person</i></a></li>
+            </ul>
+            <!-- 
+              navbar laterar que será aberta quando clicarmos no botão
+              para isso precisamos colocar a mesma id que estava no data-activate
+              e para essa funcionalidade funcionar nós precisamos incorporar 
+              um srcipt simples jquery:
 
+              $('.button-collapse').sideNav();
+            -->
+            <ul class="side-nav" id="nevares-mobile-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
 
@@ -135,7 +165,19 @@
     <br />
 
     <!-- SEARCH BAR -->
-
+    <nav class="green">
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field">
+            <input type="search" id="search" required>
+            <label for="search" class="label-icon">
+              <i class="material-icons">search</i>
+            </label>
+            <i class="material-icons">closed</i>
+          </div>
+        </form>
+      </div>
+    </nav>
     <!-- END HERE -->
 
     <div style="margin-top: 1000px;"></div>
