@@ -12,47 +12,262 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Custom Materialize Theme</title>
 </head>
-<div class="container">
-  <a href="#" class="btn grey"></a>
-</div>
 
 <body>
-  <div>
-
+  <div class="nevares-navbar-completa">
+    <div class="navbar-fixed">
+      <nav class="teal">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">Travelville</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Colocar a Sidebar abaixo da div que tem a class navbar-fixed -->
+    <ul class="side-nav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#popular">Popular Places</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
-  <div class="navbar-fixed">
-    <nav class="teal">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="#home" class="brand-logo">Travelville</a>
-          <a href="#" data-activates="mobile-nav" class="button-collapse">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#search">Search</a></li>
-            <li><a href="#popular">Popular Places</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+  <!-- O slider em si é bem tranquilo
+    mas se não inicializar o JavaScript 
+    Não vai funcionar!
+
+    Então... temos que inicializar o JavaScript
+
+    JQUERY TIME!!!!
+
+    $(".button-collapse").sideNav();
+
+   -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/resort1.jpg" alt="Imagem do resort 01">
+        <div class="caption center-align">
+          <span>
+            <h2>Afinal você merece!</h2>
+          </span>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Pariatur cupiditate odio sed fugit laudantium rem, at accusamus quia aliquid expedita.
+          </h5>
+          <a href="#" class="btn btn-large">Gaste tudo</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort2.jpg" alt="Imagem do resort 02">
+        <div class="caption center-left">
+          <h2>Nós somos caros para caramba!</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Pariatur cupiditate odio sed fugit laudantium rem, at accusamus quia aliquid expedita.
+          </h5>
+          <a href="#" class="btn btn-large">Gaste tudo</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/resort3.jpg" alt="Imagem do resort 03">
+        <div class="caption center-left">
+          <h2>Ai como eu sou rica!!!!</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Pariatur cupiditate odio sed fugit laudantium rem, at accusamus quia aliquid expedita.
+          </h5>
+          <a href="#" class="btn btn-large">Gaste tudo</a>
+        </div>
+      </li>
+    </ul>
+
+  </section>
+
+  <!-- início do search  -->
+  <section class="section section-search teal darken-1 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Search Destinations</h3>
+          <div class="input-field">
+            <input class="white grey-text autocomplete" placeholder="Aruba, cancum..." type="text"
+              id="autocomplete-input">
+          </div>
         </div>
       </div>
-    </nav>
-  </div>
-  <ul class="side-nav" id="mobile-nav">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#search">Search</a></li>
-    <li><a href="#popular">Popular Places</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    </div>
+  </section>
+  <!-- fim do search  -->
+
+  <!-- section dos ícones  (início) -->
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">room</i>
+            <h4>Pick Where</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tempore!</p>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">airplanemode_active</i>
+            <h4>Fly</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tempore!</p>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">monetization_on</i>
+            <h4>Lux</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tempore!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- section dos ícones  (fim) -->
+
+
+  <!-- section dos destinos populares  (início) -->
+  <section class="section section-popular">
+    <div class="container">
+      <div class="row">
+        <h4 class="center"><span class="teal-text">Popular</span> places</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort1.jpg">
+              <span class="card-title">Cancun</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda reprehenderit? Neque
+                quidem iure nihil?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort1.jpg">
+              <span class="card-title">Cancun</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda reprehenderit? Neque
+                quidem iure nihil?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort2.jpg">
+              <span class="card-title">Bahamas</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda reprehenderit? Neque
+                quidem iure nihil?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort3.jpg">
+              <span class="card-title">Europa</span>
+            </div>
+            <div class="card-content">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, assumenda reprehenderit? Neque
+                quidem iure nihil?</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+          <a href="" class="btn btn-large grey darken-3">
+            <i class="material-icons right">send</i>
+            Entre em contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section dos destinos populares  (fim) -->
+
+
+  <!-- section rede sociais  (início) -->
+  <section class="section section-follow teal darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Siga-nos</h4>
+          <p>Siga-nos para ofertas especiais</p>
+          <a href="https://facebook.com" target="_blank" class="white-text">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="white-text">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="white-text">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="https://googleplus.com" target="_blank" class="white-text">
+            <i class="fab fa-google-plus fa-4x"></i>
+          </a>
+          <a href="https://pinterest.com" target="_blank" class="white-text">
+            <i class="fab fa-pinterest fa-4x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section rede sociais  (fim) -->
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
+      // Inicializar a SideNav
       $(".button-collapse").sideNav();
+
+      // Inicializar o slider
+      $(".slider").slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      })
+      // Autocomplete incializar
+      $('.autocomplete').autocomplete({
+        data: {
+          "Aruba": null,
+          "Cancun": null,
+          "Miami": null,
+          "Flórida": null,
+          "Califórnia": null,
+          "Jamaica": null,
+          "Bahamas": null,
+          "Portugal": null,
+          "Espanha": null,
+        }
+      })
     });
   </script>
 </body>
