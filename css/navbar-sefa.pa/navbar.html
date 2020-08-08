@@ -1,108 +1,114 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
 
-<head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materialize Sandbox</title>
+  </head>
 
-  <title>Materialize Sandbox</title>
-</head>
+  <body>
+    <!-- RESPONSIVE WITH SIDE MENU -->
+    <nav class="blue darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">SEFA-PA</a>
+          <a class="button-collapse" data-activates="mobile-nav" href="#">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
 
-<body>
-
-  <!-- RESPONSIVE WITH SIDE MENU -->
-  <nav class="blue darken-4">
-    <div class="container">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">SEFA-PA</a>
-        <a class="button-collapse" data-activates="mobile-nav" href="#">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li >
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-
-          <!-- DROPDOWN TRIGGER -->
-          <li>
-            <a class="dropdown-button" data-activates="my-dropdown" href="#!">Dropdown
-              <i class="material-icons right">arrow_drop_down</i>
-            </a>
-          </li>
-          <!-- BUTTON LINK -->
-          <li>
-            <a class="btn red darken-2 z waves-effect waves-light">Login</a>
-          </li>
-          <!-- ICON LINK -->
-          <li>
-            <a href="#">
-              <i class="material-icons">person</i>
-            </a>
-          </li>
-        </ul>
-        <ul class="side-nav" id="mobile-nav">
-          <li >
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a class="btn red darken-2 z waves-effect waves-light">Login</a>
-          </li>
-        </ul>
+            <!-- DROPDOWN TRIGGER -->
+            <li>
+              <a class="dropdown-button" data-activates="my-dropdown" href="#!"
+                >Dropdown
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+            <!-- BUTTON LINK -->
+            <li>
+              <a class="btn red darken-2 z waves-effect waves-light">Login</a>
+            </li>
+            <!-- ICON LINK -->
+            <li>
+              <a href="#">
+                <i class="material-icons">person</i>
+              </a>
+            </li>
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a class="btn red darken-2 z waves-effect waves-light">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- DROPDOWN MENU -->
-  <ul id="my-dropdown" class="dropdown-content">
-    <li><a class="blue-text" href="#">Link 1</a></li>
-    <li><a class="blue-text" href="#">Link 2</a></li>
-    <li><a class="blue-text" href="#">Link 3</a></li>
-  </ul>
+    <!-- DROPDOWN MENU -->
+    <ul id="my-dropdown" class="dropdown-content">
+      <li><a class="blue-text" href="#">Link 1</a></li>
+      <li><a class="blue-text" href="#">Link 2</a></li>
+      <li><a class="blue-text" href="#">Link 3</a></li>
+    </ul>
 
-  <br>
-  <br>
+    <br />
+    <br />
 
+    <!-- MOVES CONTENT UP -->
+    <div style="margin-top: 1000px;"></div>
 
-  <!-- MOVES CONTENT UP -->
-  <div style="margin-top: 1000px;"></div>
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".dropdown-button").dropdown({
+          constrainWidth: false,
+          hover: true,
+          belowOrigin: true,
+          alignment: "left",
+        });
 
-  <script>
-    $(document).ready(function () {
-      $('.dropdown-button').dropdown({
-        constrainWidth: false,
-        hover: true,
-        belowOrigin: true,
-        alignment: 'left'
+        // JAVASCRIPT START HERE //
+
+        $(".button-collapse").sideNav();
       });
-
-      // JAVASCRIPT START HERE //
-
-      $('.button-collapse').sideNav();
-
-
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
