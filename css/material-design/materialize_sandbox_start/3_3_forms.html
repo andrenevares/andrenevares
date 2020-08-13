@@ -130,74 +130,110 @@
     <!-- START HERE -->
     <form>
       <!-- TEXT FIELD -->
-      <div>
-        <input placeholder="Name" id="name" type="text">
+      <div class="input-field">
+        <input id="name" type="text">
         <label for="name">Name</label>
       </div>
 
       <!-- VALUE & DISABLED -->
-      <div>
-        <input placeholder="Email" id="email" type="email">
+      <div class="input-field">
+        <input disabled value="andre@andrenevares.com" placeholder="Email" id="email" type="email">
         <label for="email">Email</label>
       </div>
 
       <!-- TEXTAREA -->
-      <div>
-        <textarea placeholder="Message" id="message"></textarea>
+      <div class="input-field">
+        <textarea class="materialize-textarea" placeholder="Message" id="message"></textarea>
         <label for="message">Message</label>
       </div>
 
       <!-- INLINE FIELD -->
       Number of users:
-      <div>
+      <div class="input-field inline">
         <input id="users" type="text">
         <label for="users">#</label>
       </div>
 
       <!-- ICON PREFIX -->
-      <div>
+      <div class="input-field">
+        <i class="material-icons prefix">phone</i>
         <input id="phone" type="tel">
         <label for="phone">Phone Number</label>
       </div>
 
       <!-- VALIDATION & ERROR -->
-      <div>
-        <input placeholder="Email" id="email" type="email">
-        <label for="email">Email</label>
+      <div class="input-field">
+        <input class="validate" placeholder="Email" id="email" type="email">
+        <label data-error="formato inválido" data-success="Válido" for="email">Email</label>
       </div>
 
-      <!-- SELECT (Must be initialized) -->
-      <div>
+      <!-- SELECT (PRECISA SER INICIALIZADO) -->
+      <!-- $('select').material_select(); -->
+      <div class="input-field">
         <select>
-
+          <option value="" disabled selected>Selecione a opção</option>
+          <option value="1">Opção 1</option>
+          <option value="2">Opção 2</option>
+          <option value="3">Opção 3</option>
         </select>
         <label>Select List</label>
       </div>
 
       <!-- OPTION GROUPS -->
-      <div>
+      <div class="input-field">
         <select>
-
+          <optgroup label="OptGroup1">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+          </optgroup>
+          <optgroup label="OptGroup2">
+            <option value="3">Opção 3</option>
+            <option value="4">Opção 4</option>
+          </optgroup>
         </select>
         <label>Multiple Select</label>
       </div>
 
       <!-- MULTIPLE SELECT -->
-      <div>
-        <select>
-
+      <div class="input-field">
+        <select multiple>
+          <option value="" disabled selected>Selecione a opção</option>
+          <option value="1">Opção 1</option>
+          <option value="2">Opção 2</option>
+          <option value="3">Opção 3</option>
         </select>
         <label>Multiple Select</label>
       </div>
 
       <!-- RADIO BUTTONS -->
-
+      <p>
+        <input type="radio" name="genero" id="masculino" checked>
+        <label for="masculino">Masculino</label>
+      </p>
+      <p>
+        <input class="with-gap" type="radio" name="genero" id="feminino">
+        <label for="feminino">Feminino</label>
+      </p>
       <br>
       <br>
 
       <!-- CHECKBOXES -->
-
-
+      <p>
+        <input type="checkbox" name="tech" id="HTML">
+        <label for="HTML">HTML</label>
+      </p>
+      <p>
+        <input type="checkbox" name="tech" id="CSS" checked>
+        <label for="CSS">CSS</label>
+      </p>
+      <p>
+        <input type="checkbox" name="tech" id="JS" class="filled-in">
+        <label for="JS">JS</label>
+      </p>
+      <p>
+        <input type="checkbox" name="tech" id="PHP" disabled>
+        <label for="PHP">PHP</label>
+      </p>
       <br>
       <br>
       <div>
@@ -230,7 +266,8 @@
 
       // JAVASCRIPT START HERE //
 
-
+      // INICIAL BOTÃO DE SELEÇÃO
+      $('select').material_select();
 
 
     });

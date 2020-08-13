@@ -2,8 +2,10 @@
 <html>
 
 <head>
+
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
@@ -11,11 +13,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Materialize Sandbox</title>
+
   <style>
     .input-field {
       margin-bottom: 30px;
     }
   </style>
+
 </head>
 
 <body>
@@ -53,6 +57,7 @@
           </li>
         </ul>
       </div>
+
       <div class="col s3">
         <a class='dropdown-button btn btn-large green' href='#' data-activates='css2'>CSS 2</a>
         <ul id='css2' class='dropdown-content'>
@@ -79,6 +84,7 @@
           </li>
         </ul>
       </div>
+
       <div class="col s3">
         <a class='dropdown-button btn btn-large yellow black-text' href='#' data-activates='js1'>JS 1</a>
         <ul id='js1' class='dropdown-content'>
@@ -102,6 +108,7 @@
           </li>
         </ul>
       </div>
+
       <div class="col s3">
         <a class='dropdown-button btn btn-large red' href='#' data-activates='js2'>JS 2</a>
         <ul id='js2' class='dropdown-content'>
@@ -130,77 +137,72 @@
     <!-- START HERE -->
     <form>
       <!-- SWITCH -->
-      <div>
-
+      <div class="switch">
+        <label>
+          disable
+          <input type="checkbox" checked>
+          <span class="lever"></span>
+          enabled
+        </label>
       </div>
-
       <!-- DISABLED SWITCH -->
-      <div>
-
+      <div class="switch">
+        <label>
+          disable
+          <input type="checkbox">
+          <span class="lever"></span>
+          enabled
+        </label>
       </div>
-
       <br>
       <br>
-
       <!-- FILE INPUT -->
-      <div>
-        <div>
+      <div class="file-field input-field">
+        <div class="btn">
           <span>Upload File</span>
           <input type="file">
         </div>
-        <div>
-          <input type="text">
+        <div class="file-path-wrapper">
+          <input type="text" class="file-path">
         </div>
       </div>
-
       <!-- RANGE SLIDER -->
-      <p>
-        <input type="range">
+      <p class="range-field">
+        <input type="range" min="0" max="100">
       </p>
-
       <!-- DATE PICKER -->
-      <div>
-        <input type="text" id="date">
+      <div class="input-field">
+        <input type="text" class="datepicker" id="date">
         <label for="date">Choose a Date</label>
       </div>
-
       <!-- TIME PICKER -->
       <div>
         <input type="text" id="time">
         <label for="time">Choose a Time</label>
       </div>
-
       <!-- CHARACTER COUNTER -->
       <div>
         <input id="post" type="text">
         <label for="post">Post</label>
       </div>
-
       <!-- AUTOCOMPLETE -->
       <div>
         <input type="text" id="fruit">
         <label for="fruit">Type a Fruit</label>
       </div>
-
       <br>
       <br>
       <div>
         <input type="submit" value="Submit" class="btn">
       </div>
     </form>
-
-
-
     <!-- END HERE -->
-
-
   </div>
   <!-- ./ CONTAINER END -->
 
-
-
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
   <script type="text/javascript" src="js/materialize.min.js"></script>
 
   <script>
@@ -211,12 +213,13 @@
         belowOrigin: true,
         alignment: 'left'
       });
-
       // JAVASCRIPT START HERE //
-
-
-
-
+      // inicializar DatePicker
+      $('.datepicker').pickadate({
+        selectMonths: true,
+        selectYears: 15,
+        closeOnSelect: true
+      });
     });
   </script>
 </body>
