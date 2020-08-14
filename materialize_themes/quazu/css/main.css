@@ -3,8 +3,19 @@
   background-size: cover;
   background-position: center;
   min-height: 600px;
+  color: #fff;
 }
 
-.main-header .showcase {}
+.main-header .showcase {
+  padding-top: 100px;
+}
 
-.active-link {}
+.main-header .showcase .btn {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
