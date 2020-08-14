@@ -1,6 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
     "launch": {
     
         "configurations": [],
