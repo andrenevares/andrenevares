@@ -1,12 +1,13 @@
 # Curso 
+> Notes made by andrew
 
-## Seção 1:Introduction
+## Seção 1: Introduction
 1. Why You Should Take This Course
 2. Why JavaScript is Amazing
 3. Setting up Your Environment
 4. Course Files
 
-## Seção 2:JavaScript Basics
+## Seção 2: JavaScript Basics
 
 5. Adding JavaScript to a Web Page
 6. The Browser Console
@@ -22,7 +23,7 @@
 16. Loose vs Strict Comparison
 17. Type Conversion
 
-## Seção 3:Control Flow Basics
+## Seção 3: Control Flow Basics
 18. What is Control Flow?
 19. For Loops
 20. While Loops
@@ -35,7 +36,7 @@
 27. Switch Statements
 28. Variables & Block Scope
 
-## Seção 4:Functions & Methods
+## Seção 4: Functions & Methods
 29. What are Functions?
 30. Function Declarations & Expressions
 31. Arguments & Parameters
@@ -45,7 +46,7 @@
 35. Foreach Method & Callbacks
 36. Callback Functions in Action
 
-## Seção 5:Object Literals
+## Seção 5: Object Literals
 37. Objects at a Glance
 38. Creating an Object Literal
 39. Adding Methods
@@ -54,7 +55,7 @@
 42. Math Object
 43. Primitive vs Reference Types
 
-## Seção 6:The Document Object Model
+## Seção 6: The Document Object Model
 44. Interacting with the Browser
 45. The DOM Explained
 46. The Query Selector
@@ -70,7 +71,7 @@
 56. More DOM Events
 57. Building a Popup
 
-## Seção 7:Forms & Form Events
+## Seção 7: Forms & Form Events
 58. Events Inside Forms
 59. Submit Events
 60. Regular Expressions
@@ -78,7 +79,7 @@
 62. Basic Form Validation
 63. Keyboard Events
 
-## Seção 8:Project - Interactive Ninja Quiz
+## Seção 8: Project - Interactive Ninja Quiz
 64. Project Preview & Setup
 65. Bootstrap Basics
 66. HTML Template
@@ -87,7 +88,7 @@
 69. The Window Object
 70. Intervals & Animating the Score
 
-## Seção 9:Array Methods
+## Seção 9: Array Methods
 71. Filter Method
 72. Map Method
 73. Reduce Method
@@ -95,20 +96,20 @@
 75. Sort Method
 76. Chaining Array Methods
 
-## Seção 10:Project - Todo List
+## Seção 10: Project - Todo List
 77. Project Preview and Setup
 78. HTML & CSS Template
 79. Adding Todos
 80. Deleting Todos
 81. Searching & Filtering Todos
 
-## Seção 11:Dates & Times
+## Seção 11: Dates & Times
 82. Dates & Times in JavaScript
 83. Timestamps & Comparisons
 84. Building a Digital Clock
 85. Date-fns Library
 
-## Seção 12:Async JavaScript
+## Seção 12: Async JavaScript
 86. What is Asynchronous JavaScript?
 87. Async Code in Action
 88. What are HTTP Requests?
@@ -123,7 +124,7 @@
 97. Async & Await
 98. Throwing & Catching Errors
 
-## Seção 13:Project - Weather App
+## Seção 13: Project - Weather App
 99. Project Preview & Setup
 100. HTML & CSS Template
 101. AccuWeather API
@@ -136,14 +137,14 @@
 108. Weather Icons & images
 109. Ternary Operator
 
-## Seção 14:Local Storage
+## Seção 14: Local Storage
 110. What is Local Storage?
 111. Storing & Getting Data
 112. Deleting Storage Data
 113. Stringifying & Parsing Data
 114. Updating the Weather App
 
-## Seção 15:Object Oriented JavaScript
+## Seção 15: Object Oriented JavaScript
 115. What is OOP?
 116. Object Literal Recap
 117. Classes
@@ -157,7 +158,7 @@
 125. Built-in Objects
 126. Making a Forecast Class (weather app)
 
-## Seção 16:Databases (Firebase)
+## Seção 16: Databases (Firebase)
 127. NoSQL Databases
 128. Firebase & Firestore
 129. Connecting to Firestore
@@ -167,7 +168,7 @@
 133. Real-time Listeners
 134. Unsubscribing
 
-## Seção 17:Project - Real-time Chatroom
+## Seção 17: Project - Real-time Chatroom
 135. Project Preview & Setup
 136. HTML Template
 137. Connecting to Firebase
@@ -183,12 +184,12 @@
 147. Testing the App
 
 
-## Seção 18:More ES6 Features
+## Seção 18: More ES6 Features
 148. Spread & Rest
 149. Sets
 150. Symbols
 
-## Seção 19:Modern Workflow with Babel &
+## Seção 19: Modern Workflow with Babel &
 151. Modern Feature Support
 152. An Introduction to Babel
 153. Installing Node.js & Babel
@@ -205,7 +206,7 @@
 164. Babel & Webpack Together
 165. Webpack Boilerplate
 
-## Seção 20:Project - UI Library
+## Seção 20: Project - UI Library
 166. Project Preview & Setup
 167. CSS & Style Loaders (webpack)
 168. Tooltips
@@ -214,5 +215,5 @@
 171. Snackbars
 172. Extending the Library
 
-## Seção 21:Next Steps
+## Seção 21: Next Steps
 173. Bonus Lecture: Next Steps
