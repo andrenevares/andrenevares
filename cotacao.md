@@ -9,7 +9,9 @@
 R. Nelson Tarquínio, 150 - loja D - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-385
 
 #### Destino:
-Rua Paraná 1824 apt 06, Cascavel - PR , 85812-010
+- Rua Paraná 1824 apt 06, Cascavel - PR , 85812-010
+- 054.063.329-10 Anderson Ademir Kuklinski
+
 
 ## Informações fiscais
 - Venda de produto Usado
