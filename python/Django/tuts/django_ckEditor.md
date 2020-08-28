@@ -1,11 +1,11 @@
 # Django CK-EDITOR
 
-## Como instalar
+## Passo 01 - Como instalar
 ```
 pip install django-ckeditor
 ```
 
-## Configurações necessárias
+## Depois...Configurações necessárias
 
 ### models.py 
 ```
@@ -18,6 +18,14 @@ dentro da class do nosso model onde tenha o textfield
 body = RichTextField(blank=True, null=true)
 ```
 
+### migrations
+```
+python manage.py makemigrations
+```
+
+```
+python manage.py migrate
+```
 
 
 
