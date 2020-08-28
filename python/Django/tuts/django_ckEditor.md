@@ -27,9 +27,17 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+### setttings.py
+
+```
+INSTALLED_APPS = [
+  ...,
+ 'ckeditor',
+]
+```
 
 
-### forms
+
 
 
 
