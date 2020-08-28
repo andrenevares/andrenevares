@@ -36,11 +36,30 @@ INSTALLED_APPS = [
 ]
 ```
 
+__Somente com isso, se entrarmos no admin, o TEXTFIELD já deve ter a interface de um editor de texto__
+
+### templates
+
+Provavelmente estamos usando 
+```
+{% csrf_token %}
+{{ form.as_p }}
+```
+
+Devemos mudar para:
+```
+{% csrf_token %}
+{{ form.media }}
+{{ form.as_p }}
+
+```
 
 
+### Usar SAFE
+Um editor de texto simplesmente coloca as tags HTML.
 
+Por padrão, o Django utiliza o método __unsafe__.  Isso porque um usuário poderia escrever um script malicioso.  Mas se você tem segurança de que aquele conteúdo pode ser renderizado e não vai ter nenhum problema ```{{ form|safe }}```
 
+Com isso será exibido o seu conteúdo!
 
-### settings.py
-
-
+É isso aí...
