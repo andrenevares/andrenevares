@@ -13,6 +13,8 @@
 - MBA Auditoria Controladoria e Finanças Públicas - FGV
 
 ### Certificações
+- CISCO - Network
+- CISCO - Internet Security
 - ITIL fundations
 - Basic - Microsoft
 
