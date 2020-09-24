@@ -1,4 +1,4 @@
-# Currículo
+# Currículo - André Nevares
 > Atualizado em 24/09/2020
 
 ### Dados Pessoais
