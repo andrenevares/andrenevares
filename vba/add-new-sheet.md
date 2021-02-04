@@ -11,7 +11,7 @@ Sheets.add
 ## Create a new sheet with name
 ```
 ' Criar uma aba com nome específico
-Sheets.add.name = "DINAMICA_ANEXO_I"
+Sheets.add.name = "sheet_name_of_your_choice"
 ```
 
 
