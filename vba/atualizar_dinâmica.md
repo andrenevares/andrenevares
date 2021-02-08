@@ -1,4 +1,4 @@
-# Ataulizar Dinâmica
+# Atualizar Dinâmica
 
 ```
 Sub atualizar_dinamicas()
