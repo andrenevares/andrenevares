@@ -1,6 +1,6 @@
 # Formatar Cabeçalho
 
-```vba
+```vb
    ' FORMATAR CABEÇALHO
     Sheets("ANEXO 2").Range("BM1:BN2").Interior.Pattern = xlSolid
     Sheets("ANEXO 2").Range("BM1:BN2").Interior.PatternColor = 16777215
