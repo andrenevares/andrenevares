@@ -1,9 +1,12 @@
 # Limpar Valores de um range
+
+
+## Comando da microsoft
 ```vba
 Worksheets("Sheet1").Range("A1:G37").Clear
 ```
 
-
+## Apagar até última linha encontrada
 ```vba
 Sub limpar_de_celula_A_ate_ultima_linha()
     ' Apagar range considerando a última linha
