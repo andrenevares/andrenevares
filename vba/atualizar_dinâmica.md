@@ -1,9 +1,9 @@
 # Atualizar Dinâmica
-
+Atualiza todas as tabelas dinâmicas do arquivo
 ```vba
 Sub atualizar_dinamicas()
 
-    ' Atualiza todas as tabelas dinâmicas do arquivo
+    
     ThisWorkbook.RefreshAll
 
 End Sub
