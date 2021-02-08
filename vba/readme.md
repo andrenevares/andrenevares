@@ -7,3 +7,4 @@
 - [Largura da Coluna](https://github.com/andrenevares/andrenevares/blob/master/vba/ajuste_largura_colunas.md)
 - [Formatar Cabeçalho](https://github.com/andrenevares/andrenevares/blob/master/vba/formatar_cabecalho.md)
 - [Bordas em um intervalo](https://github.com/andrenevares/andrenevares/blob/master/vba/bordas_em_intervalo.md)
+- [Limpar Valores de um range](https://github.com/andrenevares/andrenevares/blob/master/vba/limpar-valores.md)
