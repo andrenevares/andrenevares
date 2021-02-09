@@ -9,5 +9,5 @@
 - [Bordas em um intervalo](https://github.com/andrenevares/andrenevares/blob/master/vba/bordas_em_intervalo.md)
 - [Limpar Valores de um range](https://github.com/andrenevares/andrenevares/blob/master/vba/limpar-valores.md)
 - [inserir fórmula](https://github.com/andrenevares/andrenevares/blob/master/vba/inserir_formula.md)
-- [Copiar e Colar em um intervalo]((https://github.com/andrenevares/andrenevares/blob/master/vba/copiar_colar_intervalor.md))
+- [Copiar e Colar em um intervalo](https://github.com/andrenevares/andrenevares/blob/master/vba/copiar_colar_intervalor.md)
 
