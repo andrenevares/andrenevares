@@ -1,9 +1,12 @@
 # Formatar Cabeçalho
 
-```vb
-   ' FORMATAR CABEÇALHO
-    Sheets("ANEXO 2").Range("BM1:BN2").Interior.Pattern = xlSolid
-    Sheets("ANEXO 2").Range("BM1:BN2").Interior.PatternColor = 16777215
-    Sheets("ANEXO 2").Range("BM1:BN2").Interior.Color = 6299648
-    Sheets("ANEXO 2").Range("BM1:BN2").Font.ThemeColor = xlThemeColorDark2
+```vba
+ Sheets("TESTE").Range("A1:A2").Interior.Pattern = xlSolid
+ Sheets("TESTE").Range("A1:A2").Interior.PatternColor = 16777215
+ Sheets("TESTE").Range("A1:A2").Interior.Color = 6299648
+ Sheets("TESTE").Range("A1:A2").Font.ThemeColor = xlThemeColorDark2
+ Sheets("TESTE").Range("A1:A2").HorizontalAlignment = xlCenter
+ Sheets("TESTE").Range("a1:A2").VerticalAlignment = xlCenter
+ Sheets("TESTE").Range("A1:A2").WrapText = True
+ Sheets("TESTE").Range("A1:A5").Font.Bold = True
 ```
