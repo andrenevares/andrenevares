@@ -6,7 +6,7 @@
   with sheets("minhaAba").Range("A1:A6")
     .Interior.Color = RGB(0, 128, 128)
     .Font.Color = RGB(255,255,255)
-  end with[
+  end with
 ```
 
 
