@@ -1,5 +1,25 @@
  # Aplicar bordas em um intervalo
 
+
+#### Versão resumida
+```vba
+    'Colocar bordas em um intervalo
+    ultima_linha = Sheets("ANEXO 7").Range("A6").End(xlDown).Row
+    
+    Dim intervalo As Range
+    
+    Set intervalo = Sheets("ANEXO 7").Range("A6:X" & ultima_linha)
+
+    With intervalo.Borders
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+
+```
+
+#### versão anterior
 ```vba
     ' Aplicar bordas a um intervalor
     ultima_linha = Sheets("ANEXO 1").Range("A3").End(xlDown).Row
