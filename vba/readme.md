@@ -4,6 +4,7 @@
 - [Adcionar Nova Aba](https://github.com/andrenevares/andrenevares/blob/master/vba/add-new-sheet.md)
 - [Alterar valor da célula](https://github.com/andrenevares/andrenevares/blob/master/vba/alterar_valor_celula.md)
 - [Aplicar Bordas em um intervalo](https://github.com/andrenevares/andrenevares/blob/master/vba/bordas_em_intervalo.md)
+- [Apagar conteúdo das células até a última linha preenchida]()
 - [Copiar e Colar em um intervalo](https://github.com/andrenevares/andrenevares/blob/master/vba/copiar_colar_intervalor.md)
 - [Formatar Cabeçalho](https://github.com/andrenevares/andrenevares/blob/master/vba/formatar_cabecalho.md)
 - [Inserir fórmula](https://github.com/andrenevares/andrenevares/blob/master/vba/inserir_formula.md)
