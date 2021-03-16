@@ -13,3 +13,14 @@
 - [Renomar Aba](https://github.com/andrenevares/andrenevares/blob/master/vba/renomear_aba.md)
 - [Última Linha](https://github.com/andrenevares/andrenevares/blob/master/vba/last_row.md)
 
+## Contar vírgulas em uma célula
+```excel
+=(NÚM.CARACT(A2)-NÚM.CARACT(SUBSTITUIR(A2;",";"")))+1
+```
+| A | B |
+| :-:| :-:|
+|1221, 2541, 3545	| 3 |
+| 1114, 1121 |	2 |
+| 1211 |	1 |
+
+
