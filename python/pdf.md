@@ -1,5 +1,12 @@
 # Extraindo texto de um arquivo PDF
 
+## Entendendo o conceito
+
+1. Define uma class com o arquivo, se será leitura, escrita...
+2. Depois carrega 
+3. Extrai o texto
+
+
 ```python
 import PyPDF2 as PyPDF2
 arquivo_aberto = open("c:/7020206900000767.pdf", "rb")
