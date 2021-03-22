@@ -10,7 +10,7 @@ pagina_pdf.extractText()
 ```
 Output
 ```
-'GOVERNO DO ESTADO DO PARÁSECRETARIA DE ESTADO DA FAZENDARelátorio do ProcessoRazão SocialInscrição EstadualTipo de DIEFVALE S.A15.098.182-1NormalPeríodo01/2020Número Processo702020690000076-7Data Processo10/02/2020Valor TotalR$ 8.638.020,95Outros CréditosDetalhe da Origem do CréditoICMS DIESELEventoOutros Créditos de ICMS autorizado pela SEFA não relacionado nos itens de 1 à 4Página 1 de 1'
+'GOVERNO DO ESTADO DO PARÁSECRETARIA DE ESTADO DA FAZENDARelátorio do ProcessoRazão SocialInscrição EstadualTipo de DIEFZECA S.A15.151.151-1NormalPeríodo01/2052Número Processo702020690000088-8Data Processo25/17/2058Valor TotalR$ 5.235.999,84Outros CréditosDetalhe da Origem do CréditoICMS DIESELEventoOutros Créditos de ICMS autorizado pela SEFA não relacionado nos itens de 1 à 4Página 1 de 1'
 ```
 
 ```python
