@@ -33,3 +33,15 @@ Output
 ```
 '702020690000076-7'
 ```
+
+## Trazendo o Evento
+
+```
+inicio_detalhe_evento = texto.find("Detalhe da Origem do Crédito") + 28
+fim_detalhe_evento = texto.find("Evento")
+detalhe_evento = texto[inicio_detalhe_evento:fim_detalhe_evento]
+```
+Output
+```
+'ICMS DIESEL'
+```
