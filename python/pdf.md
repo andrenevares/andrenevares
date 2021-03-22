@@ -6,6 +6,21 @@ arquivo_aberto = open("c:/7020206900000767.pdf", "rb")
 arquivo_lido = PyPDF2.PdfFileReader(arquivo_aberto)
 pagina_pdf = arquivo_lido.getPage(0)
 pagina_pdf.extractText()
+texto = pagina_pdf.extractText()
+
+# Trazer o número do processo do arquivo
+fim_numero_processo = texto.find("Data Processo")
+inicio_numero_processo = fim - 17
+numero_processo = texto[inicio_numero_processo:fim_numero_processo]
+
+# Trazer o texto do detalhe da origem do crédito
+inicio_detalhe_evento = texto.find("Detalhe da Origem do Crédito") + 28
+fim_detalhe_evento = texto.find("Evento")
+detalhe_evento = texto[inicio_detalhe_evento:fim_detalhe_evento]
+
+print(numero_processo)
+
+print(detalhe_evento)
 
 ```
 Output
