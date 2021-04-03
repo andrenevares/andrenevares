@@ -25,13 +25,13 @@ __Passo 2__: abir o python ```python```
 
 ## 1. Diretório do arquivo
 ```python
->>> os.chdir('d:\SEFA\OneDrive\SEFA\MONITORAMENTO\PDFS')
+>>> os.chdir('C:\meuDrive\MinhaPasta\DiretorioDoPdf')
 ```
 
 ### Para ter certeza que mudou o seu diretório, rode o comando ```getcwd()```
 ```python
 >>> os.getcwd()
-'d:\\SEFA\\OneDrive\\SEFA\\MONITORAMENTO\\PDFS'
+'C:\\meuDrive\\MinhaPasta\\DiretorioDoPdf'
 ```
 
 ## 2. Nome do arquivo
