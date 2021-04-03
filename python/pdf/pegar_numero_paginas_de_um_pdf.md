@@ -24,7 +24,9 @@ __Passo 2__: abir o python ```python```
 ```
 
 ### Mudar o diretório para o diretório onde fica o arquivo
+```python
 >>> os.chdir('d:\SEFA\OneDrive\SEFA\MONITORAMENTO\PDFS')
+```
 
 Para ter certeza que mudou o seu diretório, rode o comando ```getcwd()```
 ```python
