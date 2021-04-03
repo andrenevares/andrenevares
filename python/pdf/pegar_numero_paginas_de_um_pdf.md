@@ -10,5 +10,9 @@ Vamos fazer por linhas de comando mesmo!
 
 __Passo 1__: abrir o terminal ```cmd```
 
+__Passo 2__: abir o python ```python```
 
 ```python
+>>> import os
+>>> import PyPDF2
+```
