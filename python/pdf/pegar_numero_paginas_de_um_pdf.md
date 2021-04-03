@@ -16,3 +16,21 @@ __Passo 2__: abir o python ```python```
 >>> import os
 >>> import PyPDF2
 ```
+
+### Pegar o diretório atual
+```python
+>>> os.getcwd()
+'C:\\Users\\MICRO'
+```
+
+### Mudar o diretório para o diretório onde fica o arquivo
+>>> os.chdir('d:\SEFA\OneDrive\SEFA\MONITORAMENTO\PDFS')
+
+Para ter certeza que mudou o seu diretório, rode o comando ```getcwd()```
+```python
+>>> os.getcwd()
+'d:\\SEFA\\OneDrive\\SEFA\\MONITORAMENTO\\PDFS'
+```
+
+
+
