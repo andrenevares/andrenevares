@@ -23,32 +23,36 @@ __Passo 2__: abir o python ```python```
 'C:\\Users\\MICRO'
 ```
 
-### Mudar o diretório para o diretório onde fica o arquivo
+## 1. Diretório do arquivo
 ```python
 >>> os.chdir('d:\SEFA\OneDrive\SEFA\MONITORAMENTO\PDFS')
 ```
 
-Para ter certeza que mudou o seu diretório, rode o comando ```getcwd()```
+### Para ter certeza que mudou o seu diretório, rode o comando ```getcwd()```
 ```python
 >>> os.getcwd()
 'd:\\SEFA\\OneDrive\\SEFA\\MONITORAMENTO\\PDFS'
 ```
 
-```
+## 2. Nome do arquivo
+```python
 >>> arquivo = 'qualquer_nome.pdf'
+```
+
+
+## 3. Abrir
+```python
 >>> arquivo_aberto = open(arquivo,"rb")
 ```
 
-
-```
->>> arquivo_aberto
-<_io.BufferedReader name='7020206900000740.pdf'>
-```
-
+## 4. Ler o arquivo
 ```
 >>> arquivo_lido = PyPDF2.PdfFileReader(arquivo_aberto)
 ```
 
+
+
+## 5. Fazer o que quer com o PDF
 ```
 >>> arquivo_lido.getNumPages()
 1
