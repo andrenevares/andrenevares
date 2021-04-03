@@ -34,5 +34,25 @@ Para ter certeza que mudou o seu diretório, rode o comando ```getcwd()```
 'd:\\SEFA\\OneDrive\\SEFA\\MONITORAMENTO\\PDFS'
 ```
 
+```
+>>> arquivo = 'qualquer_nome.pdf'
+>>> arquivo_aberto = open(arquivo,"rb")
+```
+
+
+```
+>>> arquivo_aberto
+<_io.BufferedReader name='7020206900000740.pdf'>
+```
+
+```
+>>> arquivo_lido = PyPDF2.PdfFileReader(arquivo_aberto)
+```
+
+```
+>>> arquivo_lido.getNumPages()
+1
+```
+
 
 
